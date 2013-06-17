@@ -7,3 +7,7 @@ net.sourceforge.cruisecontrol.CruiseControlException: Config file not found: C:\
 	at net.sourceforge.cruisecontrol.launch.Launcher.run(Launcher.java:259)
 	at net.sourceforge.cruisecontrol.launch.Launcher.main(Launcher.java:117)
 2011-12-12 16:38:49,283 [main     ] FATAL Main             - Config file not found: C:\Program Files\RBA\config.xml
+
+
+This is testing diff line.
+
