@@ -18,11 +18,13 @@
         <members>Distributor__c.Postal_Code__c</members>
         <members>Distributor__c.Region__c</members>
         <members>Distributor__c.State__c</members>
+        <members>Distributor__c.infoEx_Id__c</members>
         <members>Region__c.City__c</members>
         <members>Region__c.Country__c</members>
         <members>Region__c.Population__c</members>
         <members>Region__c.Postal_Code__c</members>
         <members>Region__c.State_Province__c</members>
+        <members>Region__c.infoEx_Id__c</members>
         <members>RequestForStock__c.Current_Stock__c</members>
         <members>RequestForStock__c.Expected_Date__c</members>
         <members>RequestForStock__c.Product__c</members>
@@ -38,10 +40,12 @@
         <members>SalesExecutive__c.Phone__c</members>
         <members>SalesExecutive__c.Postal_Code__c</members>
         <members>SalesExecutive__c.State__c</members>
+        <members>SalesExecutive__c.infoEx_Id__c</members>
         <members>product__c.Active__c</members>
         <members>product__c.Price__c</members>
         <members>product__c.Product_Code__c</members>
         <members>product__c.Product_Description__c</members>
+        <members>product__c.infoEx_Id__c</members>
         <name>CustomField</name>
     </types>
     <types>
