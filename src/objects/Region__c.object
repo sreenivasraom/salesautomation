@@ -40,9 +40,10 @@
     <enableReports>false</enableReports>
     <fields>
         <fullName>City__c</fullName>
+        <description>this is test desc</description>
         <externalId>false</externalId>
         <label>City</label>
-        <length>200</length>
+        <length>220</length>
         <required>true</required>
         <type>Text</type>
         <unique>false</unique>
@@ -51,7 +52,7 @@
         <fullName>Country__c</fullName>
         <externalId>false</externalId>
         <label>Country</label>
-        <length>200</length>
+        <length>220</length>
         <required>true</required>
         <type>Text</type>
         <unique>false</unique>
@@ -107,11 +108,4 @@
     <pluralLabel>Region</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>postal_code</fullName>
-        <active>true</active>
-        <errorConditionFormula>LEN( Postal_Code__c) &lt;&gt;6</errorConditionFormula>
-        <errorDisplayField>Postal_Code__c</errorDisplayField>
-        <errorMessage>Postal code must 6 numbes</errorMessage>
-    </validationRules>
 </CustomObject>

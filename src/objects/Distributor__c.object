@@ -39,17 +39,11 @@
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
     <fields>
-        <fullName>Address__c</fullName>
-        <externalId>false</externalId>
-        <label>Address</label>
-        <required>true</required>
-        <type>TextArea</type>
-    </fields>
-    <fields>
         <fullName>City__c</fullName>
+        <description>This is City</description>
         <externalId>false</externalId>
         <label>City</label>
-        <length>200</length>
+        <length>210</length>
         <required>true</required>
         <type>Text</type>
         <unique>false</unique>
@@ -58,7 +52,7 @@
         <fullName>Country__c</fullName>
         <externalId>false</externalId>
         <label>Country</label>
-        <length>200</length>
+        <length>220</length>
         <required>true</required>
         <type>Text</type>
         <unique>false</unique>
@@ -100,18 +94,9 @@
     <fields>
         <fullName>Mobile_Number__c</fullName>
         <externalId>false</externalId>
-        <label>Mobile Number(+91)</label>
+        <label>Phone</label>
         <length>10</length>
         <required>true</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Phone__c</fullName>
-        <externalId>false</externalId>
-        <label>Phone</label>
-        <length>12</length>
-        <required>false</required>
         <type>Text</type>
         <unique>false</unique>
     </fields>
