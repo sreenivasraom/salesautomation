@@ -50,7 +50,7 @@
     </fields>
     <fields>
         <fullName>Country__c</fullName>
-        <description>This is Country</description>
+        <description>This is Country description</description>
         <externalId>false</externalId>
         <label>Country</label>
         <length>220</length>
