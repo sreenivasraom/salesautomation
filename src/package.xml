@@ -60,6 +60,7 @@
         <members>Distributor__c.infoEx_Id__c</members>
         <members>Opportunity.Opportunity_Type__c</members>
         <members>Region_Analitics__c.City__c</members>
+        <members>Region_Analitics__c.State__c</members>
         <members>Region__c.City__c</members>
         <members>Region__c.Country__c</members>
         <members>Region__c.Population__c</members>

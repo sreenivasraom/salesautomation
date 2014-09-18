@@ -2,6 +2,7 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <fullName>Opportunity_Type__c</fullName>
+        <description>This is  Opportunity type</description>
         <externalId>false</externalId>
         <label>Opportunity Type</label>
         <picklist>

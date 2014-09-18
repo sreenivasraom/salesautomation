@@ -21,7 +21,7 @@
             <operation>equals</operation>
             <value>False</value>
         </criteriaItems>
-        <description>Override the default close date from the close of the quarter to six months after the opportunity is created.</description>
+        <description>This is OpportunityCloser</description>
         <triggerType>onCreateOnly</triggerType>
     </rules>
 </Workflow>

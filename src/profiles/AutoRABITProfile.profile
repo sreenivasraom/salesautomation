@@ -170,6 +170,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Region_Analitics__c.State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Region__c.City__c</field>
         <readable>true</readable>
     </fieldPermissions>
