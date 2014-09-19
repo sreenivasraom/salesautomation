@@ -175,6 +175,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Region_Analitics__c.Zip_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Region__c.City__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -424,7 +429,7 @@
     </pageAccesses>
     <tabVisibilities>
         <tab>Distributor__c</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Region__c</tab>
@@ -440,7 +445,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>product__c</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
 </Profile>
