@@ -39,6 +39,7 @@
     <enableReports>false</enableReports>
     <fields>
         <fullName>City__c</fullName>
+        <description>This is City</description>
         <externalId>false</externalId>
         <label>City</label>
         <length>200</length>
