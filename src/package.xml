@@ -144,7 +144,7 @@
         <name>WorkflowFieldUpdate</name>
     </types>
     <types>
-        <members>Opportunity.OpportunityCloser</members>
+        <members>Opportunity.OpportunityClosure</members>
         <name>WorkflowRule</name>
     </types>
     <version>24.0</version>

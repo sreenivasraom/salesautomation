@@ -10,7 +10,7 @@
         <protected>false</protected>
     </fieldUpdates>
     <rules>
-        <fullName>OpportunityCloser</fullName>
+        <fullName>OpportunityClosure</fullName>
         <actions>
             <name>ClosureLimit</name>
             <type>FieldUpdate</type>
@@ -21,7 +21,7 @@
             <operation>equals</operation>
             <value>False</value>
         </criteriaItems>
-        <description>This is OpportunityCloser</description>
+        <description>This is Opportunity Closure</description>
         <triggerType>onCreateOnly</triggerType>
     </rules>
 </Workflow>
