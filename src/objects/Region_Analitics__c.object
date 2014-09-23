@@ -49,6 +49,7 @@
     </fields>
     <fields>
         <fullName>State__c</fullName>
+        <description>This is state change</description>
         <externalId>false</externalId>
         <label>State</label>
         <length>200</length>
