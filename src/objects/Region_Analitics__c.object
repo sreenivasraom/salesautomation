@@ -59,6 +59,7 @@
     </fields>
     <fields>
         <fullName>Zip_Code__c</fullName>
+        <description>This is Zip Code description</description>
         <externalId>false</externalId>
         <label>Zip Code</label>
         <precision>10</precision>

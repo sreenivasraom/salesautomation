@@ -19,9 +19,9 @@
         <criteriaItems>
             <field>Opportunity.IsClosed</field>
             <operation>equals</operation>
-            <value>False</value>
+            <value>True</value>
         </criteriaItems>
-        <description>This is Opportunity Closure</description>
+        <description>This is Opportunity Closure description</description>
         <triggerType>onCreateOnly</triggerType>
     </rules>
 </Workflow>
