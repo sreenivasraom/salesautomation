@@ -68,6 +68,15 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>currency__c</fullName>
+        <displayLocationInDecimal>false</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <label>currency</label>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Location</type>
+    </fields>
     <label>Region Analytics</label>
     <nameField>
         <label>Region Analitics Name</label>
