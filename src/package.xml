@@ -48,6 +48,11 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>triggerOnProduct</members>
+        <members>triggerOnRegion</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
         <members>Distributor__c.City__c</members>
         <members>Distributor__c.Country__c</members>
         <members>Distributor__c.Email_Id__c</members>
@@ -118,6 +123,7 @@
     </types>
     <types>
         <members>Distributor__c.All</members>
+        <members>Region_Analitics__c.All</members>
         <members>Region__c.All</members>
         <members>RequestForStock__c.All</members>
         <members>SalesExecutive__c.All</members>

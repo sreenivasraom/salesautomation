@@ -78,6 +78,11 @@
         <type>Location</type>
     </fields>
     <label>Region Analytics</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Region Analitics Name</label>
         <type>Text</type>
