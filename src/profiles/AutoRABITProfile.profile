@@ -165,11 +165,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Opportunity_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Region_Analitics__c.City__c</field>
         <readable>true</readable>
     </fieldPermissions>

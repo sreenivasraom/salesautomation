@@ -64,7 +64,6 @@
         <members>Distributor__c.Region__c</members>
         <members>Distributor__c.State__c</members>
         <members>Distributor__c.infoEx_Id__c</members>
-        <members>Opportunity.Opportunity_Type__c</members>
         <members>Region_Analitics__c.City__c</members>
         <members>Region_Analitics__c.State__c</members>
         <members>Region_Analitics__c.Zip_Code__c</members>

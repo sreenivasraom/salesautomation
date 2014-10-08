@@ -70,6 +70,7 @@
     </fields>
     <fields>
         <fullName>currency__c</fullName>
+        <description>This is currency holder</description>
         <displayLocationInDecimal>false</displayLocationInDecimal>
         <externalId>false</externalId>
         <label>currency</label>
