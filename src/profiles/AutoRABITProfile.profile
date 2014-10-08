@@ -110,6 +110,11 @@
     </classAccesses>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Demo__c.TestField1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Distributor__c.City__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -309,6 +314,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Demo__c-Custom Demo pagelayout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Distributor__c-Distributor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -326,6 +334,15 @@
     <layoutAssignments>
         <layout>product__c-products Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Demo__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
