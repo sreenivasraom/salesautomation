@@ -4,6 +4,8 @@
     <types>
         <members>BuildsManagement</members>
         <members>BuildsManagement_test</members>
+        <members>CreateAccountTest</members>
+        <members>CreatingAccount</members>
         <members>DashboadController</members>
         <members>DashboadController_test</members>
         <members>DataloaderLoginController</members>
@@ -34,8 +36,10 @@
     <types>
         <members>CreateProject</members>
         <members>DataLoader</members>
+        <members>DemoPage</members>
         <members>Projects</members>
         <members>RabitIndex</members>
+        <members>RegionPage</members>
         <members>TestPage</members>
         <members>dashboard</members>
         <members>metadatadiff</members>
