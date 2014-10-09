@@ -4,8 +4,6 @@
     <types>
         <members>BuildsManagement</members>
         <members>BuildsManagement_test</members>
-        <members>CreateAccountTest</members>
-        <members>CreatingAccount</members>
         <members>DashboadController</members>
         <members>DashboadController_test</members>
         <members>DataloaderLoginController</members>
@@ -36,10 +34,8 @@
     <types>
         <members>CreateProject</members>
         <members>DataLoader</members>
-        <members>DemoPage</members>
         <members>Projects</members>
         <members>RabitIndex</members>
-        <members>RegionPage</members>
         <members>TestPage</members>
         <members>dashboard</members>
         <members>metadatadiff</members>
@@ -57,7 +53,6 @@
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>Demo__c.TestField1__c</members>
         <members>Distributor__c.City__c</members>
         <members>Distributor__c.Country__c</members>
         <members>Distributor__c.Email_Id__c</members>
@@ -100,7 +95,6 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Demo__c</members>
         <members>Distributor__c</members>
         <members>Region_Analitics__c</members>
         <members>Region__c</members>
@@ -118,9 +112,6 @@
         <name>CustomTab</name>
     </types>
     <types>
-        <members>Demo__c-Custom Demo pagelayout</members>
-        <members>Demo__c-Custom Demo pagelayout2</members>
-        <members>Demo__c-Demo1 Layout</members>
         <members>Distributor__c-Distributor Layout</members>
         <members>Region_Analitics__c-Region Analytics Layout</members>
         <members>Region__c-Area Layout</members>
