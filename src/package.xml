@@ -124,6 +124,7 @@
         <members>Distributor__c.All</members>
         <members>Region_Analitics__c.All</members>
         <members>Region__c.All</members>
+        <members>Region__c.Region_View</members>
         <members>RequestForStock__c.All</members>
         <members>SalesExecutive__c.All</members>
         <members>product__c.All</members>

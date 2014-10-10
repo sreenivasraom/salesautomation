@@ -102,6 +102,13 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>Region_View</fullName>
+        <columns>NAME</columns>
+        <columns>City__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Region_View</label>
+    </listViews>
     <nameField>
         <label>Region Name</label>
         <type>Text</type>
