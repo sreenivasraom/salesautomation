@@ -33,6 +33,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>MyController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ProjectListofControler_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -418,6 +422,10 @@
     <pageAccesses>
         <apexPage>metadatadiff</apexPage>
         <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myControllerPage</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>promotionBuild</apexPage>

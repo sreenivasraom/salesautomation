@@ -10,6 +10,7 @@
         <members>DashboadController_test</members>
         <members>DataloaderLoginController</members>
         <members>DataloaderLoginController_test</members>
+        <members>MyController</members>
         <members>ProjectListofControler_test</members>
         <members>ProjectsListofControler</members>
         <members>PromotionControler</members>
@@ -43,6 +44,7 @@
         <members>TestPage</members>
         <members>dashboard</members>
         <members>metadatadiff</members>
+        <members>myControllerPage</members>
         <members>promotionBuild</members>
         <members>sforgRegList</members>
         <members>sforgregistration</members>
@@ -137,6 +139,7 @@
     <types>
         <members>AutoRABITProfile</members>
         <members>Naveen</members>
+        <members>naveen2</members>
         <name>Profile</name>
     </types>
     <types>
