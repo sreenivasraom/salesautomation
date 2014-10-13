@@ -13,10 +13,7 @@ public class XMLDomUtill {
     public void dumpList(Element[] l) { for(Element e:l) e.dump(); }
     
     // given a parent node and a stream reader, populates the tree below here (recursive)
-<<<<<<< HEAD
     //This comment is added by Pavan
-=======
->>>>>>> bd1096ece25e036e20cac9da1af6ee585701cee9
     void parseXmlReader( Element parent, XmlStreamReader reader ) {
         try {
         while(reader.hasNext()) {
