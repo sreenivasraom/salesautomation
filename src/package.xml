@@ -59,6 +59,11 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>CustomApp</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Demo__c.TestField1__c</members>
         <members>Distributor__c.City__c</members>
         <members>Distributor__c.Country__c</members>
         <members>Distributor__c.Email_Id__c</members>
@@ -93,6 +98,12 @@
         <members>SalesExecutive__c.Postal_Code__c</members>
         <members>SalesExecutive__c.State__c</members>
         <members>SalesExecutive__c.infoEx_Id__c</members>
+        <members>TopAccounts__c.AccountName__c</members>
+        <members>TopAccounts__c.Account_Owner__c</members>
+        <members>TopAccounts__c.Execution_time__c</members>
+        <members>TopAccounts__c.Record_Count__c</members>
+        <members>TopAccounts__c.Running_User__c</members>
+        <members>TopAccounts__c.Snapshot_name__c</members>
         <members>product__c.Active__c</members>
         <members>product__c.Price__c</members>
         <members>product__c.Product_Code__c</members>
@@ -101,13 +112,19 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Demo__c</members>
         <members>Distributor__c</members>
         <members>Region_Analitics__c</members>
         <members>Region__c</members>
         <members>RequestForStock__c</members>
         <members>SalesExecutive__c</members>
+        <members>TopAccounts__c</members>
         <members>product__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>autorabit</members>
+        <name>CustomPageWebLink</name>
     </types>
     <types>
         <members>Distributor__c</members>
@@ -118,11 +135,28 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Region__c.Address</members>
+        <name>FieldSet</name>
+    </types>
+    <types>
+        <members>custom home page component</members>
+        <name>HomePageComponent</name>
+    </types>
+    <types>
+        <members>Dashboard Home Page Default</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>Account-Account Layout</members>
+        <members>Demo__c-Custom Demo pagelayout</members>
+        <members>Demo__c-Custom Demo pagelayout2</members>
+        <members>Demo__c-Demo1 Layout</members>
         <members>Distributor__c-Distributor Layout</members>
         <members>Region_Analitics__c-Region Analytics Layout</members>
         <members>Region__c-Area Layout</members>
         <members>RequestForStock__c-RequestForStock Layout</members>
         <members>SalesExecutive__c-SalesExecutive Layout</members>
+        <members>TopAccounts__c-TopAccounts Layout</members>
         <members>product__c-products Layout</members>
         <name>Layout</name>
     </types>
@@ -155,12 +189,11 @@
         <name>ValidationRule</name>
     </types>
     <types>
-        <members>Opportunity.ClosureLimit</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
-        <members>Opportunity.OpportunityClosure</members>
-        <name>WorkflowRule</name>
+        <members>Account.GoogleMaps</members>
+        <members>Account.GoogleNews</members>
+        <members>Account.GoogleSearch</members>
+        <members>Account.HooversProfile</members>
+        <name>WebLink</name>
     </types>
     <version>24.0</version>
 </Package>

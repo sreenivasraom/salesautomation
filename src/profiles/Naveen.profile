@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>CustomApp</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <classAccesses>
         <apexClass>BuildsManagement</apexClass>
         <enabled>true</enabled>
@@ -120,6 +125,11 @@
         <apexClass>sfrogRegController_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Demo__c.TestField1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Distributor__c.City__c</field>
@@ -292,6 +302,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TopAccounts__c.AccountName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TopAccounts__c.Account_Owner__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TopAccounts__c.Execution_time__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TopAccounts__c.Record_Count__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TopAccounts__c.Running_User__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TopAccounts__c.Snapshot_name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>product__c.Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -316,6 +356,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Demo__c-Demo1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Distributor__c-Distributor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -331,8 +377,20 @@
         <layout>SalesExecutive__c-SalesExecutive Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TopAccounts__c-TopAccounts Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>product__c-products Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Demo__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -376,6 +434,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>SalesExecutive__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>TopAccounts__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

@@ -38,6 +38,27 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
+    <fieldSets>
+        <fullName>Address</fullName>
+        <description>Set of address related fields</description>
+        <displayedFields>
+            <field>City__c</field>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Country__c</field>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>State_Province__c</field>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Postal_Code__c</field>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Address</label>
+    </fieldSets>
     <fields>
         <fullName>City__c</fullName>
         <description>this is test desc</description>

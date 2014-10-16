@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
@@ -12,12 +11,28 @@
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>City__c</field>
+                <behavior>Edit</behavior>
+                <field>AccountName__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>State_Province__c</field>
+                <behavior>Edit</behavior>
+                <field>Account_Owner__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Snapshot_name__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Running_User__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Execution_time__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Record_Count__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -25,20 +40,8 @@
                 <behavior>Edit</behavior>
                 <field>OwnerId</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Population__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Postal_Code__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Country__c</field>
-            </layoutItems>
         </layoutColumns>
-        <style>TwoColumnsLeftToRight</style>
+        <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -60,36 +63,39 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>true</customLabel>
+        <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
-        <label>Custom Links</label>
         <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Distributor__c.Region__c</relatedList>
+        <fields>TASK.SUBJECT</fields>
+        <fields>TASK.WHO_NAME</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>TASK.STATUS</fields>
+        <fields>TASK.PRIORITY</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <relatedList>RelatedActivityList</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>CreatedDate</fields>
-        <fields>StepStatus</fields>
-        <fields>OriginalActor</fields>
-        <fields>Actor</fields>
-        <fields>Comments</fields>
-        <relatedList>RelatedProcessHistoryList</relatedList>
+        <fields>TASK.SUBJECT</fields>
+        <fields>TASK.WHO_NAME</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <fields>TASK.LAST_UPDATE</fields>
+        <relatedList>RelatedHistoryList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedNoteList</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
-    <showHighlightsPanel>true</showHighlightsPanel>
-    <showInteractionLogPanel>true</showInteractionLogPanel>
+    <showHighlightsPanel>false</showHighlightsPanel>
+    <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
-    <summaryLayout>
-        <masterLabel>00hL0000000K0HB</masterLabel>
-        <sizeX>4</sizeX>
-        <sizeY>0</sizeY>
-        <summaryLayoutStyle>Default</summaryLayoutStyle>
-    </summaryLayout>
 </Layout>
