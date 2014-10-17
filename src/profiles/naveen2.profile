@@ -66,6 +66,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>SearchAndReplace</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ShowAllSfObjectsController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -301,6 +305,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>TariffPlan__c.Contact_no__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TariffPlan__c.S_no__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TariffPlan__c.Tariffplan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>TopAccounts__c.AccountName__c</field>
         <readable>true</readable>
@@ -377,6 +396,9 @@
         <layout>SalesExecutive__c-SalesExecutive Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TariffPlan__c-TariffPlan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TopAccounts__c-TopAccounts Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -434,6 +456,15 @@
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>SalesExecutive__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>TariffPlan__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -518,5 +549,10 @@
         <apexPage>transferDataPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Opportunity.Regular_Deals</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
 </Profile>

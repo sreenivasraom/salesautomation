@@ -17,6 +17,7 @@
         <members>PromotionControler_test</members>
         <members>SalesforceOrganizationListController</members>
         <members>SalesforceOrganizationList_test</members>
+        <members>SearchAndReplace</members>
         <members>ShowAllSfObjectsController</members>
         <members>ShowAllSfObjectsController_test</members>
         <members>TestPageController</members>
@@ -59,6 +60,10 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>Opportunity.Regular sales deals</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
         <members>CustomApp</members>
         <name>CustomApplication</name>
     </types>
@@ -98,6 +103,9 @@
         <members>SalesExecutive__c.Postal_Code__c</members>
         <members>SalesExecutive__c.State__c</members>
         <members>SalesExecutive__c.infoEx_Id__c</members>
+        <members>TariffPlan__c.Contact_no__c</members>
+        <members>TariffPlan__c.S_no__c</members>
+        <members>TariffPlan__c.Tariffplan__c</members>
         <members>TopAccounts__c.AccountName__c</members>
         <members>TopAccounts__c.Account_Owner__c</members>
         <members>TopAccounts__c.Execution_time__c</members>
@@ -118,11 +126,13 @@
         <members>Region__c</members>
         <members>RequestForStock__c</members>
         <members>SalesExecutive__c</members>
+        <members>TariffPlan__c</members>
         <members>TopAccounts__c</members>
         <members>product__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Cordys</members>
         <members>autorabit</members>
         <name>CustomPageWebLink</name>
     </types>
@@ -135,10 +145,12 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Campaign.FieldSetTest</members>
         <members>Region__c.Address</members>
         <name>FieldSet</name>
     </types>
     <types>
+        <members>Cordys component</members>
         <members>custom home page component</members>
         <name>HomePageComponent</name>
     </types>
@@ -156,9 +168,14 @@
         <members>Region__c-Area Layout</members>
         <members>RequestForStock__c-RequestForStock Layout</members>
         <members>SalesExecutive__c-SalesExecutive Layout</members>
+        <members>TariffPlan__c-TariffPlan Layout</members>
         <members>TopAccounts__c-TopAccounts Layout</members>
         <members>product__c-products Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>TechrainsTest</members>
+        <name>Letterhead</name>
     </types>
     <types>
         <members>Distributor__c.All</members>
@@ -171,14 +188,26 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>Test_Permission_Set</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>AutoRABITProfile</members>
         <members>Naveen</members>
         <members>naveen2</members>
         <name>Profile</name>
     </types>
     <types>
+        <members>Opportunity.Regular_Deals</members>
+        <name>RecordType</name>
+    </types>
+    <types>
         <members>autorabit</members>
         <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>Region__c.For_Non_Region_Users__c</members>
+        <name>SharingReason</name>
     </types>
     <types>
         <members>StaticResource</members>
@@ -193,6 +222,7 @@
         <members>Account.GoogleNews</members>
         <members>Account.GoogleSearch</members>
         <members>Account.HooversProfile</members>
+        <members>Account.Hyderabad_Map</members>
         <name>WebLink</name>
     </types>
     <version>24.0</version>
