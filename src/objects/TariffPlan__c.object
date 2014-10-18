@@ -67,6 +67,11 @@
         <unique>false</unique>
     </fields>
     <label>TariffPlan</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>TariffPlan Name</label>
         <type>Text</type>

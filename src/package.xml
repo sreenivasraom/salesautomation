@@ -60,11 +60,13 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>Lead.LeadSrcTest</members>
         <members>Opportunity.Regular sales deals</members>
         <name>BusinessProcess</name>
     </types>
     <types>
         <members>CustomApp</members>
+        <members>PavanTestApp</members>
         <name>CustomApplication</name>
     </types>
     <types>
@@ -141,6 +143,7 @@
         <members>Region__c</members>
         <members>RequestForStock__c</members>
         <members>SalesExecutive__c</members>
+        <members>TariffPlan__c</members>
         <members>product__c</members>
         <name>CustomTab</name>
     </types>
@@ -184,6 +187,7 @@
         <members>Region__c.Region_View</members>
         <members>RequestForStock__c.All</members>
         <members>SalesExecutive__c.All</members>
+        <members>TariffPlan__c.All</members>
         <members>product__c.All</members>
         <name>ListView</name>
     </types>
@@ -198,6 +202,7 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Lead.TestRecordType</members>
         <members>Opportunity.Regular_Deals</members>
         <name>RecordType</name>
     </types>
