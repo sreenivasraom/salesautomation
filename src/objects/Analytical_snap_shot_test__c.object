@@ -22,9 +22,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
-        <content>TestActionOverride</content>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Visualforce</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>
@@ -35,59 +33,37 @@
         <type>Default</type>
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Details about tariff plans</description>
     <enableActivities>false</enableActivities>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
     <fields>
-        <fullName>Contact_no__c</fullName>
-        <description>Contact number</description>
-        <externalId>true</externalId>
-        <label>Contact no</label>
-        <precision>18</precision>
-        <required>true</required>
-        <scale>0</scale>
-        <type>Number</type>
-        <unique>true</unique>
-    </fields>
-    <fields>
-        <fullName>Network__c</fullName>
+        <fullName>Name__c</fullName>
         <externalId>false</externalId>
-        <label>Network</label>
-        <length>20</length>
-        <required>true</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>S_no__c</fullName>
-        <description>Serial numbers for mobile numbers</description>
-        <externalId>false</externalId>
-        <label>S no</label>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
-        <fullName>Tariffplan__c</fullName>
-        <description>Tariff plan name</description>
-        <externalId>false</externalId>
-        <label>Tariffplan</label>
-        <length>30</length>
+        <label>Name</label>
+        <length>15</length>
         <required>false</required>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>TariffPlan</label>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <label>Analytical snap shot test</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <label>TariffPlan Name</label>
+        <label>Analytical snap shot test Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>TariffPlans</pluralLabel>
+    <pluralLabel>Analytical snap shot tests</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

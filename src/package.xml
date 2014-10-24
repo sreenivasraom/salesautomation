@@ -36,12 +36,14 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>AnswersHome</members>
         <members>CreateProject</members>
         <members>DataLoader</members>
         <members>DemoPage</members>
         <members>Projects</members>
         <members>RabitIndex</members>
         <members>RegionPage</members>
+        <members>TestActionOverride</members>
         <members>TestPage</members>
         <members>dashboard</members>
         <members>metadatadiff</members>
@@ -70,6 +72,8 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>Analytical_snap_shot_test__c.Name__c</members>
+        <members>Analytical_snap_shot_test__c.Phone__c</members>
         <members>Demo__c.TestField1__c</members>
         <members>Distributor__c.City__c</members>
         <members>Distributor__c.Country__c</members>
@@ -106,6 +110,7 @@
         <members>SalesExecutive__c.State__c</members>
         <members>SalesExecutive__c.infoEx_Id__c</members>
         <members>TariffPlan__c.Contact_no__c</members>
+        <members>TariffPlan__c.Network__c</members>
         <members>TariffPlan__c.S_no__c</members>
         <members>TariffPlan__c.Tariffplan__c</members>
         <members>TopAccounts__c.AccountName__c</members>
@@ -122,6 +127,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Analytical_snap_shot_test__c</members>
         <members>Demo__c</members>
         <members>Distributor__c</members>
         <members>Region_Analitics__c</members>
@@ -135,10 +141,12 @@
     </types>
     <types>
         <members>Cordys</members>
+        <members>UnpackagedLink</members>
         <members>autorabit</members>
         <name>CustomPageWebLink</name>
     </types>
     <types>
+        <members>Analytical_snap_shot_test__c</members>
         <members>Distributor__c</members>
         <members>Region__c</members>
         <members>RequestForStock__c</members>
@@ -163,6 +171,7 @@
     </types>
     <types>
         <members>Account-Account Layout</members>
+        <members>Analytical_snap_shot_test__c-Analytical snap shot test Layout</members>
         <members>Demo__c-Custom Demo pagelayout</members>
         <members>Demo__c-Custom Demo pagelayout2</members>
         <members>Demo__c-Demo1 Layout</members>
@@ -181,6 +190,7 @@
         <name>Letterhead</name>
     </types>
     <types>
+        <members>Analytical_snap_shot_test__c.All</members>
         <members>Distributor__c.All</members>
         <members>Region_Analitics__c.All</members>
         <members>Region__c.All</members>

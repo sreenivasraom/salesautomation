@@ -136,6 +136,16 @@
     </classAccesses>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Analytical_snap_shot_test__c.Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Analytical_snap_shot_test__c.Phone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Demo__c.TestField1__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -316,6 +326,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>TariffPlan__c.Network__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>TariffPlan__c.S_no__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -383,6 +398,9 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Analytical_snap_shot_test__c-Analytical snap shot test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Demo__c-Demo1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -409,6 +427,15 @@
     <layoutAssignments>
         <layout>product__c-products Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Analytical_snap_shot_test__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -491,6 +518,10 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
+        <apexPage>AnswersHome</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>CreateProject</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -513,6 +544,10 @@
     <pageAccesses>
         <apexPage>RegionPage</apexPage>
         <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>TestActionOverride</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>TestPage</apexPage>
@@ -564,6 +599,10 @@
         <recordType>Opportunity.Regular_Deals</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Analytical_snap_shot_test__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Distributor__c</tab>
         <visibility>DefaultOn</visibility>

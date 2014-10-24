@@ -126,6 +126,16 @@
     </classAccesses>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Analytical_snap_shot_test__c.Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Analytical_snap_shot_test__c.Phone__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Demo__c.TestField1__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -306,6 +316,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>TariffPlan__c.Network__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>TariffPlan__c.S_no__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -371,6 +386,10 @@
     </fieldPermissions>
     <label>Test Permission Set</label>
     <pageAccesses>
+        <apexPage>AnswersHome</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>CreateProject</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
@@ -392,6 +411,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>RegionPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>TestActionOverride</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -773,6 +796,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
+        <name>ManagePartners</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>ManagePasswordPolicies</name>
     </userPermissions>
     <userPermissions>
@@ -826,6 +853,14 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ModerateChatter</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkFeeds</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkFiles</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -910,6 +945,10 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ViewEncryptedData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewGlobalHeader</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>

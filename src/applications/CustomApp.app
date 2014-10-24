@@ -5,4 +5,5 @@
     <tab>standard-Product2</tab>
     <tab>Region__c</tab>
     <tab>TariffPlan__c</tab>
+    <tab>Analytical_snap_shot_test__c</tab>
 </CustomApplication>

@@ -3,4 +3,5 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <label>PavanTestApp</label>
     <tab>TariffPlan__c</tab>
+    <tab>Analytical_snap_shot_test__c</tab>
 </CustomApplication>
