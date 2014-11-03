@@ -36,6 +36,17 @@
             <default>false</default>
         </values>
     </businessProcesses>
+    <fields>
+        <fullName>Opportunity_Source__c</fullName>
+        <description>test</description>
+        <externalId>false</externalId>
+        <label>Opportunity Source</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <recordTypes>
         <fullName>Regular_Deals</fullName>
         <active>true</active>

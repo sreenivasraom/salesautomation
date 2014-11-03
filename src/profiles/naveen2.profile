@@ -136,12 +136,22 @@
     </classAccesses>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.NoOfContacts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Analytical_snap_shot_test__c.Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Analytical_snap_shot_test__c.Phone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.email_custom__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -197,6 +207,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Distributor__c.infoEx_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Opportunity_Source__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

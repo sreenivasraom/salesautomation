@@ -72,8 +72,10 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>Account.NoOfContacts__c</members>
         <members>Analytical_snap_shot_test__c.Name__c</members>
         <members>Analytical_snap_shot_test__c.Phone__c</members>
+        <members>Contact.email_custom__c</members>
         <members>Demo__c.TestField1__c</members>
         <members>Distributor__c.City__c</members>
         <members>Distributor__c.Country__c</members>
@@ -85,6 +87,7 @@
         <members>Distributor__c.Region__c</members>
         <members>Distributor__c.State__c</members>
         <members>Distributor__c.infoEx_Id__c</members>
+        <members>Opportunity.Opportunity_Source__c</members>
         <members>Region_Analitics__c.City__c</members>
         <members>Region_Analitics__c.State__c</members>
         <members>Region_Analitics__c.Zip_Code__c</members>
