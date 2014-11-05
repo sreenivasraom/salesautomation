@@ -620,7 +620,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Distributor__c</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Region__c</tab>

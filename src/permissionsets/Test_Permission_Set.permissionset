@@ -124,6 +124,7 @@
         <apexClass>sfrogRegController_test</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <description>Test set</description>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.NoOfContacts__c</field>

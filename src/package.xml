@@ -243,5 +243,13 @@
         <members>Account.Hyderabad_Map</members>
         <name>WebLink</name>
     </types>
+    <types>
+        <members>Opportunity.ClosureLimit</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Opportunity.OpportunityClosure</members>
+        <name>WorkflowRule</name>
+    </types>
     <version>24.0</version>
 </Package>

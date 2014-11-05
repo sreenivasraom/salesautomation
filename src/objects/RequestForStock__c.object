@@ -59,6 +59,7 @@
     <fields>
         <fullName>Product__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
+        <description>This is product</description>
         <externalId>false</externalId>
         <label>Product</label>
         <referenceTo>product__c</referenceTo>
