@@ -54,4 +54,8 @@
     <pluralLabel>Demo1</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <sharingReasons>
+        <fullName>SharedToOtherUsers__c</fullName>
+        <label>SharedToOtherUsers</label>
+    </sharingReasons>
 </CustomObject>
