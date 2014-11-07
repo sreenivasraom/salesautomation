@@ -77,6 +77,16 @@
         <members>Analytical_snap_shot_test__c.Phone__c</members>
         <members>Contact.email_custom__c</members>
         <members>Demo__c.TestField1__c</members>
+        <members>Distributor__c.City__c</members>
+        <members>Distributor__c.Country__c</members>
+        <members>Distributor__c.Email_Id__c</members>
+        <members>Distributor__c.Gender__c</members>
+        <members>Distributor__c.Land__c</members>
+        <members>Distributor__c.Mobile_Number__c</members>
+        <members>Distributor__c.Postal_Code__c</members>
+        <members>Distributor__c.Region__c</members>
+        <members>Distributor__c.State__c</members>
+        <members>Distributor__c.infoEx_Id__c</members>
         <members>Opportunity.Opportunity_Source__c</members>
         <members>Region_Analitics__c.City__c</members>
         <members>Region_Analitics__c.State__c</members>
@@ -92,6 +102,16 @@
         <members>RequestForStock__c.Expected_Date__c</members>
         <members>RequestForStock__c.Product__c</members>
         <members>RequestForStock__c.RequiredStock__c</members>
+        <members>SalesExecutive__c.City__c</members>
+        <members>SalesExecutive__c.Distributor__c</members>
+        <members>SalesExecutive__c.Email_Id__c</members>
+        <members>SalesExecutive__c.Gender__c</members>
+        <members>SalesExecutive__c.Landmark__c</members>
+        <members>SalesExecutive__c.Last_Name__c</members>
+        <members>SalesExecutive__c.Mobile_Number_91__c</members>
+        <members>SalesExecutive__c.Postal_Code__c</members>
+        <members>SalesExecutive__c.State__c</members>
+        <members>SalesExecutive__c.infoEx_Id__c</members>
         <members>TariffPlan__c.Contact_no__c</members>
         <members>TariffPlan__c.Network__c</members>
         <members>TariffPlan__c.S_no__c</members>
@@ -112,9 +132,11 @@
     <types>
         <members>Analytical_snap_shot_test__c</members>
         <members>Demo__c</members>
+        <members>Distributor__c</members>
         <members>Region_Analitics__c</members>
         <members>Region__c</members>
         <members>RequestForStock__c</members>
+        <members>SalesExecutive__c</members>
         <members>TariffPlan__c</members>
         <members>TopAccounts__c</members>
         <members>product__c</members>
@@ -128,8 +150,10 @@
     </types>
     <types>
         <members>Analytical_snap_shot_test__c</members>
+        <members>Distributor__c</members>
         <members>Region__c</members>
         <members>RequestForStock__c</members>
+        <members>SalesExecutive__c</members>
         <members>TariffPlan__c</members>
         <members>product__c</members>
         <name>CustomTab</name>
@@ -154,9 +178,11 @@
         <members>Demo__c-Custom Demo pagelayout</members>
         <members>Demo__c-Custom Demo pagelayout2</members>
         <members>Demo__c-Demo1 Layout</members>
+        <members>Distributor__c-Distributor Layout</members>
         <members>Region_Analitics__c-Region Analytics Layout</members>
         <members>Region__c-Area Layout</members>
         <members>RequestForStock__c-RequestForStock Layout</members>
+        <members>SalesExecutive__c-SalesExecutive Layout</members>
         <members>TariffPlan__c-TariffPlan Layout</members>
         <members>TopAccounts__c-TopAccounts Layout</members>
         <members>product__c-products Layout</members>
@@ -168,10 +194,12 @@
     </types>
     <types>
         <members>Analytical_snap_shot_test__c.All</members>
+        <members>Distributor__c.All</members>
         <members>Region_Analitics__c.All</members>
         <members>Region__c.All</members>
         <members>Region__c.Region_View</members>
         <members>RequestForStock__c.All</members>
+        <members>SalesExecutive__c.All</members>
         <members>TariffPlan__c.All</members>
         <members>product__c.All</members>
         <name>ListView</name>
