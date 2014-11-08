@@ -209,12 +209,6 @@
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>AutoRABITProfile</members>
-        <members>Naveen</members>
-        <members>naveen2</members>
-        <name>Profile</name>
-    </types>
-    <types>
         <members>Lead.TestRecordType</members>
         <members>Opportunity.Regular_Deals</members>
         <name>RecordType</name>
