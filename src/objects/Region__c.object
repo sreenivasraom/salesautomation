@@ -137,11 +137,4 @@
     <pluralLabel>Region</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <sharingReasons>
-        <fullName>For_Non_Region_Users__c</fullName>
-        <label>For Non Region Users</label>
-    </sharingReasons>
-    <sharingRecalculations>
-        <className>SearchAndReplace</className>
-    </sharingRecalculations>
 </CustomObject>

@@ -4,20 +4,16 @@
     <types>
         <members>BuildsManagement</members>
         <members>BuildsManagement_test</members>
-        <members>CreateAccountTest</members>
-        <members>CreatingAccount</members>
         <members>DashboadController</members>
         <members>DashboadController_test</members>
         <members>DataloaderLoginController</members>
         <members>DataloaderLoginController_test</members>
-        <members>MyController</members>
         <members>ProjectListofControler_test</members>
         <members>ProjectsListofControler</members>
         <members>PromotionControler</members>
         <members>PromotionControler_test</members>
         <members>SalesforceOrganizationListController</members>
         <members>SalesforceOrganizationList_test</members>
-        <members>SearchAndReplace</members>
         <members>ShowAllSfObjectsController</members>
         <members>ShowAllSfObjectsController_test</members>
         <members>TestPageController</members>
@@ -36,18 +32,13 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>AnswersHome</members>
         <members>CreateProject</members>
         <members>DataLoader</members>
-        <members>DemoPage</members>
         <members>Projects</members>
         <members>RabitIndex</members>
-        <members>RegionPage</members>
-        <members>TestActionOverride</members>
         <members>TestPage</members>
         <members>dashboard</members>
         <members>metadatadiff</members>
-        <members>myControllerPage</members>
         <members>promotionBuild</members>
         <members>sforgRegList</members>
         <members>sforgregistration</members>
@@ -57,26 +48,12 @@
         <name>ApexPage</name>
     </types>
     <types>
-        <members>triggerOnProduct</members>
-        <members>triggerOnRegion</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
         <members>Lead.LeadSrcTest</members>
         <members>Opportunity.Regular sales deals</members>
         <name>BusinessProcess</name>
     </types>
     <types>
-        <members>CustomApp</members>
-        <members>PavanTestApp</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>Account.NoOfContacts__c</members>
-        <members>Analytical_snap_shot_test__c.Name__c</members>
-        <members>Analytical_snap_shot_test__c.Phone__c</members>
         <members>Contact.email_custom__c</members>
-        <members>Demo__c.TestField1__c</members>
         <members>Distributor__c.City__c</members>
         <members>Distributor__c.Country__c</members>
         <members>Distributor__c.Email_Id__c</members>
@@ -112,16 +89,6 @@
         <members>SalesExecutive__c.Postal_Code__c</members>
         <members>SalesExecutive__c.State__c</members>
         <members>SalesExecutive__c.infoEx_Id__c</members>
-        <members>TariffPlan__c.Contact_no__c</members>
-        <members>TariffPlan__c.Network__c</members>
-        <members>TariffPlan__c.S_no__c</members>
-        <members>TariffPlan__c.Tariffplan__c</members>
-        <members>TopAccounts__c.AccountName__c</members>
-        <members>TopAccounts__c.Account_Owner__c</members>
-        <members>TopAccounts__c.Execution_time__c</members>
-        <members>TopAccounts__c.Record_Count__c</members>
-        <members>TopAccounts__c.Running_User__c</members>
-        <members>TopAccounts__c.Snapshot_name__c</members>
         <members>product__c.Active__c</members>
         <members>product__c.Price__c</members>
         <members>product__c.Product_Code__c</members>
@@ -130,36 +97,28 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Analytical_snap_shot_test__c</members>
-        <members>Demo__c</members>
         <members>Distributor__c</members>
         <members>Region_Analitics__c</members>
         <members>Region__c</members>
         <members>RequestForStock__c</members>
         <members>SalesExecutive__c</members>
-        <members>TariffPlan__c</members>
-        <members>TopAccounts__c</members>
         <members>product__c</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>Cordys</members>
-        <members>UnpackagedLink</members>
         <members>autorabit</members>
         <name>CustomPageWebLink</name>
     </types>
     <types>
-        <members>Analytical_snap_shot_test__c</members>
         <members>Distributor__c</members>
         <members>Region__c</members>
         <members>RequestForStock__c</members>
         <members>SalesExecutive__c</members>
-        <members>TariffPlan__c</members>
         <members>product__c</members>
         <name>CustomTab</name>
     </types>
     <types>
-        <members>Campaign.FieldSetTest</members>
         <members>Region__c.Address</members>
         <name>FieldSet</name>
     </types>
@@ -173,18 +132,11 @@
         <name>HomePageLayout</name>
     </types>
     <types>
-        <members>Account-Account Layout</members>
-        <members>Analytical_snap_shot_test__c-Analytical snap shot test Layout</members>
-        <members>Demo__c-Custom Demo pagelayout</members>
-        <members>Demo__c-Custom Demo pagelayout2</members>
-        <members>Demo__c-Demo1 Layout</members>
         <members>Distributor__c-Distributor Layout</members>
         <members>Region_Analitics__c-Region Analytics Layout</members>
         <members>Region__c-Area Layout</members>
         <members>RequestForStock__c-RequestForStock Layout</members>
         <members>SalesExecutive__c-SalesExecutive Layout</members>
-        <members>TariffPlan__c-TariffPlan Layout</members>
-        <members>TopAccounts__c-TopAccounts Layout</members>
         <members>product__c-products Layout</members>
         <name>Layout</name>
     </types>
@@ -193,14 +145,12 @@
         <name>Letterhead</name>
     </types>
     <types>
-        <members>Analytical_snap_shot_test__c.All</members>
         <members>Distributor__c.All</members>
         <members>Region_Analitics__c.All</members>
         <members>Region__c.All</members>
         <members>Region__c.Region_View</members>
         <members>RequestForStock__c.All</members>
         <members>SalesExecutive__c.All</members>
-        <members>TariffPlan__c.All</members>
         <members>product__c.All</members>
         <name>ListView</name>
     </types>
@@ -210,8 +160,6 @@
     </types>
     <types>
         <members>AutoRABITProfile</members>
-        <members>Naveen</members>
-        <members>naveen2</members>
         <name>Profile</name>
     </types>
     <types>
@@ -224,33 +172,12 @@
         <name>RemoteSiteSetting</name>
     </types>
     <types>
-        <members>Demo__c.SharedToOtherUsers__c</members>
-        <members>Region__c.For_Non_Region_Users__c</members>
-        <name>SharingReason</name>
-    </types>
-    <types>
         <members>StaticResource</members>
         <name>StaticResource</name>
     </types>
     <types>
         <members>RequestForStock__c.stocklimit</members>
         <name>ValidationRule</name>
-    </types>
-    <types>
-        <members>Account.GoogleMaps</members>
-        <members>Account.GoogleNews</members>
-        <members>Account.GoogleSearch</members>
-        <members>Account.HooversProfile</members>
-        <members>Account.Hyderabad_Map</members>
-        <name>WebLink</name>
-    </types>
-    <types>
-        <members>Opportunity.ClosureLimit</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
-        <members>Opportunity.OpportunityClosure</members>
-        <name>WorkflowRule</name>
     </types>
     <version>24.0</version>
 </Package>

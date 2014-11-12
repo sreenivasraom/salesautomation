@@ -9,14 +9,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CreateAccountTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CreatingAccount</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>DashboadController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -30,10 +22,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>DataloaderLoginController_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>MyController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -58,10 +46,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SalesforceOrganizationList_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>SearchAndReplace</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -127,27 +111,7 @@
     <description>Test set</description>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.NoOfContacts__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Analytical_snap_shot_test__c.Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Analytical_snap_shot_test__c.Phone__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Contact.email_custom__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Demo__c.TestField1__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -327,56 +291,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>TariffPlan__c.Contact_no__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TariffPlan__c.Network__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TariffPlan__c.S_no__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TariffPlan__c.Tariffplan__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TopAccounts__c.AccountName__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TopAccounts__c.Account_Owner__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TopAccounts__c.Execution_time__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TopAccounts__c.Record_Count__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TopAccounts__c.Running_User__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TopAccounts__c.Snapshot_name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>product__c.Active__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -402,10 +316,6 @@
     </fieldPermissions>
     <label>Test Permission Set</label>
     <pageAccesses>
-        <apexPage>AnswersHome</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>CreateProject</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
@@ -414,23 +324,11 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>DemoPage</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>Projects</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>RabitIndex</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>RegionPage</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>TestActionOverride</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -443,10 +341,6 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>metadatadiff</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>myControllerPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
