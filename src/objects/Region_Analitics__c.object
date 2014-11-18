@@ -42,7 +42,7 @@
         <fullName>City__c</fullName>
         <description>This is City being modified in the demo webinar .</description>
         <externalId>false</externalId>
-        <inlineHelpText>This is help text for City</inlineHelpText>
+        <inlineHelpText>This is help text for City in webinar</inlineHelpText>
         <label>City</label>
         <length>200</length>
         <required>false</required>

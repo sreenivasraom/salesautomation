@@ -38,7 +38,7 @@
     </businessProcesses>
     <fields>
         <fullName>Opportunity_Source__c</fullName>
-        <description>testing for Salesforce demo making changes to a standard object</description>
+        <description>This is the demo testing for Salesforce making changes to a standard object</description>
         <externalId>false</externalId>
         <label>Opportunity Source</label>
         <length>40</length>
