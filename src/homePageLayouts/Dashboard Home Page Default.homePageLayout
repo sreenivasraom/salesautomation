@@ -4,8 +4,6 @@
     <narrowComponents>standard-RecentItems</narrowComponents>
     <narrowComponents>standard-UsefulLinks</narrowComponents>
     <narrowComponents>standard-MessagesAndAlerts</narrowComponents>
-    <narrowComponents>custom home page component</narrowComponents>
-    <narrowComponents>Cordys component</narrowComponents>
     <wideComponents>standard-Dashboard</wideComponents>
     <wideComponents>standard-Tasks</wideComponents>
     <wideComponents>standard-Calendar</wideComponents>

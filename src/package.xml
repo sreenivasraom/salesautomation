@@ -67,16 +67,8 @@
         <name>BusinessProcess</name>
     </types>
     <types>
-        <members>CustomApp</members>
-        <members>PavanTestApp</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
         <members>Account.NoOfContacts__c</members>
-        <members>Analytical_snap_shot_test__c.Name__c</members>
-        <members>Analytical_snap_shot_test__c.Phone__c</members>
         <members>Contact.email_custom__c</members>
-        <members>Demo__c.TestField1__c</members>
         <members>Distributor__c.City__c</members>
         <members>Distributor__c.Country__c</members>
         <members>Distributor__c.Email_Id__c</members>
@@ -116,12 +108,6 @@
         <members>TariffPlan__c.Network__c</members>
         <members>TariffPlan__c.S_no__c</members>
         <members>TariffPlan__c.Tariffplan__c</members>
-        <members>TopAccounts__c.AccountName__c</members>
-        <members>TopAccounts__c.Account_Owner__c</members>
-        <members>TopAccounts__c.Execution_time__c</members>
-        <members>TopAccounts__c.Record_Count__c</members>
-        <members>TopAccounts__c.Running_User__c</members>
-        <members>TopAccounts__c.Snapshot_name__c</members>
         <members>product__c.Active__c</members>
         <members>product__c.Price__c</members>
         <members>product__c.Product_Code__c</members>
@@ -130,15 +116,12 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Analytical_snap_shot_test__c</members>
-        <members>Demo__c</members>
         <members>Distributor__c</members>
         <members>Region_Analitics__c</members>
         <members>Region__c</members>
         <members>RequestForStock__c</members>
         <members>SalesExecutive__c</members>
         <members>TariffPlan__c</members>
-        <members>TopAccounts__c</members>
         <members>product__c</members>
         <name>CustomObject</name>
     </types>
@@ -149,7 +132,6 @@
         <name>CustomPageWebLink</name>
     </types>
     <types>
-        <members>Analytical_snap_shot_test__c</members>
         <members>Distributor__c</members>
         <members>Region__c</members>
         <members>RequestForStock__c</members>
@@ -164,27 +146,16 @@
         <name>FieldSet</name>
     </types>
     <types>
-        <members>Cordys component</members>
-        <members>custom home page component</members>
-        <name>HomePageComponent</name>
-    </types>
-    <types>
         <members>Dashboard Home Page Default</members>
         <name>HomePageLayout</name>
     </types>
     <types>
-        <members>Account-Account Layout</members>
-        <members>Analytical_snap_shot_test__c-Analytical snap shot test Layout</members>
-        <members>Demo__c-Custom Demo pagelayout</members>
-        <members>Demo__c-Custom Demo pagelayout2</members>
-        <members>Demo__c-Demo1 Layout</members>
         <members>Distributor__c-Distributor Layout</members>
         <members>Region_Analitics__c-Region Analytics Layout</members>
         <members>Region__c-Area Layout</members>
         <members>RequestForStock__c-RequestForStock Layout</members>
         <members>SalesExecutive__c-SalesExecutive Layout</members>
         <members>TariffPlan__c-TariffPlan Layout</members>
-        <members>TopAccounts__c-TopAccounts Layout</members>
         <members>product__c-products Layout</members>
         <name>Layout</name>
     </types>
@@ -193,7 +164,6 @@
         <name>Letterhead</name>
     </types>
     <types>
-        <members>Analytical_snap_shot_test__c.All</members>
         <members>Distributor__c.All</members>
         <members>Region_Analitics__c.All</members>
         <members>Region__c.All</members>
@@ -209,7 +179,6 @@
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>AutoRABITProfile</members>
         <members>Naveen</members>
         <members>naveen2</members>
         <name>Profile</name>
@@ -224,7 +193,6 @@
         <name>RemoteSiteSetting</name>
     </types>
     <types>
-        <members>Demo__c.SharedToOtherUsers__c</members>
         <members>Region__c.For_Non_Region_Users__c</members>
         <name>SharingReason</name>
     </types>
