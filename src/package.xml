@@ -62,7 +62,6 @@
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>Contact.email_custom__c</members>
         <members>Distributor__c.City__c</members>
         <members>Distributor__c.Country__c</members>
         <members>Distributor__c.Email_Id__c</members>
