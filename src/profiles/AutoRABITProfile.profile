@@ -392,17 +392,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>TariffPlan__c.TariffPlanSummary__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>TariffPlan__c.Tariffplan__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>TariffPlan__c.Validity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TariffPlan__c.summary__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

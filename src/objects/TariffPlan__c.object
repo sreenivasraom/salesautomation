@@ -111,13 +111,6 @@
         <type>AutoNumber</type>
     </fields>
     <fields>
-        <fullName>TariffPlanSummary__c</fullName>
-        <externalId>false</externalId>
-        <label>TariffPlanSummary</label>
-        <required>false</required>
-        <type>TextArea</type>
-    </fields>
-    <fields>
         <fullName>Tariffplan__c</fullName>
         <description>Tariff plan name</description>
         <externalId>false</externalId>
@@ -155,6 +148,14 @@
             <sorted>true</sorted>
         </picklist>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>summary__c</fullName>
+        <externalId>false</externalId>
+        <label>summary</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
     </fields>
     <label>TariffPlan</label>
     <listViews>
