@@ -194,6 +194,10 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>AutoRABITProfile</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>TariffPlan__c.North_India</members>
         <members>TariffPlan__c.South_India</members>
         <name>RecordType</name>
