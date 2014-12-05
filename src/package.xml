@@ -66,7 +66,6 @@
         <name>BusinessProcess</name>
     </types>
     <types>
-        <members>Account.NoOfContacts__c</members>
         <members>Contact.email_custom__c</members>
         <members>Distributor__c.City__c</members>
         <members>Distributor__c.Country__c</members>

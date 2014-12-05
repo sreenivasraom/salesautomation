@@ -127,11 +127,6 @@
     <description>Test set</description>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.NoOfContacts__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Contact.email_custom__c</field>
         <readable>false</readable>
     </fieldPermissions>

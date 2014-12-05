@@ -126,11 +126,6 @@
     </classAccesses>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.NoOfContacts__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Contact.email_custom__c</field>
         <readable>true</readable>
     </fieldPermissions>
