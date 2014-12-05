@@ -59,6 +59,51 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Andhra Pradesh</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maharashtra</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bihar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delhi</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gujraj</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telangana</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kerala</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Karnataka</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tamil Nadu</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>S_no__c</fullName>
         <description>Serial numbers for mobile numbers</description>
         <externalId>false</externalId>
@@ -82,6 +127,35 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Validity__c</fullName>
+        <externalId>false</externalId>
+        <label>Validity</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Daily</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nightly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
     <label>TariffPlan</label>
     <listViews>
         <fullName>All</fullName>
@@ -93,6 +167,96 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>TariffPlans</pluralLabel>
+    <recordTypes>
+        <fullName>North_India</fullName>
+        <active>true</active>
+        <label>North India</label>
+        <picklistValues>
+            <picklist>Region__c</picklist>
+            <values>
+                <fullName>Bihar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delhi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gujraj</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maharashtra</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Validity__c</picklist>
+            <values>
+                <fullName>Daily</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nightly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>South_India</fullName>
+        <active>true</active>
+        <label>South India</label>
+        <picklistValues>
+            <picklist>Region__c</picklist>
+            <values>
+                <fullName>Andhra Pradesh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Karnataka</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kerala</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tamil Nadu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telangana</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Validity__c</picklist>
+            <values>
+                <fullName>Daily</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

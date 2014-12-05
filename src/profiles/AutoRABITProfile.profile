@@ -310,6 +310,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>TariffPlan__c.Region__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>TariffPlan__c.S_no__c</field>
         <readable>true</readable>
@@ -322,6 +327,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>TariffPlan__c.Tariffplan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TariffPlan__c.Validity__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -353,10 +363,6 @@
         <layout>Distributor__c-Distributor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Opportunity-Regular Deals Layout</layout>
-        <recordType>Opportunity.Regular_Deals</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Region_Analitics__c-Region Analytics Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -370,6 +376,14 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TariffPlan__c-TariffPlan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TariffPlan__c-TariffPlan Layout</layout>
+        <recordType>TariffPlan__c.North_India</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TariffPlan__c-TariffPlan Layout</layout>
+        <recordType>TariffPlan__c.South_India</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>product__c-products Layout</layout>
@@ -510,8 +524,13 @@
         <enabled>true</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>TariffPlan__c.North_India</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
-        <recordType>Opportunity.Regular_Deals</recordType>
+        <recordType>TariffPlan__c.South_India</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
