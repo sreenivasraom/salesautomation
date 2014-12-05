@@ -327,6 +327,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>TariffPlan__c.TariffPlanSummary__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>TariffPlan__c.Tariffplan__c</field>
         <readable>false</readable>
     </fieldPermissions>

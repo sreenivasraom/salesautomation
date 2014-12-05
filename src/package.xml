@@ -106,6 +106,7 @@
         <members>TariffPlan__c.Contact_no__c</members>
         <members>TariffPlan__c.Network__c</members>
         <members>TariffPlan__c.S_no__c</members>
+        <members>TariffPlan__c.TariffPlanSummary__c</members>
         <members>TariffPlan__c.Tariffplan__c</members>
         <members>product__c.Active__c</members>
         <members>product__c.Price__c</members>
@@ -179,6 +180,10 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>AutoRABITProfile</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Opportunity.Regular_Deals</members>
         <name>RecordType</name>
     </types>
@@ -197,14 +202,6 @@
     <types>
         <members>RequestForStock__c.stocklimit</members>
         <name>ValidationRule</name>
-    </types>
-    <types>
-        <members>Account.GoogleMaps</members>
-        <members>Account.GoogleNews</members>
-        <members>Account.GoogleSearch</members>
-        <members>Account.HooversProfile</members>
-        <members>Account.Hyderabad_Map</members>
-        <name>WebLink</name>
     </types>
     <version>24.0</version>
 </Package>

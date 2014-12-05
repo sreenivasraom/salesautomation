@@ -68,6 +68,13 @@
         <type>AutoNumber</type>
     </fields>
     <fields>
+        <fullName>TariffPlanSummary__c</fullName>
+        <externalId>false</externalId>
+        <label>TariffPlanSummary</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>Tariffplan__c</fullName>
         <description>Tariff plan name</description>
         <externalId>false</externalId>
