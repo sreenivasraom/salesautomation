@@ -63,10 +63,6 @@
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
-                <fullName>Advertisement</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Employee Referral</fullName>
                 <default>false</default>
             </values>
