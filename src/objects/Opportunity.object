@@ -8,10 +8,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Closed Won</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Id%2E Decision Makers</fullName>
             <default>false</default>
         </values>

@@ -62,7 +62,6 @@
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>Lead.LeadSrcTest</members>
         <members>Opportunity.Regular sales deals</members>
         <name>BusinessProcess</name>
     </types>
@@ -151,6 +150,7 @@
     </types>
     <types>
         <members>Distributor__c-Distributor Layout</members>
+        <members>Opportunity-Regular Deals Layout</members>
         <members>Region_Analitics__c-Region Analytics Layout</members>
         <members>Region__c-Area Layout</members>
         <members>RequestForStock__c-RequestForStock Layout</members>
@@ -179,12 +179,6 @@
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>Naveen</members>
-        <members>naveen2</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Lead.TestRecordType</members>
         <members>Opportunity.Regular_Deals</members>
         <name>RecordType</name>
     </types>
