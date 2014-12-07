@@ -446,15 +446,15 @@
         <layout>SalesExecutive__c-SalesExecutive Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TariffPlan__c-SouthIndiaLayout</layout>
+        <recordType>TariffPlan__c.South_India</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TariffPlan__c-TariffPlan Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TariffPlan__c-TariffPlan Layout</layout>
         <recordType>TariffPlan__c.North_India</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TariffPlan__c-TariffPlan Layout</layout>
-        <recordType>TariffPlan__c.South_India</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>product__c-products Layout</layout>
