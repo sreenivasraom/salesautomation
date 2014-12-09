@@ -178,6 +178,7 @@
         <members>Region__c-Area Layout</members>
         <members>RequestForStock__c-RequestForStock Layout</members>
         <members>SalesExecutive__c-SalesExecutive Layout</members>
+        <members>TariffPlan__c-NorthIndia Layout</members>
         <members>TariffPlan__c-SouthIndiaLayout</members>
         <members>TariffPlan__c-TariffPlan Layout</members>
         <members>product__c-products Layout</members>
