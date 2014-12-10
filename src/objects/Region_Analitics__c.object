@@ -33,7 +33,7 @@
         <type>Default</type>
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This Region Analytics in the demo for deployment in webinar</description>
+    <description>This Region Analytics changes done for full deployment demo</description>
     <enableActivities>false</enableActivities>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
