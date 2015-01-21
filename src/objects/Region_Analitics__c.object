@@ -40,7 +40,7 @@
     <enableReports>false</enableReports>
     <fields>
         <fullName>City__c</fullName>
-        <description>This is City being modified in the demo webinar .</description>
+        <description>This is Minneapolis City being modified in the demo webinar .</description>
         <externalId>false</externalId>
         <inlineHelpText>Test for Sunpower</inlineHelpText>
         <label>City</label>
