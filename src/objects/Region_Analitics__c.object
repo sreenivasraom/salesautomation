@@ -40,9 +40,9 @@
     <enableReports>false</enableReports>
     <fields>
         <fullName>City__c</fullName>
-        <description>This cdk test demo</description>
+        <description>This axiom test demo</description>
         <externalId>false</externalId>
-        <inlineHelpText>Test for Sunpower</inlineHelpText>
+        <inlineHelpText>Axiom Test</inlineHelpText>
         <label>City</label>
         <length>200</length>
         <required>false</required>
