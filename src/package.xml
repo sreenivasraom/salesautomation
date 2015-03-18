@@ -1,37 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>Search_Test__c.Test_Field__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Search_Test__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Search_Test__c-Search Test Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <members>AutoRABITProfile</members>
-        <members>Chatter Only User</members>
-        <members>Content Only User</members>
-        <members>ContractManager</members>
-        <members>Force%2Ecom - One App User</members>
-        <members>Knowledge Only User</members>
-        <members>MarketingProfile</members>
-        <members>ReadOnly</members>
-        <members>Siteforce Only User</members>
-        <members>SolutionManager</members>
-        <members>Standard</members>
-        <members>StandardAul</members>
-        <members>Work%2Ecom Only User</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Search_Test__c</members>
-        <name>SharingRules</name>
-    </types>
     <version>33.0</version>
 </Package>
