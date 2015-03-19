@@ -1,5 +1,6 @@
 public class XMLDomUtill {
-    // Constructor 
+   
+ // Constructor 
     public XMLDomUtill (string str) { parseFromString(str); } 
     public XMLDomUtill (          ) { }
     public void parseFromString(string str) {   
