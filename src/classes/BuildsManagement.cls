@@ -8,6 +8,7 @@ public class BuildsManagement{
     }
 
     public PageReference enableBuildPref() {
+    //Add a new comment
         return null;
     }
 
@@ -512,6 +513,7 @@ public class BuildsManagement{
              testsFail = false;
              testsInProgress = false;
              testsEmpty =true;
+             
        } 
     }  
     
