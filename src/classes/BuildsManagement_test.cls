@@ -217,5 +217,4 @@ public class BuildsManagement_test {
         bm.hashCode();
   
      }
-     //this Forrester Demo
 }
