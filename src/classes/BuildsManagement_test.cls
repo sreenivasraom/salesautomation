@@ -171,6 +171,7 @@ public class BuildsManagement_test {
      static testMethod void saveBuildPreferences_test(){
      // This is a demonstration to Stratasys
      //This is a Test
+     // jabil circuit demo
         BuildsManagement bm = new BuildsManagement();  
         bm.selectedProject='abdc';
            BuildsManagement.BuildSummary s1 = new BuildsManagement.BuildSummary();
