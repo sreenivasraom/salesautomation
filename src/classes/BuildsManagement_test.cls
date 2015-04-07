@@ -174,6 +174,8 @@ public class BuildsManagement_test {
      //This is a Test
      // jabil circuit demo
      //CocaCola Demonstration
+     // Intrax Demo
+     // This is the second demo
         BuildsManagement bm = new BuildsManagement();  
         bm.selectedProject='abdc';
            BuildsManagement.BuildSummary s1 = new BuildsManagement.BuildSummary();
