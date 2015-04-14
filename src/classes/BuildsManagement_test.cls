@@ -178,6 +178,7 @@ public class BuildsManagement_test {
      // This is the second demo
      // Merck demo
      // demonstration
+     // Live Demonstration
         BuildsManagement bm = new BuildsManagement();  
         bm.selectedProject='abdc';
            BuildsManagement.BuildSummary s1 = new BuildsManagement.BuildSummary();
