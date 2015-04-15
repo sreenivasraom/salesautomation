@@ -169,17 +169,7 @@ public class BuildsManagement_test {
      }
   
      static testMethod void saveBuildPreferences_test(){
-     // Demo to Syntel
-     // This is a demonstration to Stratasys
-     //This is a Test
-     // jabil circuit demo
-     //CocaCola Demonstration
-     // Intrax Demo
-     // This is the second demo
-     // Merck demo
-     // demonstration
-     // Live Demonstration
-     // Live Demonstration once again
+     // Religare Demonstration
         BuildsManagement bm = new BuildsManagement();  
         bm.selectedProject='abdc';
            BuildsManagement.BuildSummary s1 = new BuildsManagement.BuildSummary();
