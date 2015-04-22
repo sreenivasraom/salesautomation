@@ -216,6 +216,7 @@ public class BuildsManagement_test {
      }
      static testMethod void hashCode_test(){
      //some comment in Forrester Demo
+     // Financial Engines Discussion
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
