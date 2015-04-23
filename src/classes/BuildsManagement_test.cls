@@ -170,7 +170,8 @@ public class BuildsManagement_test {
   
      static testMethod void saveBuildPreferences_test(){
      // Religare Demonstration
-     // Genentech 
+     // Genentech
+     // IBM demo
         BuildsManagement bm = new BuildsManagement();  
         bm.selectedProject='abdc';
            BuildsManagement.BuildSummary s1 = new BuildsManagement.BuildSummary();
