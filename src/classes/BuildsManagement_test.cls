@@ -173,6 +173,7 @@ public class BuildsManagement_test {
      // Genentech
      // IBM demo
      // Laureate Demomonstration
+     // Blat lapidot Demonstration
         BuildsManagement bm = new BuildsManagement();  
         bm.selectedProject='abdc';
            BuildsManagement.BuildSummary s1 = new BuildsManagement.BuildSummary();
