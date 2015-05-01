@@ -173,6 +173,7 @@ public class BuildsManagement_test {
      // Genentech
      // IBM demo
      // Laureate Demomonstration
+     // Blat lapidot Demonstration
         BuildsManagement bm = new BuildsManagement();  
         bm.selectedProject='abdc';
            BuildsManagement.BuildSummary s1 = new BuildsManagement.BuildSummary();
@@ -219,6 +220,8 @@ public class BuildsManagement_test {
      static testMethod void hashCode_test(){
      //some comment in Forrester Demo
      // Financial Engines Discussion
+     // Austin Salesforce meet-up
+     // DMCC Dubai Demo
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
