@@ -223,6 +223,7 @@ public class BuildsManagement_test {
      // Austin Salesforce meet-up
      // DMCC Dubai Demo
      // Intralinks Demo
+     // Test PMD
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
