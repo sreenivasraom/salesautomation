@@ -5,7 +5,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
-    <description>Aspect Demonstration</description>
+    <description>Demo to Brad</description>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
