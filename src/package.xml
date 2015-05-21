@@ -217,5 +217,5 @@
         <members>RequestForStock__c.stocklimit</members>
         <name>ValidationRule</name>
     </types>
-    <version>32.0</version>
+    <version>24.0</version>
 </Package>
