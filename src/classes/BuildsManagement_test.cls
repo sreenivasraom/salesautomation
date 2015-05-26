@@ -224,8 +224,7 @@ public class BuildsManagement_test {
      // DMCC Dubai Demo
      // Intralinks Demo
      // Test PMD
-     // Demo to Brad
-     // Brad test again
+     // Brad Test again
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
