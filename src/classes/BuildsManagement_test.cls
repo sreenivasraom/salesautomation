@@ -215,10 +215,11 @@ public class BuildsManagement_test {
          bm.categList.add(s3); 
          bm.ttList.add(s4); 
         bm.saveBuildPreferences();
-  
+   
      }
      static testMethod void hashCode_test(){
-     //some comment in Forrester Demo
+     // Simons Test Line
+     // some comment in Forrester Demo
      // Financial Engines Discussion
      // Austin Salesforce meet-up
      // DMCC Dubai Demo
