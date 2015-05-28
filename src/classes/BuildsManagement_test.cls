@@ -224,7 +224,7 @@ public class BuildsManagement_test {
      // DMCC Dubai Demo
      // Intralinks Demo
      // Test PMD
-     // Brad Test again
+     // Demo for Inventiv
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
