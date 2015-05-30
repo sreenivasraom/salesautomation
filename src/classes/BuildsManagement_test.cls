@@ -225,6 +225,7 @@ public class BuildsManagement_test {
      // Intralinks Demo
      // Test PMD
      // Demo for Inventiv
+     //Demo for Thrivent Team
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
