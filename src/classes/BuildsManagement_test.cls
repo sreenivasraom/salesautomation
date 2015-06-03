@@ -226,6 +226,7 @@ public class BuildsManagement_test {
      // Test PMD
      // Demo for Inventiv
      //Demo for Thrivent Team
+     // Discussion with AExp Team
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
