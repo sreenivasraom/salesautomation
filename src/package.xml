@@ -4,5 +4,9 @@
         <members>BuildsManagement_test</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>RequestForStock__c.stocklimit</members>
+        <name>ValidationRule</name>
+    </types>
     <version>33.0</version>
 </Package>
