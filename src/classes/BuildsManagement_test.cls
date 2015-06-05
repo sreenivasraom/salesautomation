@@ -221,7 +221,7 @@ public class BuildsManagement_test {
      // some comment in Forrester Demo
      // Financial Engines Discussion
      // Austin Salesforce meet-up
-     // Pearson Demo
+     // quickcheck
 
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
