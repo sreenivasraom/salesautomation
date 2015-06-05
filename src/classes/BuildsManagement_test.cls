@@ -220,8 +220,9 @@ public class BuildsManagement_test {
      static testMethod void hashCode_test(){
      // some comment in Forrester Demo
      // Financial Engines Discussion
-     // Austin Salesforce meet-up
+    
      // quickcheck
+     //Cocacola Demo
 
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
