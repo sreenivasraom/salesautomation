@@ -5,7 +5,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
-    <description>Testing for Inventiv</description>
+    <description>Demo to Likitha</description>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
