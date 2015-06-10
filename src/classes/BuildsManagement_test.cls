@@ -224,6 +224,7 @@ public class BuildsManagement_test {
      // quickcheck
      //Cocacola Demo
      //SFDC Team demo
+     //Demo to Likitha
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
