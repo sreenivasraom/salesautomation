@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>TestPage123</members>
+        <members>MyPage</members>
         <name>ApexPage</name>
     </types>
     <types>
-        <members>TestPage123</members>
+        <members>MyTab</members>
         <name>CustomTab</name>
     </types>
     <version>33.0</version>
