@@ -2,6 +2,7 @@
 public class BuildsManagement_test {
     
     static testMethod void getProjects_test() {
+    //Test POC 
         BuildsManagement bm = new BuildsManagement();
         String retVal = bm.getProjects();
         String expectedResult = '<?xml version="1.0" encoding="UTF-8"?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:getActiveProjectNamesResponse xmlns:ns2="http://ws.service.rabit.com/"><return>DemoProject,TestProject,</return></ns2:getActiveProjectNamesResponse></S:Body></S:Envelope>';
@@ -225,6 +226,7 @@ public class BuildsManagement_test {
      //Cocacola Demo
      //SFDC Team demo
      //Demo to Likitha
+     //TestPOC
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
