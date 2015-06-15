@@ -1,22 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>JobTracker-Job Tracker Layout - Summer %2715</members>
-        <members>WorkFeedback-Feedback Layout - Summer %2715</members>
-        <members>WorkFeedbackQuestion-Feedback Question Layout - Summer %2715</members>
-        <members>WorkFeedbackQuestionSet-Feedback Question Set Layout - Summer %2715</members>
-        <members>WorkFeedbackRequest-Feedback Request Layout - Summer %2715</members>
-        <members>WorkPerformanceCycle-Performance Cycle Layout - Summer %2715</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>WorkFeedbackRequest.AboutTopics</members>
-        <members>WorkFeedbackRequest.All</members>
-        <members>WorkFeedbackTemplate.All</members>
-        <name>ListView</name>
-    </types>
-    <types>
-        <members>RequestForStock__c.stocklimit</members>
-        <name>ValidationRule</name>
-    </types>
     <version>33.0</version>
 </Package>
