@@ -14,5 +14,9 @@
         <members>WorkFeedbackTemplate.All</members>
         <name>ListView</name>
     </types>
+    <types>
+        <members>RequestForStock__c.stocklimit</members>
+        <name>ValidationRule</name>
+    </types>
     <version>33.0</version>
 </Package>
