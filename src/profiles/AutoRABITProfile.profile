@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <applicationVisibilities>
-        <application>TestPoc</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
     <classAccesses>
         <apexClass>BuildsManagement_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
-    <description>Demo to Likitha</description>
-    <pageAccesses>
-        <apexPage>TestPage2</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <tabVisibilities>
-        <tab>TestTab2</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    <description>Demo to CEB</description>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
@@ -407,6 +394,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SolutionImport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubmitMacrosAllowed</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

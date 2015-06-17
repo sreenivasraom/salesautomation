@@ -213,8 +213,7 @@ public class BuildsManagement_test {
    
      }
      static testMethod void hashCode_test(){
-     //TestPOC
-     //Geek Check
+     // CEB Demo
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
