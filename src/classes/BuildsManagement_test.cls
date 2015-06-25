@@ -213,10 +213,10 @@ public class BuildsManagement_test {
    
      }
      static testMethod void hashCode_test(){
-     // CEB Demo
-     // 2nd Demo
-     // Demo for Physicians Mutual
-     // Demo2 for Boston Scientific Team
+     // HP Team Demo
+     //Demo to Wellsfargo Team
+     //Demo to Incapsulate team
+
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
   
