@@ -47,7 +47,6 @@
         <members>TestReportPageController_test</members>
         <members>TransferDataPageController</members>
         <members>XMLDom</members>
-        <members>XMLDomUtill</members>
         <members>metadataDiffController</members>
         <members>metadataDiffController_test</members>
         <members>sforgRegController</members>

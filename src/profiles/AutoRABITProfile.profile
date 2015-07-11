@@ -181,10 +181,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>XMLDomUtill</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>metadataDiffController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
