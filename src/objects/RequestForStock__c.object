@@ -33,7 +33,7 @@
         <type>Default</type>
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This is request for stock object discussed in the Axiom demo description</description>
+    <description>This is request for stock object discussed in the Berkadia Demo description</description>
     <enableActivities>false</enableActivities>
     <enableEnhancedLookup>false</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
@@ -44,7 +44,7 @@
         <defaultValue>0</defaultValue>
         <externalId>false</externalId>
         <label>Current Stock</label>
-        <precision>12</precision>
+        <precision>10</precision>
         <required>true</required>
         <scale>0</scale>
         <type>Number</type>
