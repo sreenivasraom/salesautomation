@@ -1,5 +1,7 @@
 public class BuildsManagement{
 
+/// Makign a comment in the Apex code
+
     public String lastBuildTime { get; set; }
 
     public void redirectPopup() {

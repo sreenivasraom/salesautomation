@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>BuildsManagement</members>
+        <members>ChangePasswordController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CustomContrctManager</members>
+        <members>CustomMarketing Profile</members>
+        <name>Profile</name>
+    </types>
     <version>33.0</version>
 </Package>
