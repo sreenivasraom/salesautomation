@@ -213,9 +213,8 @@ public class BuildsManagement_test {
    
      }
      static testMethod void hashCode_test(){
-     
-    // Capgemini Demo
-    
+     // Product Demo
+
 
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
