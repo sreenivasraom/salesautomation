@@ -4,8 +4,8 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>RequestForStock__c.stocklimit</members>
-        <name>ValidationRule</name>
+        <members>RequestForStock__c.Current_Stock__c</members>
+        <name>CustomField</name>
     </types>
     <version>33.0</version>
 </Package>
