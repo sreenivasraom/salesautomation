@@ -213,7 +213,8 @@ public class BuildsManagement_test {
    
      }
      static testMethod void hashCode_test(){
-     // Product Demo
+     // Navneeth demo to Enxoo
+     // Enxoo demo
 
 
         BuildsManagement bm = new BuildsManagement();  
