@@ -33,7 +33,7 @@
         <type>Default</type>
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This is request for stock object discussed in the Berkadia Demo description</description>
+    <description>This is request for stock object discussed in the Intralinks Team discussion</description>
     <enableActivities>false</enableActivities>
     <enableEnhancedLookup>false</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
@@ -42,7 +42,7 @@
     <fields>
         <fullName>Current_Stock__c</fullName>
         <defaultValue>0</defaultValue>
-        <description>This is custom field in demo for AppNexus Team</description>
+        <description>This is custom field in demo for Intralinks Team</description>
         <externalId>false</externalId>
         <label>Current Stock</label>
         <precision>12</precision>
