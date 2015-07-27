@@ -62,7 +62,7 @@ private class PromotionControler_test {
         PromotionControler pc= new PromotionControler();
          pc.urlProjName='DemoProject';
          String nextPage = pc.cancel().getUrl();
-         System.assertEquals('/apex/rabitforce__rabitindex?proj=DemoProject',nextPage);
+         System.assertEquals('/apex/rabitindex?proj=DemoProject',nextPage);
      }
       static testMethod void deployBuild_test() {
         PromotionControler pc= new PromotionControler();

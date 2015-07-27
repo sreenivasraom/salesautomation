@@ -1,6 +1,6 @@
 @isTest
 public with sharing class ProjectListofControler_test {
-	
+    
     static testMethod void onLoadProjects_test(){
        ProjectsListofControler p = new ProjectsListofControler();
        p.onLoadProjects();
@@ -9,7 +9,7 @@ public with sharing class ProjectListofControler_test {
     static testMethod void ShowNewPage_test(){
         ProjectsListofControler p = new ProjectsListofControler();
         String nextPage = p.ShowNewPage().getUrl();
-        System.assertEquals('/apex/rabitforce__createproject',nextPage);
+        System.assertEquals('/apex/createproject',nextPage);
     }
     
     static testMethod void mainTestGetProjects_test(){
@@ -22,7 +22,7 @@ public with sharing class ProjectListofControler_test {
         ProjectsListofControler p = new ProjectsListofControler();
         p.projectParam='DemoProject';
         String nextPage = p.ShowProjectDetails().getUrl();
-        System.assertEquals('/apex/rabitforce__testpage?edit=true&projectName=DemoProject',nextPage);
+        System.assertEquals('/apex/testpage?edit=true&projectName=DemoProject',nextPage);
     }
     
     static testMethod void parseProjects_test(){

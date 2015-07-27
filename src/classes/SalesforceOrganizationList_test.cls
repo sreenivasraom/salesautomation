@@ -4,14 +4,14 @@ private class SalesforceOrganizationList_test {
     static testMethod void showSalesforceOrganizationRegisterPage_test() {
         SalesforceOrganizationListController sflc = new SalesforceOrganizationListController();
         String url= sflc.ShowSalesforceOrganizationRegisterPage().getUrl();
-        System.assertEquals('/apex/rabitforce__sforgregistration', url);
+        System.assertEquals('/apex/sforgregistration', url);
     }
     
      static testMethod void showSfOrgDetails_test() {
         SalesforceOrganizationListController sflc = new SalesforceOrganizationListController();
         sflc.sforgParam='test';
         String url=sflc.showSfOrgDetails().getUrl();
-        System.assertEquals('/apex/rabitforce__sforgregistration?edit=true&sforgName=test', url);
+        System.assertEquals('/apex/sforgregistration?edit=true&sforgName=test', url);
      }
      
      static testMethod void deleteSfOrg_test() {
@@ -66,8 +66,8 @@ private class SalesforceOrganizationList_test {
         System.assertEquals(',Demo',retVal);
      }
      static testMethod void getRegisterdSfOrgList_test(){
-     	SalesforceOrganizationListController sflc = new SalesforceOrganizationListController();
-     	sflc.getRegisterdSfOrgList();
+        SalesforceOrganizationListController sflc = new SalesforceOrganizationListController();
+        sflc.getRegisterdSfOrgList();
      }
      static testMethod void deleteSfOrgSandbox_test(){
        SalesforceOrganizationListController sflc = new SalesforceOrganizationListController();

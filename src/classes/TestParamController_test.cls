@@ -16,7 +16,7 @@ public with sharing class TestParamController_test {
     static testMethod void cancelProjectCreation_test(){
         TestParamController tc =new TestParamController();
         Pagereference pf=tc.cancelProjectCreation();
-        System.assertEquals('/apex/rabitforce__projects',pf.getUrl());
+        System.assertEquals('/apex/projects',pf.getUrl());
     }
 
     static testMethod void middleProjectCreation_test(){
@@ -24,7 +24,7 @@ public with sharing class TestParamController_test {
         tc.name='pavan';
         tc.projectMgmtSystem=true;
         Pagereference pf=tc.middleProjectCreation();
-        System.assertEquals('/apex/rabitforce__testpage?jira=true&projectName=pavan',pf.getUrl());
+        System.assertEquals('/apex/testpage?jira=true&projectName=pavan',pf.getUrl());
     }
     static testMethod void PrepareProjectXmlNode_test(){
         TestParamController tc =new TestParamController();
