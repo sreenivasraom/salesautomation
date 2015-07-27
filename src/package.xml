@@ -1,15 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>BuildsManagement_test</members>
-        <members>ProjectListofControler_test</members>
-        <members>PromotionControler_test</members>
-        <members>SalesforceOrganizationList_test</members>
-        <members>TestParamController_test</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>RequestForStock__c.stocklimit</members>
-        <name>ValidationRule</name>
-    </types>
     <version>34.0</version>
 </Package>
