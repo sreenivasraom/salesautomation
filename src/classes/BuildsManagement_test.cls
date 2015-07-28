@@ -213,7 +213,7 @@ public class BuildsManagement_test {
    
      }
      static testMethod void hashCode_test(){
-     // CI Process
+     // CI Process redefined
 
 
         BuildsManagement bm = new BuildsManagement();  
