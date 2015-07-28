@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <enableEnhancedLookup>false</enableEnhancedLookup>
+    <fields>
+        <fullName>Current_Stock__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>This is custom field in demo for Box.comTeam</description>
+        <externalId>false</externalId>
+        <label>Current Stock</label>
+        <precision>12</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expected_Date_New__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Date New</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TestField__c</fullName>
+        <description>This is a test field in the demo</description>
+        <externalId>false</externalId>
+        <label>TestField</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>New_Record_Type</fullName>
+        <active>true</active>
+        <label>New Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_Type1</fullName>
+        <active>true</active>
+        <label>Record Type1</label>
+    </recordTypes>
     <validationRules>
         <fullName>stocklimit</fullName>
         <active>true</active>
         <description>stocklimit - Demo</description>
-        <errorConditionFormula>Current_Stock__c + RequiredStock__c &lt; 500</errorConditionFormula>
+        <errorConditionFormula>Current_Stock__c + RequiredStock__c &gt; 500</errorConditionFormula>
         <errorMessage>stock limit exceeds 500</errorMessage>
     </validationRules>
 </CustomObject>

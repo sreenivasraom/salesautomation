@@ -6,6 +6,32 @@
     </classAccesses>
     <custom>true</custom>
     <description>Demo to CEB</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>RequestForStock__c.TestField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>RequestForStock__c-RequestForStock Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RequestForStock__c-RequestForStock Layout</layout>
+        <recordType>RequestForStock__c.New_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RequestForStock__c-RequestForStock Layout</layout>
+        <recordType>RequestForStock__c.Record_Type1</recordType>
+    </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>RequestForStock__c.New_Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>RequestForStock__c.Record_Type1</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

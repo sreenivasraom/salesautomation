@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
-        <apexClass>BuildsManagement</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ChangePasswordController</apexClass>
+        <apexClass>BuildsManagement_test</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>RequestForStock__c.TestField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>RequestForStock__c-RequestForStock Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RequestForStock__c-RequestForStock Layout</layout>
+        <recordType>RequestForStock__c.New_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RequestForStock__c-RequestForStock Layout</layout>
+        <recordType>RequestForStock__c.Record_Type1</recordType>
+    </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>RequestForStock__c.New_Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>RequestForStock__c.Record_Type1</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
