@@ -19,7 +19,7 @@ public class BuildsManagement_test {
          bm.selectedProject='DemoProject';
          bm.proBno='3';
          String nextPage = bm.showDashBoard().getUrl();
-         System.assertEquals('/apex/rabitforce__dashboard?bno=3&proj=DemoProject',nextPage);
+         System.assertEquals('/apex/dashboard?bno=3&proj=DemoProject',nextPage);
      } 
      
      static testMethod void TestReportPage_test() {
@@ -27,7 +27,7 @@ public class BuildsManagement_test {
          bm.selectedProject='DemoProject';
          bm.proBno='3';
          String nextPage = bm.TestReportPage().getUrl();
-         System.assertEquals('/apex/rabitforce__testreportpage?bno=3&proj=DemoProject',nextPage);
+         System.assertEquals('/apex/testreportpage?bno=3&proj=DemoProject',nextPage);
      } 
      
      static testMethod void promotionBuild_test() {
@@ -217,6 +217,7 @@ public class BuildsManagement_test {
      // Enxoo demo
      // Demo to FT Team
      //Internal discussion
+     //Demo to Workday Team
 
 
         BuildsManagement bm = new BuildsManagement();  

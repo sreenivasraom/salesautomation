@@ -5,6 +5,10 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Clone</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -17,11 +21,19 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -32,22 +44,28 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This is request for stock object discussed in the Intralinks Team discussion</description>
+    <description>This is request for stock object discussed in the Workday Team discussion</description>
     <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
     <enableEnhancedLookup>false</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>Current_Stock__c</fullName>
         <defaultValue>0</defaultValue>
-        <description>This is custom field in demo for Intralinks Team</description>
+        <description>This is custom field in demo for Workday Team</description>
         <externalId>false</externalId>
         <label>Current Stock</label>
-        <precision>12</precision>
+        <precision>10</precision>
         <required>true</required>
         <scale>0</scale>
+        <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
     </fields>
@@ -56,6 +74,7 @@
         <externalId>false</externalId>
         <label>Expected Date</label>
         <required>true</required>
+        <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
     <fields>
@@ -68,6 +87,7 @@
         <relationshipLabel>RequestForStock</relationshipLabel>
         <relationshipName>RequestForStock</relationshipName>
         <required>true</required>
+        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -77,6 +97,7 @@
         <precision>18</precision>
         <required>true</required>
         <scale>0</scale>
+        <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
     </fields>
