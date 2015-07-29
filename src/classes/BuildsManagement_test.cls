@@ -196,7 +196,7 @@ public class BuildsManagement_test {
          s1.testsInProgress=true; 
          s1.testsEmpty=true; 
          bm.listOfBuilds.add(s1); 
-         bm.build='bbfsd';
+         bm.build='ssb1';
          bm.serverIp='rbhjbf';
          bm.installBuild='ndfkn';
          bm.testRun='bfvb';
@@ -213,12 +213,8 @@ public class BuildsManagement_test {
    
      }
      static testMethod void hashCode_test(){
-     // Navneeth demo to Enxoo
-     // Enxoo demo
-     // Demo to FT Team
-     //Internal discussion
-     //Demo to Workday Team
-
+     // Demo to Bhargavi Pavan Vishal
+     // Demo to Box.com Team
 
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();

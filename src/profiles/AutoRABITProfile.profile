@@ -292,6 +292,14 @@
         <layout>RequestForStock__c-RequestForStock Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>RequestForStock__c-RequestForStock Layout</layout>
+        <recordType>RequestForStock__c.New_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RequestForStock__c-RequestForStock Layout</layout>
+        <recordType>RequestForStock__c.Record_Type1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>SalesExecutive__c-SalesExecutive Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -527,6 +535,16 @@
         <apexPage>transferDataPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>RequestForStock__c.New_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>RequestForStock__c.Record_Type1</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>TariffPlan__c.North_India</recordType>

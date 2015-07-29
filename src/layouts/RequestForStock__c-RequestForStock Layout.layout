@@ -9,7 +9,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Expected_Date__c</field>
+                <field>Expected_Date_New__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
@@ -62,7 +62,7 @@
         <style>CustomLinks</style>
     </layoutSections>
     <miniLayout>
-        <fields>Expected_Date__c</fields>
+        <fields>Expected_Date_New__c</fields>
     </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>true</showHighlightsPanel>

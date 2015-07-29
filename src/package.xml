@@ -128,7 +128,7 @@
         <members>Region__c.State_Province__c</members>
         <members>Region__c.infoEx_Id__c</members>
         <members>RequestForStock__c.Current_Stock__c</members>
-        <members>RequestForStock__c.Expected_Date__c</members>
+        <members>RequestForStock__c.Expected_Date_New__c</members>
         <members>RequestForStock__c.Product__c</members>
         <members>RequestForStock__c.RequiredStock__c</members>
         <members>SalesExecutive__c.City__c</members>
@@ -197,6 +197,8 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>RequestForStock__c.New_Record_Type</members>
+        <members>RequestForStock__c.Record_Type1</members>
         <members>TariffPlan__c.North_India</members>
         <members>TariffPlan__c.South_India</members>
         <name>RecordType</name>
