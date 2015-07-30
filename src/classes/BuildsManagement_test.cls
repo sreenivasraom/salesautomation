@@ -217,6 +217,8 @@ public class BuildsManagement_test {
      // Demo to Box.com Team
      // Demo to Flextronics team
      // Demo to John Szurley
+     // Demo to SMS Management & Technology
+
 
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
