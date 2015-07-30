@@ -117,18 +117,13 @@
         <active>true</active>
         <label>New Record Type</label>
     </recordTypes>
-    <recordTypes>
-        <fullName>Record_Type1</fullName>
-        <active>true</active>
-        <label>Record Type1</label>
-    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>stocklimit</fullName>
         <active>true</active>
         <description>stocklimit - Demo</description>
-        <errorConditionFormula>Current_Stock__c + RequiredStock__c &lt; 500</errorConditionFormula>
+        <errorConditionFormula>Current_Stock__c + RequiredStock__c &gt; 500</errorConditionFormula>
         <errorMessage>stock limit exceeds 500</errorMessage>
     </validationRules>
 </CustomObject>

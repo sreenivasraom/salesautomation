@@ -215,6 +215,8 @@ public class BuildsManagement_test {
      static testMethod void hashCode_test(){
      // Demo to Bhargavi Pavan Vishal
      // Demo to Box.com Team
+     // Demo to Flextronics team
+     // Demo to John Szurley
 
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();

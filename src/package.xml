@@ -198,7 +198,6 @@
     </types>
     <types>
         <members>RequestForStock__c.New_Record_Type</members>
-        <members>RequestForStock__c.Record_Type1</members>
         <members>TariffPlan__c.North_India</members>
         <members>TariffPlan__c.South_India</members>
         <name>RecordType</name>
