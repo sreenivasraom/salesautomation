@@ -220,6 +220,8 @@ public class BuildsManagement_test {
      // Demo to SMS Management & Technology
      // Demo to SunTrust Team
      // Demo with Mitul and Gautem
+     //Demo with Infosys Team
+     //Demo with Capgemini Italia
 
 
         BuildsManagement bm = new BuildsManagement();  
