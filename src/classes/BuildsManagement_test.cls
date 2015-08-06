@@ -222,6 +222,7 @@ public class BuildsManagement_test {
      // Demo with Mitul and Gautem
      //Demo with Infosys Team
      //Demo with Capgemini Italia
+     // Continuous Integration pROCESS
 
 
         BuildsManagement bm = new BuildsManagement();  
