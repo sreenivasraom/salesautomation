@@ -224,6 +224,7 @@ public class BuildsManagement_test {
      //Demo with Capgemini Italia
      // Continuous Integration pROCESS
      // Demo with Ryan
+     // Demo to Rice Energy team
 
 
         BuildsManagement bm = new BuildsManagement();  
