@@ -213,18 +213,8 @@ public class BuildsManagement_test {
    
      }
      static testMethod void hashCode_test(){
-     // Demo to Bhargavi Pavan Vishal
-     // Demo to Box.com Team
-     // Demo to Flextronics team
-     // Demo to John Szurley
-     // Demo to SMS Management & Technology
-     // Demo to SunTrust Team
-     // Demo with Mitul and Gautem
-     //Demo with Infosys Team
-     //Demo with Capgemini Italia
-     // Continuous Integration pROCESS
-     // Demo with Ryan
-     // Demo to Rice Energy team
+     // FTR
+
 
 
         BuildsManagement bm = new BuildsManagement();  
