@@ -196,7 +196,8 @@ public class BuildsManagement_test {
          s1.testsInProgress=true; 
          s1.testsEmpty=true; 
          bm.listOfBuilds.add(s1); 
-         bm.build='ssb1';
+         //change some constant here 
+         bm.build='newconstant';
          bm.serverIp='rbhjbf';
          bm.installBuild='ndfkn';
          bm.testRun='bfvb';
@@ -213,7 +214,7 @@ public class BuildsManagement_test {
    
      }
      static testMethod void hashCode_test(){
-     // FTR
+     // Demo to Sailaja Capgemini
 
 
 
