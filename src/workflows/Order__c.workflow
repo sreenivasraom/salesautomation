@@ -15,7 +15,7 @@
             <name>Send_to_Approval</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>false</active>
+        <active>true</active>
         <criteriaItems>
             <field>Order__c.Quantity__c</field>
             <operation>greaterOrEqual</operation>

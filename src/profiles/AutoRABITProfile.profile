@@ -36,6 +36,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Order__c-Mysalesorder Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
