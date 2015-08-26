@@ -197,7 +197,7 @@ public class BuildsManagement_test {
          s1.testsInProgress=true; 
          s1.testsEmpty=true; 
          bm.listOfBuilds.add(s1); 
-         //change some constant here 
+         //Change some constant here
          bm.build='newconstant';
          bm.serverIp='rbhjbf';
          bm.installBuild='ndfkn';
@@ -206,9 +206,10 @@ public class BuildsManagement_test {
          s2.flag='true';
          s2.name='testname';
          s3.flag='true';
-         s3.name='fiojo';
-         s4.flag='true';
-         s4.name='fiojo';
+         //changes made
+         s3.name='test name';
+         s4.flag='true'; 
+         s4.name='fioio';
          bm.compList.add(s2); 
          bm.categList.add(s3); 
          bm.ttList.add(s4); 
