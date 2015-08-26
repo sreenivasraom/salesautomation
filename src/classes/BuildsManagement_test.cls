@@ -180,7 +180,8 @@ public class BuildsManagement_test {
          bm.categList = new list<BuildsManagement.Categories>(); 
          bm.ttList = new list<BuildsManagement.TestTypes>(); 
          s1.buildDTime='324'; 
-         s1.buildNumber='324'; 
+         //changing build number to 325
+         s1.buildNumber='325'; 
          s1.buildStatus='324'; 
          s1.installationStatus='324'; 
          s1.failedUITests='324'; 
@@ -200,9 +201,10 @@ public class BuildsManagement_test {
          bm.build='newconstant';
          bm.serverIp='rbhjbf';
          bm.installBuild='ndfkn';
-         bm.testRun='bfvb';
+         //some changes here
+         bm.testRun='newchange';
          s2.flag='true';
-         s2.name='fiojo';
+         s2.name='testname';
          s3.flag='true';
          s3.name='fiojo';
          s4.flag='true';
