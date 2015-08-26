@@ -201,8 +201,8 @@ public class BuildsManagement_test {
          bm.build='newconstant';
          bm.serverIp='rbhjbf';
          bm.installBuild='ndfkn';
-         //some changes here
-         bm.testRun='newchange';
+         //some changes done here for CSC Team
+         bm.testRun='csctestrun';
          s2.flag='true';
          s2.name='testname';
          s3.flag='true';
