@@ -4,7 +4,7 @@
     <fields>
         <fullName>Current_Stock__c</fullName>
         <defaultValue>0</defaultValue>
-        <description>This is custom field in demo for CSC Team</description>
+        <description>This is custom field in demo</description>
         <externalId>false</externalId>
         <label>Current Stock</label>
         <precision>12</precision>

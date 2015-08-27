@@ -9,8 +9,24 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>RequestForStock__c.Current_Stock__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Region__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>Opportunity-Opportunity Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Region__c</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
+        <members>RequestForStock__c.stocklimit150</members>
+        <name>ValidationRule</name>
     </types>
     <types>
         <members>Order__c.Status Update</members>

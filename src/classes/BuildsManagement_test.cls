@@ -197,20 +197,19 @@ public class BuildsManagement_test {
          s1.testsInProgress=true; 
          s1.testsEmpty=true; 
          bm.listOfBuilds.add(s1); 
-         //Change some constant here
+         //no changes made.
          bm.build='newconstant';
-         bm.serverIp='rbhjbf';
-         // demonstrate easy commits
+         bm.serverIp='abcde';
+         // demonstrate sandbox changes
          bm.installBuild='easycommits';
-         //some changes done here for CSC Team
          bm.testRun='csctestrun';
          s2.flag='true';
          s2.name='testname';
          s3.flag='true';
-         //changes made
+         //Make changes here.
          s3.name='test name';
-         s4.flag='true'; 
-         s4.name='fioio';
+         s4.flag='false'; 
+         s4.name='abcde';
          bm.compList.add(s2); 
          bm.categList.add(s3); 
          bm.ttList.add(s4); 
