@@ -10,8 +10,9 @@
         <criteriaItems>
             <field>Order__c.Quantity__c</field>
             <operation>greaterOrEqual</operation>
-            <value>5</value>
+            <value>6</value>
         </criteriaItems>
+        <description>Demo Time</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
 </Workflow>

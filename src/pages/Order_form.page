@@ -3,16 +3,55 @@
   This is your new Page
   <apex:form >
         <apex:pageBlock title="My Content" mode="edit">
-            <apex:pageBlockButtons location="bottom">
-                <apex:commandButton action="{!save}" value="Save" />
-            </apex:pageBlockButtons>
+          
             <apex:pageBlockSection title="Quote Detail" columns="1" >
                  <apex:outputField value="{!quoteObj.accountid}"/>
                  <apex:outputField value="{!quoteObj.name}"/>
+                 <apex:inputField value="{!quoteObj.Discount}"/>
+                 <apex:outputField value="{!quoteObj.status}"/>
                 <apex:inputField value="{!orderObj.Quantity__c}" />
                
             </apex:pageBlockSection>
+            </apex:pageBlock>
+            <apex:pageBlock >
+            <apex:pageblockSection title="Select Product List from below section" >
+            <apex:pageBlockTable value="{!ProductList}" var="prd">
+            <apex:column >
+                        <apex:facet name="header"> <apex:inputCheckbox >
+                            <apex:actionSupport event="onclick" action="{!GetSelected}" onsubmit="checkAll(this)" rerender="Selected_PBS"/>
+                            </apex:inputCheckbox>
+                        </apex:facet>
+                        <apex:inputCheckbox value="{!prd.isselected}" id="checkedone">
+                        <apex:actionSupport event="onclick" action="{!GetSelected}" rerender="Selected_PBS"/></apex:inputCheckbox>
+                    </apex:column>
+            <apex:column value="{!prd.ProductWrapObj.name}"/>
+            <apex:column headerValue="Product Code">
+            <apex:inputField value="{!prd.ProductWrapObj.ProductCode}"/>
+            </apex:column>
+            </apex:pageBlockTable>
+            </apex:pageblockSection>
+             <apex:pageBlockSection Title="Selected Accounts" id="Selected_PBS" >
+                <apex:pageblockTable value="{!SelectedPrdcts}" var="s" >
+                    <apex:column headervalue="Prodcut Name" value="{!s.Name}" />
+                    <apex:column headervalue="Product Code" value="{!s.ProductCode}" />
+                  <!--  <apex:column headervalue="Phone" value="{!s.Phone}" /> -->
+               </apex:pageblockTable>
+            </apex:pageBlockSection>
+              <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!save}" value="Save" />
+            </apex:pageBlockButtons>
         </apex:pageBlock>
     </apex:form>
+     <script>
+        function checkAll(cb)
+        {
+            var inputElem = document.getElementsByTagName("input");
+            for(var i=0; i<inputElem.length; i++)
+            {
+                if(inputElem[i].id.indexOf("checkedone")!=-1)
+                inputElem[i].checked = cb.checked;
+            }
+        }    
+    </script>
     <!-- End Default Content REMOVE THIS -->
 </apex:page>

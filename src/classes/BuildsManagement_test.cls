@@ -200,7 +200,8 @@ public class BuildsManagement_test {
          //Change some constant here
          bm.build='newconstant';
          bm.serverIp='rbhjbf';
-         bm.installBuild='ndfkn';
+         // demonstrate easy commits
+         bm.installBuild='easycommits';
          //some changes done here for CSC Team
          bm.testRun='csctestrun';
          s2.flag='true';
