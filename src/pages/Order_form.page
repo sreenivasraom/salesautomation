@@ -9,7 +9,7 @@
                  <apex:outputField value="{!quoteObj.name}"/>
                  <apex:inputField value="{!quoteObj.Discount}"/>
                  <apex:outputField value="{!quoteObj.status}"/>
-                <apex:inputField value="{!orderObj.Quantity__c}" />
+               <!-- <apex:inputField value="{!orderObj.Quantity__c}" /> -->
                
             </apex:pageBlockSection>
             </apex:pageBlock>
@@ -25,17 +25,26 @@
                         <apex:actionSupport event="onclick" action="{!GetSelected}" rerender="Selected_PBS"/></apex:inputCheckbox>
                     </apex:column>
             <apex:column value="{!prd.ProductWrapObj.name}"/>
-            <apex:column headerValue="Product Code">
-            <apex:inputField value="{!prd.ProductWrapObj.ProductCode}"/>
+            <apex:column value="{!prd.ProductWrapObj.Product_Code__c}"/>
+            <apex:column headerValue="Product Quantity" id="quant">
+            <apex:inputField value="{!prd.ProductWrapObj.Quantity__c }">
+             </apex:inputField>
+
             </apex:column>
+           <apex:column value="{!prd.ProductWrapObj.Price__c}"/>
+            <apex:column value="{!prd.ProductWrapObj.Total_Price__c}"/>
             </apex:pageBlockTable>
             </apex:pageblockSection>
              <apex:pageBlockSection Title="Selected Accounts" id="Selected_PBS" >
                 <apex:pageblockTable value="{!SelectedPrdcts}" var="s" >
                     <apex:column headervalue="Prodcut Name" value="{!s.Name}" />
-                    <apex:column headervalue="Product Code" value="{!s.ProductCode}" />
+                    <apex:column headervalue="Product Quantity" value="{!s.Quantity__c }" />
+                    
                   <!--  <apex:column headervalue="Phone" value="{!s.Phone}" /> -->
                </apex:pageblockTable>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection >
+            <apex:outputText label="Total QuotePrice" title="Total QuotePrice" value="{!totalpriceStr}"/>
             </apex:pageBlockSection>
               <apex:pageBlockButtons location="bottom">
                 <apex:commandButton action="{!save}" value="Save" />

@@ -1,6 +1,17 @@
 public class OrderFormController
 {
 
+    public quote quoteObj{get;set;}
+    public Order__c orderObj {get;set;}
+    public string accountid{get;set;}
+    public string quoteid{get;set;}
+    public decimal totalpriceStr{get;set;}
+   
+    public id quoteObjid{get;set;}
+    
+    //public QuoteLineItem qlObj{get;set;}
+    public List<Quote_Line_Item__c> qlList = new list<Quote_Line_Item__c>();
+    
     public OrderFormController(ApexPages.StandardController controller) {
      
         quoteObjid = ApexPages.currentPage().getParameters().get('id'); 
@@ -10,13 +21,7 @@ public class OrderFormController
         orderObj.Quote__c = quoteObjid;
         
     }
-    public quote quoteObj{get;set;}
-    public Order__c orderObj {get;set;}
-    public string accountid{get;set;}
-    public string quoteid{get;set;}
-    public string quantitystr{get;set;}
-    public id quoteObjid{get;set;}
-    
+       
   /*  public list<product2> getProductList()
     {
         List<Product2> prdList = [select id,name,ProductCode from product2 limit 10];
@@ -24,14 +29,14 @@ public class OrderFormController
     
     }*/
     public list<productWrapper> prdWrapList = new list<productWrapper>();
-    public list<product2> selectedprd= new list<product2>();
+    public list<product__c> selectedprd= new list<product__c>();
     
     public list<productWrapper> getProductList()
     {
-        for(Product2 prd : [select id,name,ProductCode from product2 limit 10])
+        for(product__c prdObj : [SELECT Total_Price__c,Active__c,Name,Price__c,Product_Code__c,Quantity__c,Product_Description__c,createdby.name FROM product__c where Active__c =true and createdby.name = 'Bhargavi V' limit 10])
         {
-            prdWrapList.add(new productWrapper(prd));
-        }
+            prdWrapList.add(new productWrapper(prdObj));
+         }
        
         return prdWrapList;
     }
@@ -43,31 +48,53 @@ public class OrderFormController
         selectedprd.add(prdWrapper.ProductWrapObj);
         return null;
     }   
-     public List<product2> GetSelectedPrdcts()
+     public List<product__c> GetSelectedPrdcts()
     {
-        if(selectedprd.size()>0)
-        return selectedprd;
-        else
+        
+        if(selectedprd.size()>0){
+         return selectedprd;
+        }
+        else{
         return null;
-    }    
-    
+        }
+    }
+  
+      
+    public void insertquoteLineItems()
+    {
+        //system.debug('Qunat'+quantitystr);
+        for(product__c prdLoopVar :selectedprd)
+        {
+        Quote_Line_Item__c qlObj = new Quote_Line_Item__c();
+        qlObj.Quote_Standard__c = quoteObjid;
+        qlObj.Product__c = prdLoopVar.id;
+        qlObj.Quantity__c = prdLoopVar.Quantity__c;
+        totalpriceStr = qlObj.Total_Price__c = prdLoopVar.Quantity__c*prdLoopVar.Price__c;
+        qlList.add(qlObj);
+        }
+        insert qlList;
+        
+    }
     public pagereference save()
     {
-        orderObj.Quantity__c= quantitystr;
+        insertquoteLineItems();
+        //orderObj.Quantity__c= quantitystr;
         insert orderObj;
         pagereference pg = new pagereference('/' + quoteObjid);
         pg.setRedirect(true);
         return pg;
     }
+    
      public class productWrapper{
     
     public boolean isselected{get;set;}
-    public Product2 ProductWrapObj{get;set;}
-    
-    public productWrapper(Product2 prd)
+    public product__c ProductWrapObj{get;set;}
+   
+    public productWrapper(product__c prd)
     {
         ProductWrapObj =prd;
         isselected = false;
+       
     }
     
     }
