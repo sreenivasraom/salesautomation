@@ -13,16 +13,32 @@
     </types>
     <types>
         <members>Order__c.Discount__c</members>
+        <members>Product2.Quantity__c</members>
+        <members>Quote.Total_Price_on_Quote__c</members>
+        <members>Quote_Line_Item__c.Product__c</members>
+        <members>Quote_Line_Item__c.Quantity__c</members>
+        <members>Quote_Line_Item__c.Quote_Standard__c</members>
+        <members>Quote_Line_Item__c.Total_Price__c</members>
+        <members>Quote__c.Opportunity__c</members>
         <members>product__c.Price_per_Product__c</members>
+        <members>product__c.Quantity__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Order__c</members>
+        <members>Quote_Line_Item__c</members>
+        <members>Quote__c</members>
         <members>product__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>Opportunity-Regular Deals Layout</members>
         <members>Order__c-Mysalesorder Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>Quote-Quote Layout</members>
+        <members>Quote_Line_Item__c-Quote Line Item Layout</members>
+        <members>Quote__c-Quote Layout</members>
         <members>product__c-products Layout</members>
         <name>Layout</name>
     </types>
@@ -46,6 +62,8 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Quote_Line_Item__c</members>
+        <members>Quote__c</members>
         <members>product__c</members>
         <name>SharingRules</name>
     </types>
