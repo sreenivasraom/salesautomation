@@ -2,12 +2,14 @@
 
   This is your new Page
   <apex:form >
+        <apex:variable value="{!0.00}" var="total1"/>
+       <apex:variable value="{!0}" var="total2"/>
         <apex:pageBlock title="My Content" mode="edit">
           
             <apex:pageBlockSection title="Quote Detail" columns="1" >
                  <apex:outputField value="{!quoteObj.accountid}"/>
                  <apex:outputField value="{!quoteObj.name}"/>
-                 <apex:inputField value="{!quoteObj.Discount}"/>
+                 <apex:inputField value="{!orderObj.Discount__c}"/>
                  <apex:outputField value="{!quoteObj.status}"/>
                <!-- <apex:inputField value="{!orderObj.Quantity__c}" /> -->
                
@@ -19,7 +21,7 @@
             <apex:column >
                         <apex:facet name="header"> <apex:inputCheckbox >
                             <apex:actionSupport event="onclick" action="{!GetSelected}" onsubmit="checkAll(this)" rerender="Selected_PBS"/>
-                            </apex:inputCheckbox>
+                            </apex:inputCheckbox>[
                         </apex:facet>
                         <apex:inputCheckbox value="{!prd.isselected}" id="checkedone">
                         <apex:actionSupport event="onclick" action="{!GetSelected}" rerender="Selected_PBS"/></apex:inputCheckbox>
@@ -27,24 +29,33 @@
             <apex:column value="{!prd.ProductWrapObj.name}"/>
             <apex:column value="{!prd.ProductWrapObj.Product_Code__c}"/>
             <apex:column headerValue="Product Quantity" id="quant">
-            <apex:inputField value="{!prd.ProductWrapObj.Quantity__c }">
-             </apex:inputField>
-
+            <apex:actionRegion >
+            <apex:inputField value="{!prd.ProductWrapObj.Quantity__c }" >
+                <apex:actionSupport event="onkeyup" reRender="total"/>
+            </apex:inputField>
+        </apex:actionRegion> 
             </apex:column>
-           <apex:column value="{!prd.ProductWrapObj.Price__c}"/>
-            <apex:column value="{!prd.ProductWrapObj.Total_Price__c}"/>
+           <apex:column value="{!prd.ProductWrapObj.Price__c}" id="unitprice" />
+            <apex:column headerValue="Total">
+    <apex:outputText id="total" style="width:80px" value="{0, number, 0.00}">
+        <apex:param value="{! prd.ProductWrapObj.Quantity__c * (prd.ProductWrapObj.Price__c) }" assignTo="{!totalVal}" name="totalstr"/>
+    </apex:outputText>
+</apex:column>
+          <!--  <apex:column value="{!prd.ProductWrapObj.Total_Price__c}"/> -->
             </apex:pageBlockTable>
             </apex:pageblockSection>
              <apex:pageBlockSection Title="Selected Accounts" id="Selected_PBS" >
                 <apex:pageblockTable value="{!SelectedPrdcts}" var="s" >
                     <apex:column headervalue="Prodcut Name" value="{!s.Name}" />
                     <apex:column headervalue="Product Quantity" value="{!s.Quantity__c }" />
-                    
-                  <!--  <apex:column headervalue="Phone" value="{!s.Phone}" /> -->
+                   <!-- <apex:column headervalue="Total Price" value="{!priceperProduct[s.id]}" > 
+                   
+                    </apex:column> -->
                </apex:pageblockTable>
-            </apex:pageBlockSection>
+            </apex:pageBlockSection> 
+           
             <apex:pageBlockSection >
-            <apex:outputText label="Total QuotePrice" title="Total QuotePrice" value="{!totalpriceStr}"/>
+            <!--<apex:outputText label="Total QuotePrice" title="Total QuotePrice" value="{!totalpriceStr}"/> -->
             </apex:pageBlockSection>
               <apex:pageBlockButtons location="bottom">
                 <apex:commandButton action="{!save}" value="Save" />
@@ -60,7 +71,8 @@
                 if(inputElem[i].id.indexOf("checkedone")!=-1)
                 inputElem[i].checked = cb.checked;
             }
-        }    
+        }
+       
     </script>
     <!-- End Default Content REMOVE THIS -->
 </apex:page>

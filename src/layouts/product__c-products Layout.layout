@@ -24,8 +24,8 @@
                 <field>Quantity__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Total_Price__c</field>
+                <behavior>Edit</behavior>
+                <field>Price_per_Product__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
