@@ -205,10 +205,10 @@ public class BuildsManagement_test {
          bm.testRun='csctestrun';
          s2.flag='true';
          s2.name='testname';
-         s3.flag='true';
+         s3.flag='false';
          //Make changes here.
          s3.name='test name';
-         s4.flag='false'; 
+         s4.flag='true'; 
          s4.name='abcde';
          bm.compList.add(s2); 
          bm.categList.add(s3); 
