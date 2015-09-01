@@ -202,7 +202,8 @@ public class BuildsManagement_test {
          bm.serverIp='abcde';
          // demonstrate sandbox changes
          bm.installBuild='easycommits';
-         bm.testRun='csctestrun';
+         //some changes to test run
+         bm.testRun='Sunnovatestrun';
          s2.flag='true';
          s2.name='testname';
          s3.flag='false';
