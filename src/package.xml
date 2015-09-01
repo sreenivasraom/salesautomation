@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>BuildsManagement_test</members>
         <members>CreatingAccount4589</members>
         <members>MyController</members>
         <members>OrderFormController</members>
@@ -15,8 +16,16 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Region__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>Quote-Quote Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Region__c</members>
+        <name>SharingRules</name>
     </types>
     <types>
         <members>Quote.Create_Order</members>
