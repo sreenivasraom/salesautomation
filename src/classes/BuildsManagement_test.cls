@@ -210,7 +210,8 @@ public class BuildsManagement_test {
          //Make changes here.
          s3.name='test name';
          s4.flag='true'; 
-         s4.name='abcde';
+         // Some changes for RB Team
+         s4.name='DemoTime';
          bm.compList.add(s2); 
          bm.categList.add(s3); 
          bm.ttList.add(s4); 
