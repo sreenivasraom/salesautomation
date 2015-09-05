@@ -4,6 +4,10 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Opportunity.MyOpportunities</members>
+        <name>ListView</name>
+    </types>
+    <types>
         <members>RequestForStock__c.stocklimit150</members>
         <name>ValidationRule</name>
     </types>
