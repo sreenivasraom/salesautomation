@@ -193,9 +193,9 @@ public class BuildsManagement_test {
          s1.installInProgress=true; 
          s1.installEmpty=true; 
          s1.testsPass=true; 
-         s1.testsFail=true; 
+         s1.testsFail=false; 
          s1.testsInProgress=true; 
-         s1.testsEmpty=true; 
+         s1.testsEmpty=false; 
          bm.listOfBuilds.add(s1); 
          //no changes made.
          bm.build='newconstant';
@@ -210,7 +210,7 @@ public class BuildsManagement_test {
          //Make changes here.
          s3.name='test name';
          s4.flag='true'; 
-         // Some changes for RB Team
+         //Make changes for RB Team
          s4.name='DemoTime';
          bm.compList.add(s2); 
          bm.categList.add(s3); 
