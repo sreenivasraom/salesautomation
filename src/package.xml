@@ -4,16 +4,8 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Lead.AutorabitExtId__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
         <members>Region__c</members>
         <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <name>Profile</name>
     </types>
     <types>
         <members>Region__c</members>

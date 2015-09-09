@@ -189,17 +189,17 @@ public class BuildsManagement_test {
          s1.buildFail=true; 
          s1.buildInProgress=true; 
          s1.installPass=true; 
-         s1.installFail=true; 
+         s1.installFail=false; 
          s1.installInProgress=true; 
          s1.installEmpty=true; 
          s1.testsPass=true; 
-         s1.testsFail=false; 
-         s1.testsInProgress=true; 
+         s1.testsFail=true; 
+         s1.testsInProgress=false; 
          s1.testsEmpty=false; 
          bm.listOfBuilds.add(s1); 
          //no changes made.
          bm.build='newconstant';
-         bm.serverIp='abcde';
+         bm.serverIp='rabit';
          // demonstrate sandbox changes
          bm.installBuild='easycommits';
          //some changes to test run
@@ -207,7 +207,7 @@ public class BuildsManagement_test {
          s2.flag='true';
          s2.name='testname';
          s3.flag='false';
-         //Make changes here.
+         //MAke some changes here.
          s3.name='test name';
          s4.flag='true'; 
          //Make changes for RB Team
@@ -220,7 +220,7 @@ public class BuildsManagement_test {
      }
      static testMethod void hashCode_test(){
      //Demo to GreyNubo Team
-     //Make some changes
+     //Make a change
 
 
 
