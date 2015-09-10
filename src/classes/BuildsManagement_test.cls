@@ -187,7 +187,7 @@ public class BuildsManagement_test {
          s1.failedUITests='324'; 
          s1.buildPass=true; 
          s1.buildFail=true; 
-         s1.buildInProgress=true; 
+         s1.buildInProgress=false; 
          s1.installPass=true; 
          s1.installFail=false; 
          s1.installInProgress=true; 
@@ -197,7 +197,7 @@ public class BuildsManagement_test {
          s1.testsInProgress=false; 
          s1.testsEmpty=false; 
          bm.listOfBuilds.add(s1); 
-         //no changes made.
+         //no changes made
          bm.build='newconstant';
          bm.serverIp='rabit';
          // demonstrate sandbox changes
@@ -206,10 +206,10 @@ public class BuildsManagement_test {
          bm.testRun='Sunnovatestrun';
          s2.flag='true';
          s2.name='testname';
-         s3.flag='false';
+         s3.flag='true';
          //MAke some changes here.
-         s3.name='test name';
-         s4.flag='false'; 
+         s3.name='test demo for Delta Demo';
+         s4.flag='true'; 
          //Make changes for RB Team
          //Make changes for DF15 Theater Session
          s4.name='DemoTime';
@@ -221,7 +221,7 @@ public class BuildsManagement_test {
      }
      static testMethod void hashCode_test(){
      //Demo to GreyNubo Team
-     //Make a change
+     //make somr changes
      // Demo to Cdecisions
 
 
