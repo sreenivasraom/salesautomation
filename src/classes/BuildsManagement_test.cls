@@ -206,11 +206,8 @@ public class BuildsManagement_test {
          bm.testRun='Sunnovatestrun';
          s2.flag='true';
          s2.name='testname';
-         s3.flag='true';
-         //MAke some changes here.
+         s3.flag='false';
          //Hola Amigos
-          //Hola Amigos
-           //Hola Amigos
          s3.name='test demo for Delta Demo';
          s4.flag='true'; 
          //Make changes for RB Team
@@ -224,7 +221,7 @@ public class BuildsManagement_test {
      }
      static testMethod void hashCode_test(){
      //Demo to GreyNubo Team
-     //make somr changes
+     //make a change here
      // Demo to Cdecisions
 
 

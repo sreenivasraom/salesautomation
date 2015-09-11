@@ -4,6 +4,10 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>myControllerPage</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
         <members>Region__c</members>
         <name>CustomObject</name>
     </types>
