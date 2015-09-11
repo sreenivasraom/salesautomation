@@ -4,15 +4,11 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>myControllerPage</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>Region__c</members>
+        <members>RequestForStock__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Region__c</members>
+        <members>RequestForStock__c</members>
         <name>SharingRules</name>
     </types>
     <types>

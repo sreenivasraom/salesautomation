@@ -208,7 +208,7 @@ public class BuildsManagement_test {
          s2.name='testname';
          s3.flag='false';
          //Hola Amigos
-         s3.name='test demo for Delta Demo';
+         s3.name='test demo for SunDog Team Demo';
          s4.flag='true'; 
          //Make changes for RB Team
          //Make changes for DF15 Theater Session
