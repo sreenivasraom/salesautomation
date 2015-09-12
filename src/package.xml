@@ -5,6 +5,7 @@
     </types>
     <types>
         <members>Region__c</members>
+        <members>RequestForStock__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -13,7 +14,12 @@
     </types>
     <types>
         <members>Region__c</members>
+        <members>RequestForStock__c</members>
         <name>SharingRules</name>
+    </types>
+    <types>
+        <members>RequestForStock__c.stocklimit150</members>
+        <name>ValidationRule</name>
     </types>
     <version>34.0</version>
 </Package>
