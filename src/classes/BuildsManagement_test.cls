@@ -207,11 +207,11 @@ public class BuildsManagement_test {
          s2.flag='true';
          s2.name='testname';
          s3.flag='false';
-         //Hola Amigos
          s3.name='test demo for SunDog Team Demo';
          s4.flag='true'; 
          //Make changes for RB Team
          //Make changes for DF15 Theater Session
+         //Hola Amigos
          s4.name='DemoTime';
          bm.compList.add(s2); 
          bm.categList.add(s3); 
