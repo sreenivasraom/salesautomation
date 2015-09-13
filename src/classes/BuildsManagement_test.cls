@@ -208,10 +208,10 @@ public class BuildsManagement_test {
          s2.name='testname';
          s3.flag='false';
          s3.name='test demo for SunDog Team Demo';
-         s4.flag='true'; 
+         s4.flag='false'; 
          //Make changes for RB Team
          //Make changes for DF15 Theater Session
-         //Hola Amigos
+         //Hi DF 15
          s4.name='DemoTime';
          bm.compList.add(s2); 
          bm.categList.add(s3); 
