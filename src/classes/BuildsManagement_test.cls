@@ -204,11 +204,11 @@ public class BuildsManagement_test {
          bm.installBuild='easycommits';
          //some changes to test run
          bm.testRun='Sunnovatestrun';
-         s2.flag='true';
+         s2.flag='false';
          s2.name='testname';
-         s3.flag='false';
+         s3.flag='true';
          s3.name='test demo for SunDog Team Demo';
-         s4.flag='false'; 
+         s4.flag='true'; 
          //Make changes for RB Team
          //Make changes for DF15 Theater Session
          //Hi DF 15
@@ -221,7 +221,7 @@ public class BuildsManagement_test {
      }
      static testMethod void hashCode_test(){
      //Demo to GreyNubo Team
-     //make a change here
+     //make changes here
      // Demo to Cdecisions
 
 
