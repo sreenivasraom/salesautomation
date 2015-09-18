@@ -204,14 +204,11 @@ public class BuildsManagement_test {
          bm.installBuild='easycommits';
          //some changes to test run
          bm.testRun='Sunnovatestrun';
-         s2.flag='true';
+         s2.flag='false';
          s2.name='testname';
          s3.flag='false';
          s3.name='test demo for SunDog Team Demo';
-         s4.flag='false'; 
-         //Make changes for RB Team
-         //Make changes for DF15 Theater Session
-         //Hi DF 15
+         s4.flag='False'; 
          s4.name='DemoTime';
          bm.compList.add(s2); 
          bm.categList.add(s3); 
@@ -224,8 +221,9 @@ public class BuildsManagement_test {
      //make a change here
      // Demo to Cdecisions
      // Demo to Olivier
+     //DF15 DEMO
 
-
+//adding some llines
 
         BuildsManagement bm = new BuildsManagement();  
         bm.hashCode();
