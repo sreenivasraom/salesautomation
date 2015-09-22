@@ -509,7 +509,7 @@ public class BuildsManagement{
              buildInProgress = false;
              installPass = false;
              installFail = false;
-             installEmpty = true;
+             installEmpty = false;
              installInProgress = false; 
              testsPass = false; 
              testsFail = false;
