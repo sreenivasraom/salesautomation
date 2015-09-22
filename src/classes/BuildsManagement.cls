@@ -514,7 +514,7 @@ public class BuildsManagement{
              testsPass = false; 
              testsFail = false;
              testsInProgress = false;
-             testsEmpty =true;
+             testsEmpty =false;
              
        } 
     }  
