@@ -44,7 +44,7 @@ public class DashboadController {
         }
         
      public void parseProjectDashBoardData(String responseText){
-     	   if(responseText!= null){
+           if(responseText!= null){
               xmldom d = new xmldom(responseText);
               XMLdom.Element trendEle= d.getElementByTagName('trenddata');
               List<XMLdom.Element> buildsEles= d.getElementsByTagName('build');
@@ -92,7 +92,7 @@ public class DashboadController {
         }
         
       public void parsegetMappedJiraProjectIssuesData(String responseText){
-      	       if(responseText!= null){
+               if(responseText!= null){
                   xmldom d = new xmldom(responseText);
                   XMLdom.Element issuessummaryEle= d.getElementByTagName('issuessummary');
                   if(issuessummaryEle != null){
@@ -288,7 +288,7 @@ public class DashboadController {
             this.openImprovmentIssues = 0;
             this.openEpicIssues = 0;
             this.openStoryIssues = 0;
-            
+            //Univision changes go here
             this.inProgressBlockerIssues = 0;
             this.inProgressCriticalIssues = 0;
             this.inProgressMajorIssues = 0;
