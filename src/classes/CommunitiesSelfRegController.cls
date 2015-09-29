@@ -28,6 +28,8 @@ public with sharing class CommunitiesSelfRegController {
         String profileId = null; // To be filled in by customer.
         String roleEnum = null; // To be filled in by customer.
         String accountId = ''; // To be filled in by customer.
+        // Some changes for Univision Demo
+        //More changes for Univision Demo
         
         String userName = email;
 
@@ -37,7 +39,7 @@ public with sharing class CommunitiesSelfRegController {
         u.FirstName = firstName;
         u.LastName = lastName;
         u.CommunityNickname = communityNickname;
-		u.ProfileId = profileId;
+        u.ProfileId = profileId;
         
         String userId = Site.createPortalUser(u, accountId, password);
       
