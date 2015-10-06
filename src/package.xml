@@ -8,10 +8,27 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>RequestForStock__c</members>
+        <members>Scope_Poc_Information__c</members>
         <members>ZipcodeLst__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Implementation</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Scope_Poc_Information__c-Scope - Poc Information Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>AutoRABITProfile</members>
+        <members>Implementation Profile</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>RequestForStock__c</members>
+        <members>Scope_Poc_Information__c</members>
         <members>ZipcodeLst__c</members>
         <name>SharingRules</name>
     </types>

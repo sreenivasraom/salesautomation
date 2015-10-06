@@ -515,7 +515,8 @@ public class BuildsManagement{
              testsFail = false;
              testsInProgress = false;
              //This is demo for Voya Team
-             testsEmpty =true;
+             // Discussion with Target Team
+             testsEmpty =false;
              
        } 
     }  
