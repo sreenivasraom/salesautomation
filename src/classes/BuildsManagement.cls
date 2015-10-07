@@ -511,6 +511,7 @@ public class BuildsManagement{
              installFail = false;
              installEmpty = false;
              installInProgress = false; 
+             //Demo with Medtronic Team
              testsPass = false; 
              testsFail = false;
              testsInProgress = false;

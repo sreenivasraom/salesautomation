@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>BuildsManagement</members>
+        <members>ScopeInformationController</members>
         <name>ApexClass</name>
     </types>
     <types>
+        <members>ScopeInformationPage</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>RequestForStock__c.Current_Stock__c</members>
+        <members>Scope_Poc_Information__c.Approver__c</members>
+        <members>Scope_Poc_Information__c.AutoRABIT_POC__c</members>
+        <members>Scope_Poc_Information__c.Opportunity__c</members>
+        <members>Scope_Poc_Information__c.Out_ofScope__c</members>
+        <members>Scope_Poc_Information__c.Person_to_Contact__c</members>
+        <members>Scope_Poc_Information__c.Poc_End_Date__c</members>
+        <members>Scope_Poc_Information__c.Poc_Scope__c</members>
+        <members>Scope_Poc_Information__c.Poc_Start_Date__c</members>
         <members>ZipcodeLst__c.PostalCode__c</members>
         <name>CustomField</name>
     </types>
@@ -18,23 +32,29 @@
         <name>CustomSite</name>
     </types>
     <types>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>Opportunity-Regular Deals Layout</members>
         <members>Scope_Poc_Information__c-Scope - Poc Information Layout</members>
         <name>Layout</name>
     </types>
     <types>
+        <members>Admin</members>
         <members>AutoRABITProfile</members>
         <members>Implementation Profile</members>
         <name>Profile</name>
     </types>
     <types>
         <members>RequestForStock__c</members>
-        <members>Scope_Poc_Information__c</members>
         <members>ZipcodeLst__c</members>
         <name>SharingRules</name>
     </types>
     <types>
         <members>RequestForStock__c.stocklimit</members>
         <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Opportunity.Export_to_PDF</members>
+        <name>WebLink</name>
     </types>
     <version>34.0</version>
 </Package>

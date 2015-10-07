@@ -1,0 +1,30 @@
+<apex:page controller="ScopeInformationController" renderAs="pdf">
+  
+
+<apex:repeat value="{!Scopinfo}" var="scpVar">
+
+<apex:outputLabel value="Client Name  :  "></apex:outputLabel> 
+<apex:outputText value="{!scpVar.Opportunity__r.name}"></apex:outputText>
+
+<br/><br/>
+<apex:outputLabel value="Start Date  :   "></apex:outputLabel>
+<apex:outputText value="{!scpVar.Poc_Start_Date__c}"></apex:outputText>
+<br/><br/>
+
+<apex:outputLabel value="End Date  "></apex:outputLabel>
+<apex:outputText value="{!scpVar.Poc_End_Date__c}"></apex:outputText>
+<br/><br/>
+<apex:outputLabel value="Point of Contact   "></apex:outputLabel>
+<apex:outputText value="{!scpVar.Person_to_Contact__c}"></apex:outputText>
+<br/><br/>
+
+<apex:outputLabel value="End Date   "></apex:outputLabel>
+<apex:outputText value="{!scpVar.Poc_End_Date__c}"></apex:outputText>
+<br/><br/>
+
+<apex:outputLabel value="Approver   "></apex:outputLabel>
+<apex:outputText value="{!scpVar.Approver__c}"></apex:outputText>
+<br/><br/>
+</apex:repeat>
+
+</apex:page>
