@@ -49,6 +49,10 @@
         <name>SharingRules</name>
     </types>
     <types>
+        <members>AutorabitLogo</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
         <members>RequestForStock__c.stocklimit</members>
         <name>ValidationRule</name>
     </types>
