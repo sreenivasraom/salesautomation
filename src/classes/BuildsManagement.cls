@@ -512,7 +512,8 @@ public class BuildsManagement{
              installEmpty = false;
              installInProgress = false; 
              //Demo with Medtronic Team
-             testsPass = false; 
+             //Discussion with Verafin Team
+             testsPass = true; 
              testsFail = false;
              testsInProgress = false;
              //This is demo for Voya Team

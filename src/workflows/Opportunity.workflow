@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldUpdates>
-        <fullName>ClosureLimit</fullName>
-        <field>CloseDate</field>
-        <formula>DATE( YEAR(TODAY()) , (MONTH(TODAY()) + 6), DAY(TODAY()))</formula>
-        <name>ClosureLimit</name>
+        <fullName>Update_Opportunity_Stage</fullName>
+        <field>StageName</field>
+        <literalValue>Trial Expired</literalValue>
+        <name>Update Opportunity Stage</name>
         <notifyAssignee>false</notifyAssignee>
-        <operation>Formula</operation>
+        <operation>Literal</operation>
         <protected>false</protected>
     </fieldUpdates>
     <rules>
-        <fullName>OpportunityClosure</fullName>
+        <fullName>Trial Expired</fullName>
         <actions>
-            <name>ClosureLimit</name>
+            <name>Update_Opportunity_Stage</name>
             <type>FieldUpdate</type>
         </actions>
         <active>false</active>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Opportunity.Trial_End_Date__c</field>
             <operation>equals</operation>
-            <value>True</value>
+            <value>TODAY</value>
         </criteriaItems>
-        <description>This is Opportunity Closure description</description>
-        <triggerType>onCreateOnly</triggerType>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
 </Workflow>

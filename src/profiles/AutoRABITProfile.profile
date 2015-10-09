@@ -12,6 +12,31 @@
     <description>Demo to CEB</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Implementation_Questionnaire__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.No_of_Attachments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Trial_End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Trial_End_Period__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Trial_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Scope_Poc_Information__c.Approver__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -46,7 +71,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+        <recordType>Opportunity.AutoRABIT_Sales</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scope_Poc_Information__c-Scope - Poc Information Layout</layout>
@@ -73,6 +105,11 @@
         <apexPage>ScopeInformationPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Opportunity.AutoRABIT_Sales</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>RequestForStock__c.New_Record_Type</recordType>

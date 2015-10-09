@@ -1,5 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <businessProcesses>
+        <fullName>AutoRABIT Sales</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Proposal%2FPrice Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scope for Poc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trial Initiated</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <fields>
+        <fullName>Trial_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Trial End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Trial_End_Period__c</fullName>
+        <externalId>false</externalId>
+        <formula>Trial_Start_Date__c + 14</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Trial End Period</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Trial_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Trial Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <recordTypes>
+        <fullName>AutoRABIT_Sales</fullName>
+        <active>true</active>
+        <businessProcess>AutoRABIT Sales</businessProcess>
+        <label>AutoRABIT Sales</label>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar - Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Existing Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Business</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <webLinks>
         <fullName>Export_to_PDF</fullName>
         <availability>online</availability>

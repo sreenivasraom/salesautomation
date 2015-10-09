@@ -9,6 +9,20 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>Email_Attachments</members>
+        <members>countAttachments</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Opportunity.AutoRABIT Sales</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>Lead.Implementation_Questionnaire__c</members>
+        <members>Lead.No_of_Attachments__c</members>
+        <members>Opportunity.Trial_End_Date__c</members>
+        <members>Opportunity.Trial_End_Period__c</members>
+        <members>Opportunity.Trial_Start_Date__c</members>
         <members>RequestForStock__c.Current_Stock__c</members>
         <members>Scope_Poc_Information__c.Approver__c</members>
         <members>Scope_Poc_Information__c.AutoRABIT_POC__c</members>
@@ -32,6 +46,8 @@
         <name>CustomSite</name>
     </types>
     <types>
+        <members>Lead-Lead Layout</members>
+        <members>Lead-LeadPagelayoutTest</members>
         <members>Opportunity-Opportunity Layout</members>
         <members>Opportunity-Regular Deals Layout</members>
         <members>Scope_Poc_Information__c-Scope - Poc Information Layout</members>
@@ -40,8 +56,22 @@
     <types>
         <members>Admin</members>
         <members>AutoRABITProfile</members>
+        <members>ContractManager</members>
+        <members>CustomContrctManager</members>
+        <members>CustomMarketing Profile</members>
+        <members>Gold Partner User</members>
         <members>Implementation Profile</members>
+        <members>MarketingProfile</members>
+        <members>Partner Community Login User</members>
+        <members>Partner Community User</members>
+        <members>ReadOnly</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Opportunity.AutoRABIT_Sales</members>
+        <name>RecordType</name>
     </types>
     <types>
         <members>RequestForStock__c</members>
@@ -59,6 +89,14 @@
     <types>
         <members>Opportunity.Export_to_PDF</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>Opportunity.Update_Opportunity_Stage</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Opportunity.Trial Expired</members>
+        <name>WorkflowRule</name>
     </types>
     <version>34.0</version>
 </Package>

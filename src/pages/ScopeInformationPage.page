@@ -1,86 +1,106 @@
-<apex:page controller="ScopeInformationController" docType="HTML-5.0" showHeader="false" sidebar="false"  applyBodyTag="false">
-<head>
-    <style>
-table  {
-   
-    width:100%;
-}
-table,th, td {
-    padding: 5px;
-    text-align: left;
-    
-   
-}
-td{width: 50%;}
+<apex:page controller="ScopeInformationController" docType="HTML-5.0" showHeader="false" sidebar="false" renderAs="pdf" applyBodyTag="false">
 
-</style>
-</head>
+    <head>
+        <style type="text/css">
+           
+            table{
+            width : 70%;
+            }
+            table,th,td {
+                
+                border-collapse: collapse;
+                table-layout: fixed;
+                
+              }
+              tr,td
+                {
+              padding-bottom: 1em;
+              
+            }
+             
+        </style>
+    </head>
 
-   <apex:image value="{!$Resource.AutorabitLogo}" width="40%"/>
-   
-   <h1>
+    <apex:image value="{!$Resource.AutorabitLogo}" width="40%" />
+
+    <h1>
       <b>
          <center> {!OppObj.Account.name} - Scope for POC</center>
       </b>
-   </h1><br/>
-  <!-- <apex:repeat value="{!Scopinfo}" var="scpVar"> -->
-      <table>
-         
-         <tr>
-            <td >
-              
-              <!-- <apex:outputLabel value="Client Name  :   " ></apex:outputLabel>&nbsp; -->
-               <apex:outputText value="{!scpVar.Opportunity__r.name}  "></apex:outputText>
-               </td>
-               <td >
-              <!-- <apex:outputLabel value="Start Date  :   "></apex:outputLabel>&nbsp; -->
-               <apex:outputText value="{0,date,dd-MMMM-yyyy}">
-                  <apex:param value="{! scpVar.Poc_Start_Date__c }" />
-               </apex:outputText>
-            </td>
-         </tr>
-         <apex:variable var="ed" rendered="{!IF(scpVar.Poc_End_Date__c!=null,true,false)}" value="">
-         <tr>
-          <td>
-             
-            <!-- <apex:outputLabel value="End Date  :"></apex:outputLabel> -->
-               <apex:outputText value="{0,date,dd-MMMM-yyyy}">
-                  <apex:param value="{! scpVar.Poc_End_Date__c}"  />
-               </apex:outputText>
-            </td>
-         </tr>
-         </apex:variable>
-         <tr>
-            <td>
-             <!--  <apex:outputLabel value="Point of Contact   :"></apex:outputLabel>&nbsp; -->
-               <apex:outputText value="{!scpVar.Person_to_Contact__c}" label="Point of Contact :"></apex:outputText>
-            </td>
-            
+   </h1>
+    <br/>
+    <apex:repeat value="{!Scopinfo}" var="scpVar">
+        <table align="center">
+
+            <tr>
+                <td colspan= "2">
+
+                    <apex:outputLabel value="Client Name:"></apex:outputLabel>
+                </td>
+                <td>
+                    <apex:outputText value="{!scpVar.Opportunity__r.name}"></apex:outputText>
+                </td>
             </tr>
-         <tr>
-            <td colspan= "2">
-             
-               <apex:outputLabel value="Approver   :  "></apex:outputLabel>&nbsp;
-               <apex:outputText value="{!scpVar.Approver__c}"></apex:outputText>
-            </td>
-          
-         </tr>
-         <tr>
-            <td colspan= "2">
-             
-               <apex:outputLabel value="Scope "></apex:outputLabel>&nbsp;
-               <apex:outputText value="{!scpVar.Poc_Scope__c}" rendered="{!IF(scpVar.Poc_Scope__c!=null,true,false)}"></apex:outputText>
-            </td>
-          
-         </tr>
-         <tr >
-            <td colspan= "2">
-               <apex:outputLabel value="Out of Scope: " rendered="{!IF(scpVar.Out_ofScope__c!=null,true,false)}"></apex:outputLabel>&nbsp;
-               <apex:outputText value="{!scpVar.Out_ofScope__c}" rendered="{!IF(scpVar.Out_ofScope__c!=null,true,false)}"></apex:outputText>
-            </td>
-          
-         </tr>
-      </table>
-  <!-- </apex:repeat>
-  -->
+            <tr>
+                <td colspan= "2">
+                    <apex:outputLabel value="Start Date:"></apex:outputLabel>
+                </td>
+                <td>
+                    <apex:outputText value="{0,date,dd-MMMM-yyyy}">
+                        <apex:param value="{! scpVar.Poc_Start_Date__c }" />
+                    </apex:outputText>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan= "2">
+                    <apex:outputLabel value="End Date:"></apex:outputLabel>
+                </td>
+                <td>
+                    <apex:outputText value="{0,date,dd-MMMM-yyyy}">
+                        <apex:param value="{! scpVar.Poc_End_Date__c}" />
+                    </apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td colspan= "2">
+                    <apex:outputLabel value="Point of Contact:"></apex:outputLabel>
+                </td>
+                <td>
+
+                    <apex:outputText value="{!scpVar.Person_to_Contact__c}"></apex:outputText>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan= "2">
+                    <apex:outputLabel value="Approver:"></apex:outputLabel>
+                </td>
+                <td>
+                    <apex:outputText value="{!scpVar.Approver__c}"></apex:outputText>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan= "2">
+
+                    <apex:outputLabel value="Scope:"></apex:outputLabel>
+                </td>
+                <td>
+                    <apex:outputText value="{!scpVar.Poc_Scope__c}"></apex:outputText>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan= "2">
+                    <apex:outputLabel value="Out of Scope:"></apex:outputLabel>
+                    <td>
+                    </td>
+                    <apex:outputText value="{!scpVar.Out_ofScope__c}"></apex:outputText>
+                </td>
+
+            </tr>
+        </table>
+    </apex:repeat>
+
 </apex:page>
