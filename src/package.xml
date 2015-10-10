@@ -25,13 +25,18 @@
         <members>Opportunity.Trial_Start_Date__c</members>
         <members>RequestForStock__c.Current_Stock__c</members>
         <members>Scope_Poc_Information__c.Approver__c</members>
+        <members>Scope_Poc_Information__c.Assumptions__c</members>
         <members>Scope_Poc_Information__c.AutoRABIT_POC__c</members>
+        <members>Scope_Poc_Information__c.Demo_Completed__c</members>
+        <members>Scope_Poc_Information__c.License_provision_complete__c</members>
         <members>Scope_Poc_Information__c.Opportunity__c</members>
         <members>Scope_Poc_Information__c.Out_ofScope__c</members>
         <members>Scope_Poc_Information__c.Person_to_Contact__c</members>
         <members>Scope_Poc_Information__c.Poc_End_Date__c</members>
         <members>Scope_Poc_Information__c.Poc_Scope__c</members>
         <members>Scope_Poc_Information__c.Poc_Start_Date__c</members>
+        <members>Scope_Poc_Information__c.sign_off_Criteria__c</members>
+        <members>User.AutorabitExtId__c</members>
         <members>ZipcodeLst__c.PostalCode__c</members>
         <name>CustomField</name>
     </types>
@@ -80,6 +85,7 @@
     </types>
     <types>
         <members>AutorabitLogo</members>
+        <members>NoDeploymentLogo</members>
         <name>StaticResource</name>
     </types>
     <types>
