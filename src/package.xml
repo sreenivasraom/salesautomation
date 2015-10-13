@@ -11,6 +11,7 @@
     <types>
         <members>Email_Attachments</members>
         <members>countAttachments</members>
+        <members>testTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
