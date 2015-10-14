@@ -1,4 +1,4 @@
-trigger testTrigger on Account (before insert) {
+trigger testTrigger on Account (before update) {
 Integer i =10;
 List<Account> accList = new List<Account>();
 for(Account acc: trigger.new)

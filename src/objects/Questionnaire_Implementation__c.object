@@ -55,9 +55,75 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Approver__c</fullName>
+        <fullName>ALM_Tools__c</fullName>
         <externalId>false</externalId>
-        <label>Approver</label>
+        <label>ALM Tools Details</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Challenges__c</fullName>
+        <externalId>false</externalId>
+        <label>Challenges</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Current_Version_Control_Tool_If_Exists__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Version Control Tool(If Exists)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deployment_User__c</fullName>
+        <description>List of Users and roles participating in the release process [ Please provide uniform  corporate e-mail Ids for license activation ]</description>
+        <externalId>false</externalId>
+        <label>Deployment User</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Hours_of_effort__c</fullName>
+        <externalId>false</externalId>
+        <label>Hours of effort</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Long_Term_Goals__c</fullName>
+        <externalId>false</externalId>
+        <label>Long Term Goals</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>No_of_Sanbox_in_Release__c</fullName>
+        <externalId>false</externalId>
+        <label>No.of Sanbox in Release</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Release_Duration__c</fullName>
+        <externalId>false</externalId>
+        <label>Release Duration</label>
         <length>25</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -65,113 +131,40 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Assumptions__c</fullName>
+        <fullName>Short_Term_Goals_with_current_RLM__c</fullName>
         <externalId>false</externalId>
-        <label>Pre-requisites</label>
-        <length>32768</length>
-        <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
-    </fields>
-    <fields>
-        <fullName>AutoRABIT_POC__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>AutoRABIT POC</label>
-        <referenceTo>User</referenceTo>
-        <relationshipName>Scopes</relationshipName>
+        <label>Short Term Goals with current RLM</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Lookup</type>
+        <type>TextArea</type>
     </fields>
     <fields>
-        <fullName>Demo_Completed__c</fullName>
-        <defaultValue>false</defaultValue>
+        <fullName>Size_of_Sanboxes__c</fullName>
+        <description>Number and Size of the Sandboxes [ Typically, the number of metadata components / size of package , Data load size and frequency ] that you will use in trial period</description>
         <externalId>false</externalId>
-        <label>Demo Completed</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>License_provision_complete__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>License &amp; provision complete</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Opportunity__c</fullName>
-        <externalId>false</externalId>
-        <label>Opportunity</label>
-        <referenceTo>Opportunity</referenceTo>
-        <relationshipLabel>Scopes</relationshipLabel>
-        <relationshipName>Scopes</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
-    <fields>
-        <fullName>Out_ofScope__c</fullName>
-        <externalId>false</externalId>
-        <label>Out of Scope</label>
-        <length>32768</length>
-        <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Person_to_Contact__c</fullName>
-        <externalId>false</externalId>
-        <label>Person to Contact</label>
-        <length>25</length>
+        <label>Size of Sanboxes</label>
+        <length>75</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Poc_End_Date__c</fullName>
+        <fullName>Text_Automation_Details__c</fullName>
         <externalId>false</externalId>
-        <label>Poc End Date</label>
+        <label>Text Automation Details</label>
+        <length>50</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Date</type>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>Poc_Scope__c</fullName>
-        <externalId>false</externalId>
-        <label>Poc Scope</label>
-        <length>32768</length>
-        <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Poc_Start_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>Poc- Start Date</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>sign_off_Criteria__c</fullName>
-        <externalId>false</externalId>
-        <label>sign-off Criteria</label>
-        <length>32768</length>
-        <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
-    </fields>
-    <label>Scope - Poc Information</label>
+    <label>Questionnaire Implementation</label>
     <nameField>
-        <label>Scope - Poc Information Name</label>
+        <label>Questionnaire Implementation Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Scopes</pluralLabel>
+    <pluralLabel>Questions</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

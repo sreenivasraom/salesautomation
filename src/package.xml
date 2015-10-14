@@ -5,7 +5,12 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>CheckboxComponent</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
         <members>ScopeInformationPage</members>
+        <members>html5form</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -24,6 +29,17 @@
         <members>Opportunity.Trial_End_Date__c</members>
         <members>Opportunity.Trial_End_Period__c</members>
         <members>Opportunity.Trial_Start_Date__c</members>
+        <members>Questionnaire_Implementation__c.ALM_Tools__c</members>
+        <members>Questionnaire_Implementation__c.Challenges__c</members>
+        <members>Questionnaire_Implementation__c.Current_Version_Control_Tool_If_Exists__c</members>
+        <members>Questionnaire_Implementation__c.Deployment_User__c</members>
+        <members>Questionnaire_Implementation__c.Hours_of_effort__c</members>
+        <members>Questionnaire_Implementation__c.Long_Term_Goals__c</members>
+        <members>Questionnaire_Implementation__c.No_of_Sanbox_in_Release__c</members>
+        <members>Questionnaire_Implementation__c.Release_Duration__c</members>
+        <members>Questionnaire_Implementation__c.Short_Term_Goals_with_current_RLM__c</members>
+        <members>Questionnaire_Implementation__c.Size_of_Sanboxes__c</members>
+        <members>Questionnaire_Implementation__c.Text_Automation_Details__c</members>
         <members>RequestForStock__c.Current_Stock__c</members>
         <members>Scope_Poc_Information__c.Approver__c</members>
         <members>Scope_Poc_Information__c.Assumptions__c</members>
@@ -42,6 +58,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Questionnaire_Implementation__c</members>
         <members>RequestForStock__c</members>
         <members>Scope_Poc_Information__c</members>
         <members>ZipcodeLst__c</members>
@@ -56,8 +73,13 @@
         <members>Lead-LeadPagelayoutTest</members>
         <members>Opportunity-Opportunity Layout</members>
         <members>Opportunity-Regular Deals Layout</members>
+        <members>Questionnaire_Implementation__c-Questionnaire Implementation Layout</members>
         <members>Scope_Poc_Information__c-Scope - Poc Information Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Account.MyAccounts</members>
+        <name>ListView</name>
     </types>
     <types>
         <members>Admin</members>
@@ -80,6 +102,7 @@
         <name>RecordType</name>
     </types>
     <types>
+        <members>Questionnaire_Implementation__c</members>
         <members>RequestForStock__c</members>
         <members>ZipcodeLst__c</members>
         <name>SharingRules</name>

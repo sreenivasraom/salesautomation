@@ -1,28 +1,25 @@
-<apex:page controller="ScopeInformationController" docType="HTML-5.0" showHeader="false" sidebar="false" renderAs="pdf" applyBodyTag="false">
+<apex:page controller="ScopeInformationController" docType="HTML-5.0" showHeader="false" sidebar="false"  renderAs="pdf" applyBodyTag="false">
 
     <head>
         <style type="text/css">
-           
-            table{
-            width : 70%;
+            table {
+                width: 70%;
             }
             table,th,td {
-                
                 border-collapse: collapse;
                 table-layout: fixed;
-                
-              }
-              tr,td
-                {
-              padding-bottom: 1em;
-              
             }
-             
+            tr,td {
+                padding-bottom: 1em;
+            }
+            td {
+                vertical-align: top;
+            }
         </style>
     </head>
 
-    <apex:image value="{!$Resource.AutorabitLogo}" width="40%"/>
-    <img align = "right" src ="{!$Resource.NoDeploymentLogo}" width = "100">
+    <apex:image value="{!$Resource.AutorabitLogo}" width="40%" />
+    <img align="right" src="{!$Resource.NoDeploymentLogo}" width="100">
     </img>
 
     <h1>
@@ -31,11 +28,15 @@
       </b>
    </h1>
     <br/>
-    <apex:repeat value="{!Scopinfo}" var="scpVar">
-        <table align="center">
+  
+   <apex:pageMessage summary="No scope information to Display" severity="info" strength="2" rendered="{!if(Scopinfo.size == 0,true,false)}"/>
+   
+    
+    <apex:repeat value="{!Scopinfo}" var="scpVar" >
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
 
             <tr>
-                <td colspan= "2">
+                <td colspan="2">
 
                     <apex:outputLabel value="Client Name:"></apex:outputLabel>
                 </td>
@@ -44,7 +45,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan= "2">
+                <td colspan="2">
                     <apex:outputLabel value="Start Date:"></apex:outputLabel>
                 </td>
                 <td>
@@ -55,7 +56,7 @@
             </tr>
 
             <tr>
-                <td colspan= "2">
+                <td colspan="2">
                     <apex:outputLabel value="End Date:"></apex:outputLabel>
                 </td>
                 <td>
@@ -64,8 +65,18 @@
                     </apex:outputText>
                 </td>
             </tr>
+             <tr>
+                <td colspan="2">
+                    <apex:outputLabel value="AutoRABIT POC:"></apex:outputLabel>
+                </td>
+                <td>
+
+                    <apex:outputText value="{!scpVar.AutoRABIT_POC__r.name}"></apex:outputText>
+                </td>
+
+            </tr>
             <tr>
-                <td colspan= "2">
+                <td colspan="2">
                     <apex:outputLabel value="Point of Contact:"></apex:outputLabel>
                 </td>
                 <td>
@@ -75,7 +86,7 @@
 
             </tr>
             <tr>
-                <td colspan= "2">
+                <td colspan="2">
                     <apex:outputLabel value="Approver:"></apex:outputLabel>
                 </td>
                 <td>
@@ -84,7 +95,8 @@
 
             </tr>
             <tr>
-                <td colspan= "2">
+
+                <td colspan="2">
 
                     <apex:outputLabel value="Scope:"></apex:outputLabel>
                 </td>
@@ -94,11 +106,48 @@
 
             </tr>
             <tr>
-                <td colspan= "2">
+                <td colspan="2">
                     <apex:outputLabel value="Out of Scope:"></apex:outputLabel>
+                   </td>
                     <td>
-                    </td>
                     <apex:outputText value="{!scpVar.Out_ofScope__c}"></apex:outputText>
+                </td>
+
+            </tr>
+             <tr>
+                <td colspan="2">
+                    <apex:outputLabel value="Pre-requisites:"></apex:outputLabel>
+                   </td>
+                    <td>
+                    <apex:outputText value="{!scpVar.Assumptions__c}"></apex:outputText>
+                </td>
+
+            </tr>
+             <tr>
+                <td colspan="2">
+                    <apex:outputLabel value="Sign of Criteria:"></apex:outputLabel>
+                   </td>
+                    <td>
+                    <apex:outputText value="{!scpVar.sign_off_Criteria__c}"></apex:outputText>
+                </td>
+
+            </tr>
+              <tr>
+                <td colspan="2">
+                    <apex:outputLabel value="License & provision complete:"></apex:outputLabel>
+                   </td>
+                    <td>
+                     <apex:outputText value="{!if(scpVar.License_provision_complete__c== true,'Yes','No')}"></apex:outputText> 
+                </td>
+
+            </tr>
+               <tr>
+                <td colspan="2">
+                    <apex:outputLabel value="Demo Completed:"></apex:outputLabel>
+                  </td>
+                    <td>
+                   <!-- <c:CheckboxComponent value="{!scpVar.Demo_Completed__c}" /> -->
+                    <apex:outputText value="{!if(scpVar.Demo_Completed__c ==true,'Yes','No')}"></apex:outputText> 
                 </td>
 
             </tr>
