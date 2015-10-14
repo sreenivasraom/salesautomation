@@ -113,6 +113,7 @@
         <name>StaticResource</name>
     </types>
     <types>
+        <members>Account.Validate_Account_Type</members>
         <members>RequestForStock__c.stocklimit</members>
         <name>ValidationRule</name>
     </types>

@@ -8,4 +8,11 @@
         <label>My Accounts</label>
         <language>en_US</language>
     </listViews>
+    <validationRules>
+        <fullName>Validate_Account_Type</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISPICKVAL( Type ,&apos;Integrator&apos;)</errorConditionFormula>
+        <errorDisplayField>Type</errorDisplayField>
+        <errorMessage>Type cannot be integrator</errorMessage>
+    </validationRules>
 </CustomObject>
