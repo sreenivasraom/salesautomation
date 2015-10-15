@@ -161,8 +161,9 @@
     </fields>
     <label>Questionnaire Implementation</label>
     <nameField>
+        <displayFormat>Quest{0}</displayFormat>
         <label>Questionnaire Implementation Name</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Questions</pluralLabel>
     <searchLayouts/>

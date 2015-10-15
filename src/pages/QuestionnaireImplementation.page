@@ -1,0 +1,85 @@
+<apex:page standardController="Questionnaire_Implementation__c" sidebar="false" showHeader="false" wizard="true" applyBodyTag="false" standardStylesheets="false" docType="HTML-5.0">
+   
+         <head>
+        <style type="text/css">
+            table {
+            width: 75%;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #99D6EB ;
+            
+            }
+            
+            .textheader{
+            float:left; 
+            width:100%; 
+            text-align:left; 
+            }
+            .textarea{
+            width: 75%;
+            height:75%;
+           
+            }
+
+            
+        </style>
+    </head>
+     <img align="left" src="{!$Resource.AutorabitLogo}" width="100">
+    </img>
+        <img align="right" src="{!$Resource.NoDeploymentLogo}" width="100">
+    </img>
+        <h3 align="center">AutoRABIT Implementation Questionnaire</h3>
+        <apex:form >
+            <apex:pageBlock >
+               <apex:pageBlockButtons location="bottom" style="border-radius: 5px;box-shadow: -6px 0 #ab3c3c;" >
+                  <apex:commandButton action="{!save}" value="submit" />
+               </apex:pageBlockButtons>
+               <apex:pageBlockSection columns="1" collapsible="false">
+                  <table>
+                  <tr>
+                    <td style="white-space: pre;"> <apex:outputLabel value="The duration of your typical release " for="Questionnaire_Implementation__c__name"/></td>
+                    <td> <apex:outputPanel layout="block">
+                        <apex:inputTextarea styleClass="textarea" value="{!Questionnaire_Implementation__c.Release_Duration__c}" id="Questionnaire_Implementation__c__name" />
+                     </apex:outputPanel>
+                   </td> </tr>
+                   <tr>
+                    <td style="word-wrap: break-word;">
+                     <apex:outputLabel value="The environments and the Sandboxes that are part of the release [ A quick flow / PPT / list of environments can also help ]" for="Questionnaire_Implementation__c__site"/>
+                   </td><td>  <apex:outputPanel layout="block">
+                        <apex:inputTextarea styleClass="textarea" value="{!Questionnaire_Implementation__c.No_of_Sanbox_in_Release__c}" id="Questionnaire_Implementation__c__site"/>
+                     </apex:outputPanel>
+                    </td> </tr>
+                    <tr>
+                    <td>
+                     <apex:outputLabel value="Number and Size of the Sandboxes [ Typically, the number of metadata components / size of package , Data load size and frequency ] that you will use in trial period" for="Questionnaire_Implementation__c__type"/>
+                     </td><td> <apex:outputPanel layout="block">
+                        <apex:inputTextarea styleClass="textarea" value="{!Questionnaire_Implementation__c.Size_of_Sanboxes__c}" id="Questionnaire_Implementation__c__type"/>
+                     </apex:outputPanel>
+                     </td> </tr>
+                     <tr>
+                    <td>
+                     <apex:outputLabel styleClass="textheader" value="List of Users and roles participating in the release process [Please provide uniform  corporate e-mail Ids for license activation ]" for="Questionnaire_Implementation__c__number"/>
+                   </td>  <td> <apex:outputPanel layout="block">
+                       <apex:inputTextarea styleClass="textarea" value="{!Questionnaire_Implementation__c.Deployment_User__c}" id="Questionnaire_Implementation__c__number"/>
+                     </apex:outputPanel>
+                     </td> </tr>
+                     <apex:outputLabel value="Is Version Control part of the development process? Please add more details on the usage of Version Control Tool [ If you are not using it now - is it part of your immediate or long term goal? ]" for="Questionnaire_Implementation__c__VC" />
+                     <apex:outputPanel layout="block">
+                        <apex:inputTextarea styleClass="textarea" value="{!Questionnaire_Implementation__c.Current_Version_Control_Tool_If_Exists__c}" id="Questionnaire_Implementation__c__VC"/>
+                     </apex:outputPanel>
+                     <apex:outputLabel value="Time and the effort involved in the present Deployment process across multiple enviroments " for="Questionnaire_Implementation__c__TE"/>
+                     <apex:outputPanel layout="block">
+                        <apex:inputTextarea styleClass="textarea" value="{!Questionnaire_Implementation__c.Hours_of_effort__c}" id="Questionnaire_Implementation__c__TE"/>
+                     </apex:outputPanel>
+                     <apex:outputLabel value="Do you have Test Automation in-place for the application testing? [ If yes , please provide the tools involved and the time taken to automate a test scenario at present time ]" for="Questionnaire_Implementation__c__UR"/>
+                     <apex:outputPanel layout="block">
+                        <apex:inputTextarea styleClass="textarea" value="{!Questionnaire_Implementation__c.Deployment_User__c}" id="Questionnaire_Implementation__c__UR"/>
+                     </apex:outputPanel>
+                  </table>
+               </apex:pageBlockSection>
+            </apex:pageBlock>
+         </apex:form>
+        
+     
+</apex:page>

@@ -90,6 +90,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Region_Analitics__c.City__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Scope_Poc_Information__c.Approver__c</field>
         <readable>false</readable>
@@ -166,11 +171,11 @@
         <layout>Scope_Poc_Information__c-Scope - Poc Information Layout</layout>
     </layoutAssignments>
     <pageAccesses>
-        <apexPage>ScopeInformationPage</apexPage>
+        <apexPage>QuestionnaireImplementation</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>html5form</apexPage>
+        <apexPage>ScopeInformationPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <recordTypeVisibilities>

@@ -2,11 +2,11 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <fullName>City__c</fullName>
-        <description>This is demo for Univision Team</description>
+        <description>This is demo for AdventTeam</description>
         <externalId>false</externalId>
         <inlineHelpText>Axiom Test</inlineHelpText>
         <label>City</label>
-        <length>200</length>
+        <length>100</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>

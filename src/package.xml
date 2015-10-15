@@ -9,8 +9,8 @@
         <name>ApexComponent</name>
     </types>
     <types>
+        <members>QuestionnaireImplementation</members>
         <members>ScopeInformationPage</members>
-        <members>html5form</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -40,6 +40,7 @@
         <members>Questionnaire_Implementation__c.Short_Term_Goals_with_current_RLM__c</members>
         <members>Questionnaire_Implementation__c.Size_of_Sanboxes__c</members>
         <members>Questionnaire_Implementation__c.Text_Automation_Details__c</members>
+        <members>Region_Analitics__c.City__c</members>
         <members>RequestForStock__c.Current_Stock__c</members>
         <members>Scope_Poc_Information__c.Approver__c</members>
         <members>Scope_Poc_Information__c.Assumptions__c</members>
@@ -110,6 +111,7 @@
     <types>
         <members>AutorabitLogo</members>
         <members>NoDeploymentLogo</members>
+        <members>styles</members>
         <name>StaticResource</name>
     </types>
     <types>
