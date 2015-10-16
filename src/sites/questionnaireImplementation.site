@@ -6,19 +6,19 @@
     <allowStandardIdeasPages>false</allowStandardIdeasPages>
     <allowStandardLookups>false</allowStandardLookups>
     <allowStandardSearch>false</allowStandardSearch>
-    <authorizationRequiredPage>Unauthorized</authorizationRequiredPage>
+    <authorizationRequiredPage>CommunitiesLogin</authorizationRequiredPage>
     <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
     <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
     <fileNotFoundPage>FileNotFound</fileNotFoundPage>
     <genericErrorPage>Exception</genericErrorPage>
-    <inMaintenancePage>InMaintenance</inMaintenancePage>
-    <inactiveIndexPage>InMaintenance</inactiveIndexPage>
-    <indexPage>QuestionnaireImplementation</indexPage>
-    <masterLabel>Implementation</masterLabel>
+    <inMaintenancePage>CommunitiesLogin</inMaintenancePage>
+    <inactiveIndexPage>CommunitiesLogin</inactiveIndexPage>
+    <indexPage>CommunitiesLanding</indexPage>
+    <masterLabel>questionnaireImplementation</masterLabel>
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
+    <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>bhargavi.v@autorabit.com.devsb</siteAdmin>
-    <siteTemplate>SiteTemplate</siteTemplate>
-    <siteType>Visualforce</siteType>
-    <subdomain>mycompanyportal</subdomain>
+    <siteType>ChatterNetwork</siteType>
+    <subdomain>autorabittesting</subdomain>
 </CustomSite>

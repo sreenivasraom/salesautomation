@@ -67,6 +67,7 @@
     </types>
     <types>
         <members>Implementation</members>
+        <members>questionnaireImplementation</members>
         <name>CustomSite</name>
     </types>
     <types>
@@ -83,6 +84,14 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>questionnaireImplementation</members>
+        <name>ManagedTopics</name>
+    </types>
+    <types>
+        <members>questionnaireImplementation</members>
+        <name>Network</name>
+    </types>
+    <types>
         <members>Admin</members>
         <members>AutoRABITProfile</members>
         <members>ContractManager</members>
@@ -96,6 +105,7 @@
         <members>ReadOnly</members>
         <members>SolutionManager</members>
         <members>Standard</members>
+        <members>questionnaireImplementation Profile</members>
         <name>Profile</name>
     </types>
     <types>
@@ -107,6 +117,10 @@
         <members>RequestForStock__c</members>
         <members>ZipcodeLst__c</members>
         <name>SharingRules</name>
+    </types>
+    <types>
+        <members>questionnaireImplementation1</members>
+        <name>SiteDotCom</name>
     </types>
     <types>
         <members>AutorabitLogo</members>
