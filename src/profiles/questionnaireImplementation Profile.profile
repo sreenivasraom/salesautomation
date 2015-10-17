@@ -5,6 +5,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>QuestionaireImplementationController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ScopeInformationController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -68,6 +72,11 @@
         <editable>true</editable>
         <field>Questionnaire_Implementation__c.No_of_Sanbox_in_Release__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Opportunity__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -172,7 +181,7 @@
     </layoutAssignments>
     <pageAccesses>
         <apexPage>QuestionnaireImplementation</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>ScopeInformationPage</apexPage>

@@ -121,6 +121,18 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Questions</relationshipLabel>
+        <relationshipName>Questions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Release_Duration__c</fullName>
         <externalId>false</externalId>
         <label>Release Duration</label>
@@ -160,6 +172,11 @@
         <unique>false</unique>
     </fields>
     <label>Questionnaire Implementation</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <displayFormat>Quest{0}</displayFormat>
         <label>Questionnaire Implementation Name</label>

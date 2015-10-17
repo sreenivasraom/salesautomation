@@ -4,6 +4,10 @@
         <fullName>AutoRABIT Sales</fullName>
         <isActive>true</isActive>
         <values>
+            <fullName>License Activated</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Proposal%2FPrice Quote</fullName>
             <default>false</default>
         </values>
@@ -143,12 +147,19 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <validationRules>
+        <fullName>Stage_on_Opty</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISPICKVAL(StageName  , &apos;Qualification&apos;)</errorConditionFormula>
+        <errorDisplayField>StageName</errorDisplayField>
+        <errorMessage>Stage cannot be qualifcation for a new Opty</errorMessage>
+    </validationRules>
     <webLinks>
-        <fullName>Export_to_PDF</fullName>
+        <fullName>Scope_Information_Document</fullName>
         <availability>online</availability>
         <displayType>button</displayType>
         <linkType>javascript</linkType>
-        <masterLabel>Export to PDF</masterLabel>
+        <masterLabel>Scope Information Document</masterLabel>
         <openType>onClickJavaScript</openType>
         <protected>false</protected>
         <url>window.open(&apos;/apex/ScopeInformationPage?opptyId={!Opportunity.Id}&apos;, &apos;_blank&apos;);</url>

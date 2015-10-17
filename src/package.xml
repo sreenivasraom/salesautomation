@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>BuildsManagement</members>
+        <members>QuestionaireImplementationController</members>
         <members>ScopeInformationController</members>
         <name>ApexClass</name>
     </types>
@@ -36,6 +37,7 @@
         <members>Questionnaire_Implementation__c.Hours_of_effort__c</members>
         <members>Questionnaire_Implementation__c.Long_Term_Goals__c</members>
         <members>Questionnaire_Implementation__c.No_of_Sanbox_in_Release__c</members>
+        <members>Questionnaire_Implementation__c.Opportunity__c</members>
         <members>Questionnaire_Implementation__c.Release_Duration__c</members>
         <members>Questionnaire_Implementation__c.Short_Term_Goals_with_current_RLM__c</members>
         <members>Questionnaire_Implementation__c.Size_of_Sanboxes__c</members>
@@ -71,6 +73,10 @@
         <name>CustomSite</name>
     </types>
     <types>
+        <members>Questionnaire_Implementation__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
         <members>Lead-Lead Layout</members>
         <members>Lead-LeadPagelayoutTest</members>
         <members>Opportunity-Opportunity Layout</members>
@@ -81,6 +87,7 @@
     </types>
     <types>
         <members>Account.MyAccounts</members>
+        <members>Questionnaire_Implementation__c.All</members>
         <name>ListView</name>
     </types>
     <types>
@@ -130,11 +137,12 @@
     </types>
     <types>
         <members>Account.Validate_Account_Type</members>
+        <members>Opportunity.Stage_on_Opty</members>
         <members>RequestForStock__c.stocklimit</members>
         <name>ValidationRule</name>
     </types>
     <types>
-        <members>Opportunity.Export_to_PDF</members>
+        <members>Opportunity.Scope_Information_Document</members>
         <name>WebLink</name>
     </types>
     <types>

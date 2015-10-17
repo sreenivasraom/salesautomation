@@ -5,6 +5,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>QuestionaireImplementationController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ScopeInformationController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -67,6 +71,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Questionnaire_Implementation__c.No_of_Sanbox_in_Release__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Opportunity__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -188,6 +197,10 @@
         <recordType>RequestForStock__c.New_Record_Type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Questionnaire_Implementation__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
     <userLicense>Gold Partner</userLicense>
     <userPermissions>
         <enabled>true</enabled>
