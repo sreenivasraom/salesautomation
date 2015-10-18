@@ -116,7 +116,7 @@
                         <apex:inputTextarea html-placeholder="Please enter some info..." styleClass="textarea" value="{!quesObj.Deployment_User__c}" id="quesObj__UR"/>
                      </apex:outputPanel>
                   </table>
-               <center>   <input type="button" name="submit" id="searchSubmit" value = "Submit" class = "myButton " onclick="save();"/></center>
+               <center>   <input type="button" name="submit" id="searchSubmit" value = "Submit" class = "myButton" onclick="doSomething();" /></center>
                <apex:actionFunction name="doSomething" action="{!save}" reRender="abc"/>
                </apex:pageBlockSection>
             </apex:pageBlock>

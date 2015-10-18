@@ -16,7 +16,7 @@ insert quesObj;
 ApexPages.addMessages(e);
 return null;
 }
-PageReference pg = new PageReference('www.autorabit.com');
+PageReference pg = new PageReference('http://www.autorabit.com/');
      pg.setRedirect(true);
        return pg;
 
