@@ -1,0 +1,6 @@
+<apex:page sidebar="false" showHeader="false" >
+  <!-- Begin Default Content REMOVE THIS -->
+  Thanks for Providing the Questionnaire Details.
+  please visit our website <a href="http://www.autorabit.com/">Autorabit.com</a> for more details
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

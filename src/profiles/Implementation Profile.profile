@@ -196,6 +196,10 @@
         <apexPage>ScopeInformationPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <pageAccesses>
+        <apexPage>ThankYouPage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.AutoRABIT_Sales</recordType>

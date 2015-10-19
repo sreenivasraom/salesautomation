@@ -12,6 +12,7 @@
     <types>
         <members>QuestionnaireImplementation</members>
         <members>ScopeInformationPage</members>
+        <members>ThankYouPage</members>
         <name>ApexPage</name>
     </types>
     <types>
