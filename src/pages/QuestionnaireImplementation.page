@@ -2,7 +2,7 @@
    <head>
       <style type="text/css">
          table {
-         width: 75%;
+         width: 80%;
          text-align: left;
          margin-left: auto;
          margin-right: auto;
@@ -118,9 +118,10 @@
                <apex:outputPanel layout="block">
                   <apex:inputTextarea html-placeholder="Please enter some info..." styleClass="textarea" value="{!quesObj.Deployment_User__c}" id="quesObj__UR"/>
                </apex:outputPanel>
-            </table>
-            <center>   <input type="button" name="submit" id="searchSubmit" value = "Submit" class = "myButton" onclick="doSomething();" /></center>
+                <input type="button" name="submit" id="searchSubmit" value = "Submit" class = "myButton" onclick="doSomething();" />
             <apex:actionFunction name="doSomething" action="{!save}" reRender="abc"/>
+            </table>
+            
          </apex:pageBlockSection>
       </apex:pageBlock>
    </apex:form>
