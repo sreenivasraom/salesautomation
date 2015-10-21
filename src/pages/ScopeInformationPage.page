@@ -44,6 +44,15 @@
                     <apex:outputText value="{!scpVar.Opportunity__r.name}"></apex:outputText>
                 </td>
             </tr>
+           <!-- <tr>
+                <td colspan="2">
+
+                    <apex:outputLabel value="Scope Name:"></apex:outputLabel>
+                </td>
+                <td>
+                    <apex:outputText value="{!scpVar.name}"></apex:outputText>
+                </td>
+            </tr> -->
             <tr>
                 <td colspan="2">
                     <apex:outputLabel value="Start Date:"></apex:outputLabel>

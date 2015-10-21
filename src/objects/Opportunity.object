@@ -4,7 +4,19 @@
         <fullName>AutoRABIT Sales</fullName>
         <isActive>true</isActive>
         <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>License Activated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negotiation%2FReview</fullName>
             <default>false</default>
         </values>
         <values>
@@ -13,6 +25,10 @@
         </values>
         <values>
             <fullName>Scope for Poc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trial Expired</fullName>
             <default>false</default>
         </values>
         <values>

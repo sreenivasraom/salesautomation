@@ -212,6 +212,7 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Is_primary__c</fields>
         <relatedList>Scope_Poc_Information__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>

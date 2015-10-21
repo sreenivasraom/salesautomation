@@ -19,10 +19,12 @@
     <types>
         <members>Email_Attachments</members>
         <members>countAttachments</members>
+        <members>primarycheckonScope</members>
         <members>testTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>Lead.LeadSrcTest</members>
         <members>Opportunity.AutoRABIT Sales</members>
         <name>BusinessProcess</name>
     </types>
@@ -34,8 +36,10 @@
         <members>Opportunity.Trial_Start_Date__c</members>
         <members>Questionnaire_Implementation__c.ALM_Tools__c</members>
         <members>Questionnaire_Implementation__c.Challenges__c</members>
+        <members>Questionnaire_Implementation__c.Company_Name__c</members>
         <members>Questionnaire_Implementation__c.Current_Version_Control_Tool_If_Exists__c</members>
         <members>Questionnaire_Implementation__c.Deployment_User__c</members>
+        <members>Questionnaire_Implementation__c.Email__c</members>
         <members>Questionnaire_Implementation__c.Hours_of_effort__c</members>
         <members>Questionnaire_Implementation__c.Long_Term_Goals__c</members>
         <members>Questionnaire_Implementation__c.No_of_Sanbox_in_Release__c</members>
@@ -50,6 +54,7 @@
         <members>Scope_Poc_Information__c.Assumptions__c</members>
         <members>Scope_Poc_Information__c.AutoRABIT_POC__c</members>
         <members>Scope_Poc_Information__c.Demo_Completed__c</members>
+        <members>Scope_Poc_Information__c.Is_primary__c</members>
         <members>Scope_Poc_Information__c.License_provision_complete__c</members>
         <members>Scope_Poc_Information__c.Opportunity__c</members>
         <members>Scope_Poc_Information__c.Out_ofScope__c</members>
@@ -81,6 +86,7 @@
     </types>
     <types>
         <members>Account-Account Layout</members>
+        <members>Contact-Contact Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Lead-LeadPagelayoutTest</members>
         <members>Opportunity-Opportunity Layout</members>
@@ -106,6 +112,7 @@
         <members>Admin</members>
         <members>AutoRABITProfile</members>
         <members>Chatter Only User</members>
+        <members>Content Only User</members>
         <members>ContractManager</members>
         <members>CustomContrctManager</members>
         <members>CustomMarketing Profile</members>
@@ -119,13 +126,16 @@
         <members>Gold Partner User</members>
         <members>High Volume Customer Portal User</members>
         <members>Implementation Profile</members>
+        <members>Knowledge Only User</members>
         <members>MarketingProfile</members>
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
         <members>ReadOnly</members>
+        <members>Siteforce Only User</members>
         <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
+        <members>Work%2Ecom Only User</members>
         <members>questionnaireImplementation Profile</members>
         <name>Profile</name>
     </types>
@@ -133,6 +143,10 @@
         <members>Account.FS_AppInfy</members>
         <members>Account.FS_Chain</members>
         <members>Account.FS_Headquarters</members>
+        <members>Contact.FS_AppInfy</members>
+        <members>Contact.FS_Chain</members>
+        <members>Contact.FS_Headquarters</members>
+        <members>Lead.TestRecordType</members>
         <members>Opportunity.AutoRABIT_Sales</members>
         <name>RecordType</name>
     </types>
@@ -149,6 +163,7 @@
     <types>
         <members>AutorabitLogo</members>
         <members>NoDeploymentLogo</members>
+        <members>questionnaireStyles</members>
         <members>styles</members>
         <name>StaticResource</name>
     </types>

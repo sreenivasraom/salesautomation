@@ -93,6 +93,14 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Is_primary__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Is primary</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>License_provision_complete__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
