@@ -1,6 +1,6 @@
 <apex:page controller="QuestionaireImplementationController" sidebar="false" showHeader="false" wizard="true" applyBodyTag="false" standardStylesheets="false" docType="HTML-5.0">
 
-<apex:stylesheet value="{!$Resource.questionnaireStyles}"/>
+    <apex:stylesheet value="{!$Resource.questionnaireStyles}" />
 
     <div class="header">
         <img align="left" src="{!$Resource.AutorabitLogo}">
@@ -8,11 +8,11 @@
     </div>
     <img align="right" src="{!$Resource.NoDeploymentLogo}" width="80">
     </img>
-   
+
     <br/>
     <apex:pagemessages ></apex:pagemessages>
     <apex:form styleClass="form-style">
-     <h5>AutoRABIT Implementation Questionnaire</h5>
+        <h5>AutoRABIT Implementation Questionnaire</h5>
         <table>
             <tr>
                 <td style="white-space: pre;">
@@ -46,6 +46,8 @@
                     <apex:outputPanel layout="block">
                         <apex:inputTextarea rows="4" cols="20" html-placeholder="Please enter some info..." styleClass="textarea" value="{!noOfSandbox}" id="quesObj__site" />
                     </apex:outputPanel>
+                    <apex:inputfile value="{!attach.body}" filename="{!attach.name}"></apex:inputfile>
+                    <!--<apex:inputFile value="{!attach.name}" id="fileName" /> -->
                 </td>
             </tr>
             <tr>
@@ -122,9 +124,9 @@
                     </apex:outputPanel>
                 </td>
             </tr>
-           
+
         </table>
-       <apex:commandButton action="{!save}" value="Submit Form" id="theButton" styleClass="myButton" />
-     </apex:form>
-   
+        <apex:commandButton action="{!save}" value="Submit Form" id="theButton" styleClass="myButton" />
+    </apex:form>
+
 </apex:page>

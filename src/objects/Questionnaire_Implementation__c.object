@@ -122,6 +122,18 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>ImplementationQuestionnaire</relationshipLabel>
+        <relationshipName>Questions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Long_Term_Goals__c</fullName>
         <externalId>false</externalId>
         <label>Long Term Goals</label>
@@ -138,6 +150,18 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OpportunityAcc__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>ImplementationQuestionnaire</relationshipLabel>
+        <relationshipName>ImplementationQuestionnaire</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Opportunity__c</fullName>
@@ -201,7 +225,17 @@
         <label>Questionnaire Implementation Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Questions</pluralLabel>
+    <pluralLabel>ImplementationQuestionnaire</pluralLabel>
+    <recordTypes>
+        <fullName>Lead_Questionnaire</fullName>
+        <active>true</active>
+        <label>Lead Questionnaire</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Opportunity_Questionnaire</fullName>
+        <active>true</active>
+        <label>Opportunity Questionnaire</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

@@ -74,6 +74,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Lead__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Questionnaire_Implementation__c.Long_Term_Goals__c</field>
         <readable>true</readable>
@@ -82,6 +87,11 @@
         <editable>true</editable>
         <field>Questionnaire_Implementation__c.No_of_Sanbox_in_Release__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.OpportunityAcc__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -226,6 +236,14 @@
         <layout>Questionnaire_Implementation__c-Questionnaire Implementation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Questionnaire_Implementation__c-Questionnaire Implementation Layout</layout>
+        <recordType>Questionnaire_Implementation__c.Lead_Questionnaire</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Questionnaire_Implementation__c-Questionnaire Implementation Layout</layout>
+        <recordType>Questionnaire_Implementation__c.Opportunity_Questionnaire</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Scope_Poc_Information__c-Scope - Poc Information Layout</layout>
     </layoutAssignments>
     <pageAccesses>
@@ -282,6 +300,16 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.AutoRABIT_Sales</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Questionnaire_Implementation__c.Lead_Questionnaire</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Questionnaire_Implementation__c.Opportunity_Questionnaire</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

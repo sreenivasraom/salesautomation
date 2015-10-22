@@ -41,8 +41,10 @@
         <members>Questionnaire_Implementation__c.Deployment_User__c</members>
         <members>Questionnaire_Implementation__c.Email__c</members>
         <members>Questionnaire_Implementation__c.Hours_of_effort__c</members>
+        <members>Questionnaire_Implementation__c.Lead__c</members>
         <members>Questionnaire_Implementation__c.Long_Term_Goals__c</members>
         <members>Questionnaire_Implementation__c.No_of_Sanbox_in_Release__c</members>
+        <members>Questionnaire_Implementation__c.OpportunityAcc__c</members>
         <members>Questionnaire_Implementation__c.Opportunity__c</members>
         <members>Questionnaire_Implementation__c.Release_Duration__c</members>
         <members>Questionnaire_Implementation__c.Short_Term_Goals_with_current_RLM__c</members>
@@ -91,6 +93,7 @@
         <members>Lead-LeadPagelayoutTest</members>
         <members>Opportunity-Opportunity Layout</members>
         <members>Opportunity-Regular Deals Layout</members>
+        <members>Questionnaire_Implementation__c-Lead Questionnaire Layout</members>
         <members>Questionnaire_Implementation__c-Questionnaire Implementation Layout</members>
         <members>Scope_Poc_Information__c-Scope - Poc Information Layout</members>
         <name>Layout</name>
@@ -111,6 +114,9 @@
     <types>
         <members>Admin</members>
         <members>AutoRABITProfile</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
         <members>Chatter Only User</members>
         <members>Content Only User</members>
         <members>ContractManager</members>
@@ -148,6 +154,8 @@
         <members>Contact.FS_Headquarters</members>
         <members>Lead.TestRecordType</members>
         <members>Opportunity.AutoRABIT_Sales</members>
+        <members>Questionnaire_Implementation__c.Lead_Questionnaire</members>
+        <members>Questionnaire_Implementation__c.Opportunity_Questionnaire</members>
         <name>RecordType</name>
     </types>
     <types>
