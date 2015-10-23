@@ -87,6 +87,10 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>unfiled$public/Questionnaire_Information</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
         <members>Account-Account Layout</members>
         <members>Contact-Contact Layout</members>
         <members>Lead-Lead Layout</members>
@@ -186,11 +190,16 @@
         <name>WebLink</name>
     </types>
     <types>
+        <members>Questionnaire_Implementation__c.Send_Email_to_Sales_Team_when_Questionnaire_is_created</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
         <members>Opportunity.Update_Opportunity_Stage</members>
         <name>WorkflowFieldUpdate</name>
     </types>
     <types>
         <members>Opportunity.Trial Expired</members>
+        <members>Questionnaire_Implementation__c.Send Email on Questionnarie</members>
         <name>WorkflowRule</name>
     </types>
     <version>34.0</version>
