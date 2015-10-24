@@ -182,6 +182,11 @@
                 <field>CampaignId</field>
             </layoutItem>
         </relatedContentItems>
+        <relatedContentItems>
+            <layoutItem>
+                <component>sfa:socialPanel</component>
+            </layoutItem>
+        </relatedContentItems>
     </relatedContent>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
@@ -193,29 +198,15 @@
         <relatedList>RelatedActivityList</relatedList>
     </relatedLists>
     <relatedLists>
+        <relatedList>RelatedNoteList</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>ACTIVITY.TASK</fields>
         <fields>TASK.DUE_DATE</fields>
         <fields>CORE.USERS.FULL_NAME</fields>
         <fields>TASK.LAST_UPDATE</fields>
         <relatedList>RelatedHistoryList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>ACTIVITY.SUBJECT</fields>
-        <fields>EMAIL_STATUS.CREATED_DATE</fields>
-        <fields>EMAIL_STATUS.FIRST_OPEN_DATE</fields>
-        <fields>EMAIL_STATUS.TIMES_OPENED</fields>
-        <fields>EMAIL_STATUS.LAST_OPEN_DATE</fields>
-        <relatedList>RelatedEmailStatusList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>CAMPAIGN.NAME</fields>
-        <fields>CAMPAIGN.START_DATE</fields>
-        <fields>CAMPAIGN.CAMPAIGN_TYPE</fields>
-        <fields>CM.STATUS</fields>
-        <fields>CM.RESPONDED</fields>
-        <fields>CM.LAST_UPDATE</fields>
-        <relatedList>RelatedCampaignList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
@@ -227,4 +218,10 @@
     <showInteractionLogPanel>true</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>true</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00hF000000Rn71M</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>

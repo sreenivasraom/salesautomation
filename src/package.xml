@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>BuildsManagement</members>
+        <members>BuildsManagement_test</members>
         <members>QuestionaireImplementationController</members>
         <members>ScopeInformationController</members>
         <name>ApexClass</name>
@@ -64,6 +65,7 @@
         <members>Scope_Poc_Information__c.Poc_End_Date__c</members>
         <members>Scope_Poc_Information__c.Poc_Scope__c</members>
         <members>Scope_Poc_Information__c.Poc_Start_Date__c</members>
+        <members>Scope_Poc_Information__c.Scope__c</members>
         <members>Scope_Poc_Information__c.sign_off_Criteria__c</members>
         <members>User.AutorabitExtId__c</members>
         <members>ZipcodeLst__c.AutorabitExtId__c</members>
@@ -72,6 +74,7 @@
     </types>
     <types>
         <members>Questionnaire_Implementation__c</members>
+        <members>Region_Analitics__c</members>
         <members>RequestForStock__c</members>
         <members>Scope_Poc_Information__c</members>
         <members>ZipcodeLst__c</members>
@@ -87,8 +90,15 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>unfiled$public/First_Week_of_Trial</members>
         <members>unfiled$public/Questionnaire_Information</members>
+        <members>unfiled$public/Trial_Period_Ended</members>
+        <members>unfiled$public/Trial_Period_Last_Week</members>
         <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>my_New_ligthnging</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>Account-Account Layout</members>
@@ -100,10 +110,12 @@
         <members>Questionnaire_Implementation__c-Lead Questionnaire Layout</members>
         <members>Questionnaire_Implementation__c-Questionnaire Implementation Layout</members>
         <members>Scope_Poc_Information__c-Scope - Poc Information Layout</members>
+        <members>SocialPersona-Social Persona Layout</members>
         <name>Layout</name>
     </types>
     <types>
         <members>Account.MyAccounts</members>
+        <members>Opportunity.Default_Opportunity_Pipeline</members>
         <members>Questionnaire_Implementation__c.All</members>
         <name>ListView</name>
     </types>
@@ -114,6 +126,10 @@
     <types>
         <members>questionnaireImplementation</members>
         <name>Network</name>
+    </types>
+    <types>
+        <members>Test_Permission_Set</members>
+        <name>PermissionSet</name>
     </types>
     <types>
         <members>Admin</members>
@@ -134,6 +150,7 @@
         <members>CustomerUser</members>
         <members>Force%2Ecom - One App User</members>
         <members>Gold Partner User</members>
+        <members>Guest License User</members>
         <members>High Volume Customer Portal User</members>
         <members>Implementation Profile</members>
         <members>Knowledge Only User</members>
@@ -145,6 +162,7 @@
         <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
+        <members>Testers Profile</members>
         <members>Work%2Ecom Only User</members>
         <members>questionnaireImplementation Profile</members>
         <name>Profile</name>
@@ -164,6 +182,7 @@
     </types>
     <types>
         <members>Questionnaire_Implementation__c</members>
+        <members>Region_Analitics__c</members>
         <members>RequestForStock__c</members>
         <members>ZipcodeLst__c</members>
         <name>SharingRules</name>
@@ -190,6 +209,8 @@
         <name>WebLink</name>
     </types>
     <types>
+        <members>Opportunity.First_Week_of_Trial</members>
+        <members>Opportunity.Trial_Period_Ending_in_two_Days</members>
         <members>Questionnaire_Implementation__c.Send_Email_to_Sales_Team_when_Questionnaire_is_created</members>
         <name>WorkflowAlert</name>
     </types>
@@ -199,6 +220,8 @@
     </types>
     <types>
         <members>Opportunity.Trial Expired</members>
+        <members>Opportunity.Trial Period  Last Week</members>
+        <members>Opportunity.Trial Period %3A Last Week</members>
         <members>Questionnaire_Implementation__c.Send Email on Questionnarie</members>
         <name>WorkflowRule</name>
     </types>

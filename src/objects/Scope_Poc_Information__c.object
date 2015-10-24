@@ -166,6 +166,37 @@
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>Scope__c</fullName>
+        <externalId>false</externalId>
+        <label>Scope</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Version Control -EZ Commits</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Data Loader</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sync Orgs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deployment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Test Automation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
         <fullName>sign_off_Criteria__c</fullName>
         <externalId>false</externalId>
         <label>sign-off Criteria</label>

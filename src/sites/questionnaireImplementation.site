@@ -19,6 +19,12 @@
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>bhargavi.v@autorabit.com.devsb</siteAdmin>
+    <siteRedirectMappings>
+        <action>Permanent</action>
+        <isActive>true</isActive>
+        <source>/devsandbox-autorabittesting.cs8.force.com/login?ec=302&amp;inst=L&amp;startURL=%2F</source>
+        <target>https://devsandbox-mycompanyportal.cs8.force.com/ImplementationQuestions/</target>
+    </siteRedirectMappings>
     <siteType>ChatterNetwork</siteType>
     <subdomain>autorabittesting</subdomain>
 </CustomSite>

@@ -109,8 +109,9 @@ public class QuestionaireImplementationController
                 
             }
             insert quesObj;
+            if(attach.name!=null && attach.body!=null){
             attach.ParentId = quesObj.id;
-            insert attach;
+            insert attach;}
         } catch(System.DMLException e) {
             ApexPages.addMessages(e);
             return null;

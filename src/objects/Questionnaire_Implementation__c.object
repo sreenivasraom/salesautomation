@@ -127,7 +127,6 @@
         <externalId>false</externalId>
         <label>Lead</label>
         <referenceTo>Lead</referenceTo>
-        <relationshipLabel>ImplementationQuestionnaire</relationshipLabel>
         <relationshipName>Questions</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -157,7 +156,6 @@
         <externalId>false</externalId>
         <label>Account</label>
         <referenceTo>Account</referenceTo>
-        <relationshipLabel>ImplementationQuestionnaire</relationshipLabel>
         <relationshipName>ImplementationQuestionnaire</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -169,7 +167,6 @@
         <externalId>false</externalId>
         <label>Opportunity</label>
         <referenceTo>Opportunity</referenceTo>
-        <relationshipLabel>Questions</relationshipLabel>
         <relationshipName>Questions</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -214,18 +211,25 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Questionnaire Implementation</label>
+    <label>Implementation Questionnaire</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Company_Name__c</columns>
+        <columns>Opportunity__c</columns>
+        <columns>Text_Automation_Details__c</columns>
+        <columns>OpportunityAcc__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
+        <language>en_US</language>
     </listViews>
     <nameField>
         <displayFormat>Quest{0}</displayFormat>
-        <label>Questionnaire Implementation Name</label>
+        <label>Implementation Questionnaire Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>ImplementationQuestionnaire</pluralLabel>
+    <pluralLabel>Implementation Questionnaires</pluralLabel>
     <recordTypes>
         <fullName>Lead_Questionnaire</fullName>
         <active>true</active>

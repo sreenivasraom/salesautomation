@@ -1,5 +1,9 @@
 <apex:page controller="QuestionaireImplementationController" sidebar="false" showHeader="false" wizard="true" applyBodyTag="false" standardStylesheets="false" docType="HTML-5.0">
 
+     <style>
+    .locationError { color: blue; font-weight: strong;}
+    .employeeError { color: green; font-weight: strong;}
+    </style>
     <apex:stylesheet value="{!$Resource.questionnaireStyles}" />
 
     <div class="header">
@@ -10,10 +14,11 @@
     </img>
 
     <br/>
-    <apex:pagemessages ></apex:pagemessages>
+    <!--<apex:pagemessages ></apex:pagemessages> -->
     <apex:form styleClass="form-style">
         <h5>AutoRABIT Implementation Questionnaire</h5>
         <table>
+        
             <tr>
                 <td style="white-space: pre;">
                     <apex:outputLabel value="Company name: " for="quesObj__comp"></apex:outputLabel>
@@ -127,6 +132,7 @@
 
         </table>
         <apex:commandButton action="{!save}" value="Submit Form" id="theButton" styleClass="myButton" />
+           <apex:message for="quesObj__email" styleClass="locationError" />
     </apex:form>
 
 </apex:page>

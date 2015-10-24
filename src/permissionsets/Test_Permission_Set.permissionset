@@ -9,170 +9,117 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CreateAccountTest</apexClass>
+        <apexClass>QuestionaireImplementationController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CreatingAccount</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>DashboadController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>DashboadController_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>DataloaderLoginController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>DataloaderLoginController_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>MyController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ProjectListofControler_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ProjectsListofControler</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>PromotionControler</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>PromotionControler_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>SalesforceOrganizationListController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>SalesforceOrganizationList_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>SearchAndReplace</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ShowAllSfObjectsController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ShowAllSfObjectsController_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestPageController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestPageController_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestParamController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestParamController_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestReportPageController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestReportPageController_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TransferDataPageController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>XMLDom</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>XMLDomUtill</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>metadataDiffController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>metadataDiffController_test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sforgRegController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sfrogRegController_test</apexClass>
+        <apexClass>ScopeInformationController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <description>Test set</description>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Distributor__c.City__c</field>
+        <field>Lead.Implementation_Questionnaire__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Distributor__c.Country__c</field>
+        <field>Lead.No_of_Attachments__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Distributor__c.Email_Id__c</field>
+        <field>Opportunity.Trial_End_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Distributor__c.Gender__c</field>
+        <field>Opportunity.Trial_End_Period__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Distributor__c.Land__c</field>
+        <field>Opportunity.Trial_Start_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Distributor__c.Mobile_Number__c</field>
+        <field>Questionnaire_Implementation__c.ALM_Tools__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Distributor__c.Postal_Code__c</field>
+        <field>Questionnaire_Implementation__c.Challenges__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Distributor__c.Region__c</field>
+        <field>Questionnaire_Implementation__c.Company_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Distributor__c.State__c</field>
+        <field>Questionnaire_Implementation__c.Current_Version_Control_Tool_If_Exists__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Distributor__c.infoEx_Id__c</field>
+        <field>Questionnaire_Implementation__c.Deployment_User__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Hours_of_effort__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Lead__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Long_Term_Goals__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.No_of_Sanbox_in_Release__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.OpportunityAcc__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Release_Duration__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Short_Term_Goals_with_current_RLM__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Size_of_Sanboxes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Questionnaire_Implementation__c.Text_Automation_Details__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -197,250 +144,140 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Region__c.City__c</field>
+        <field>Scope_Poc_Information__c.Approver__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Region__c.Country__c</field>
+        <field>Scope_Poc_Information__c.Assumptions__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Region__c.Population__c</field>
+        <field>Scope_Poc_Information__c.AutoRABIT_POC__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Region__c.Postal_Code__c</field>
+        <field>Scope_Poc_Information__c.Demo_Completed__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Region__c.State_Province__c</field>
+        <field>Scope_Poc_Information__c.Is_primary__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Region__c.infoEx_Id__c</field>
+        <field>Scope_Poc_Information__c.License_provision_complete__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>RequestForStock__c.Current_Stock__c</field>
+        <field>Scope_Poc_Information__c.Out_ofScope__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>RequestForStock__c.Expected_Date__c</field>
+        <field>Scope_Poc_Information__c.Person_to_Contact__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>RequestForStock__c.Product__c</field>
+        <field>Scope_Poc_Information__c.Poc_End_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>RequestForStock__c.RequiredStock__c</field>
+        <field>Scope_Poc_Information__c.Poc_Scope__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>SalesExecutive__c.City__c</field>
+        <field>Scope_Poc_Information__c.Poc_Start_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>SalesExecutive__c.Distributor__c</field>
+        <field>Scope_Poc_Information__c.Scope__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>SalesExecutive__c.Email_Id__c</field>
+        <field>Scope_Poc_Information__c.sign_off_Criteria__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>SalesExecutive__c.Gender__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SalesExecutive__c.Landmark__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SalesExecutive__c.Last_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SalesExecutive__c.Mobile_Number_91__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SalesExecutive__c.Postal_Code__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SalesExecutive__c.State__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SalesExecutive__c.infoEx_Id__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TariffPlan__c.Contact_no__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TariffPlan__c.Network__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TariffPlan__c.Region__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TariffPlan__c.S_no__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TariffPlan__c.TariffPlanSummary__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TariffPlan__c.Tariffplan__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TariffPlan__c.Validity__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>product__c.Active__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>product__c.Price__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>product__c.Product_Code__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>product__c.Product_Description__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>product__c.infoEx_Id__c</field>
+        <field>User.AutorabitExtId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <label>Test Permission Set</label>
     <pageAccesses>
-        <apexPage>AnswersHome</apexPage>
+        <apexPage>QuestionnaireImplementation</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>CreateProject</apexPage>
+        <apexPage>ScopeInformationPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>DataLoader</apexPage>
+        <apexPage>ThankYouPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>DemoPage</apexPage>
+        <apexPage>csspage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
-    <pageAccesses>
-        <apexPage>Projects</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>RabitIndex</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>RegionPage</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>TestActionOverride</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>TestPage</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>dashboard</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>metadatadiff</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>myControllerPage</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>promotionBuild</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>sforgRegList</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>sforgregistration</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>showAllSfObjects</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>testreportpage</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>transferDataPage</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
+    <recordTypeVisibilities>
+        <recordType>Account.FS_AppInfy</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Account.FS_Chain</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Account.FS_Headquarters</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Contact.FS_AppInfy</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Contact.FS_Chain</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Contact.FS_Headquarters</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Lead.TestRecordType</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Opportunity.AutoRABIT_Sales</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Questionnaire_Implementation__c.Lead_Questionnaire</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Questionnaire_Implementation__c.Opportunity_Questionnaire</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>RequestForStock__c.New_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <tabSettings>
+        <tab>Questionnaire_Implementation__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
     <userLicense>Salesforce</userLicense>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ActivateContract</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AllowUniversalSearch</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AllowViewKnowledge</name>
-    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ApiEnabled</name>
@@ -450,491 +287,19 @@
         <name>ApiUserOnly</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>ApproveContract</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AssignPermissionSets</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>AssignTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AuthorApex</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>BulkApiHardDelete</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>CanInsertFeedSystemFields</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>CanUseNewDashboardBuilder</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ChatterFileLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ChatterForSharePoint</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ChatterInternalUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ChatterInviteExternalUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ChatterOwnGroups</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ConnectOrgToEnvironmentHub</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ContentAdministrator</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ConvertLeads</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>CreateCustomizeFilters</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>CreatePackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CreateTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CreateWorkBadgeDefinition</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CreateWorkspaces</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CustomSidebarOnAllPages</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CustomizeApplication</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>DataExport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>DeleteActivatedContract</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>DeleteTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>DistributeFromPersWksp</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditBrandTemplates</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditCaseComments</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditEvent</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditHtmlTemplates</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditKnowledge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditOppLineItemUnitPrice</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditPublicDocuments</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditPublicFilters</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditPublicReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditPublicTemplates</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditReadonlyFields</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditTask</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EmailMass</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EmailSingle</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EnableNotifications</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ExportReport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ForceTwoFactor</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>GovernNetworks</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>IPRestrictRequests</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>IdentityEnabled</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ImportLeads</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ImportPersonal</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>InboundMigrationToolsUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>InstallPackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageAnalyticSnapshots</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageAuthProviders</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageBusinessHourHolidays</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageCallCenters</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageCases</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageCategories</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageChatterMessages</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageContentPermissions</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageContentProperties</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageContentTypes</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageCssUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageCustomReportTypes</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageDashboards</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageDataCategories</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageDataIntegrations</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageDynamicDashboards</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageEmailClientConfig</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageInteraction</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageInternalUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageIpAddresses</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageKnowledge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageKnowledgeImportExport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageLeads</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageLoginAccessPolicies</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageMobile</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageNetworks</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManagePackageLicenses</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManagePartners</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManagePasswordPolicies</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageProfilesPermissionsets</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageRemoteAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageRoles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageSearchPromotionRules</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageSelfService</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageSharing</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageSolutions</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageSynonyms</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageTranslation</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageTwoFactor</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageUnlistedGroups</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>MassInlineEdit</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ModerateChatter</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ModerateNetworkFeeds</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ModerateNetworkFiles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ModifyAllData</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>NewReportBuilder</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>OutboundMigrationToolsUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>PasswordNeverExpires</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>PublishPackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ResetPasswords</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>RunFlow</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>RunReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ScheduleJob</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ScheduleReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>SendSitRequests</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>SolutionImport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>TransferAnyCase</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>TransferAnyEntity</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>TransferAnyLead</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>TwoFactorApi</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>UseTeamReassignWizards</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewAllData</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewAllUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewDataCategories</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewEncryptedData</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewGlobalHeader</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewHelpLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewMyTeamsDashboards</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewSetup</name>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
     </userPermissions>
 </PermissionSet>

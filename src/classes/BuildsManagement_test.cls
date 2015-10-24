@@ -210,6 +210,7 @@ public class BuildsManagement_test {
          s3.name='test demo for SunDog Team Demo';
          s4.flag='False'; 
          s4.name='DemoTime';
+         //some changes
          bm.compList.add(s2); 
          bm.categList.add(s3); 
          bm.ttList.add(s4); 

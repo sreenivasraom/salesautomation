@@ -5,6 +5,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BuildsManagement_test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>QuestionaireImplementationController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -126,6 +130,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Region_Analitics__c.State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Region_Analitics__c.Zip_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Region_Analitics__c.currency__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Scope_Poc_Information__c.Approver__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -177,6 +196,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Scope_Poc_Information__c.Poc_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Scope_Poc_Information__c.Scope__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -247,6 +271,9 @@
     <layoutAssignments>
         <layout>Scope_Poc_Information__c-Scope - Poc Information Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>SocialPersona-Social Persona Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -254,6 +281,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Questionnaire_Implementation__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Region_Analitics__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -420,7 +456,23 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>CreateCustomizeDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>CreateCustomizeFilters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateDashboardFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateReportFolders</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -476,6 +528,14 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>EditMyDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditMyReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>EditOppLineItemUnitPrice</name>
     </userPermissions>
     <userPermissions>
@@ -488,19 +548,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EditPublicReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>EditPublicTemplates</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>EditReadonlyFields</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -588,7 +640,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageDashboards</name>
+        <name>ManageDashbdsInPubFolders</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -665,6 +717,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageRemoteAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageReportsInPubFolders</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -797,6 +853,14 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewMyTeamsDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPublicDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPublicReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

@@ -21,5 +21,4 @@
     <siteTemplate>SiteTemplate</siteTemplate>
     <siteType>Visualforce</siteType>
     <subdomain>mycompanyportal</subdomain>
-    <urlPathPrefix>ImplementationQuestions</urlPathPrefix>
 </CustomSite>

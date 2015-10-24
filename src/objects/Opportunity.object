@@ -48,12 +48,15 @@
     <fields>
         <fullName>Trial_End_Period__c</fullName>
         <externalId>false</externalId>
-        <formula>Trial_Start_Date__c + 14</formula>
+        <formula>Trial_End_Date__c  -  Trial_Start_Date__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Trial End Period</label>
+        <label>Trial End Period(No.of Days)</label>
+        <precision>18</precision>
         <required>false</required>
+        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Date</type>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Trial_Start_Date__c</fullName>
@@ -64,6 +67,20 @@
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
+    <listViews>
+        <fullName>Default_Opportunity_Pipeline</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>LAST_N_MONTHS:3</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Opportunity Pipeline</label>
+    </listViews>
     <recordTypes>
         <fullName>AutoRABIT_Sales</fullName>
         <active>true</active>

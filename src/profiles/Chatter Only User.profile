@@ -5,6 +5,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BuildsManagement_test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>QuestionaireImplementationController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -124,6 +128,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Region_Analitics__c.State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Region_Analitics__c.Zip_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Region_Analitics__c.currency__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Scope_Poc_Information__c.Approver__c</field>
         <readable>false</readable>
@@ -177,6 +196,11 @@
         <editable>false</editable>
         <field>Scope_Poc_Information__c.Poc_Start_Date__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Scope_Poc_Information__c.Scope__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -245,6 +269,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scope_Poc_Information__c-Scope - Poc Information Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SocialPersona-Social Persona Layout</layout>
     </layoutAssignments>
     <pageAccesses>
         <apexPage>QuestionnaireImplementation</apexPage>
