@@ -205,6 +205,7 @@
         <name>ValidationRule</name>
     </types>
     <types>
+        <members>Lead.Send_Emai</members>
         <members>Opportunity.Scope_Information_Document</members>
         <name>WebLink</name>
     </types>

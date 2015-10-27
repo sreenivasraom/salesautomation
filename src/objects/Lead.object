@@ -277,4 +277,14 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <webLinks>
+        <fullName>Send_Emai</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send Emai;</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>window.open(&quot;mailto:{!Lead.Email}.com&quot;,&quot;_self&quot;)</url>
+    </webLinks>
 </CustomObject>
