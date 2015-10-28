@@ -25,6 +25,9 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
         <members>Lead.LeadSrcTest</members>
         <members>Opportunity.AutoRABIT Sales</members>
         <name>BusinessProcess</name>

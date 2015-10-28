@@ -107,7 +107,7 @@
 
                 <td colspan="2">
 
-                    <apex:outputLabel value="Scope:"></apex:outputLabel>
+                    <apex:outputLabel value="In Scope:"></apex:outputLabel>
                 </td>
                 <td>
                     <apex:outputText value="{!scpVar.Poc_Scope__c}"></apex:outputText>
