@@ -2,6 +2,7 @@
     <types>
         <members>BuildsManagement</members>
         <members>BuildsManagement_test</members>
+        <members>CreateAccountTest</members>
         <members>QuestionaireImplementationController</members>
         <members>ScopeInformationController</members>
         <name>ApexClass</name>
