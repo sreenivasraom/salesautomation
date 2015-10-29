@@ -58,7 +58,6 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>Current_Stock__c</fullName>
-        <defaultValue>0</defaultValue>
         <description>This is custom field for Current Stock</description>
         <externalId>false</externalId>
         <label>Current Stock</label>
