@@ -515,15 +515,16 @@ public class BuildsManagement{
              //Discussion with Verafin Team
              testsPass = true; 
              testsFail = false;
-             testsInProgress = false;
+             testsInProgress = true;
              //This is demo for Voya Team
              // Discussion with Target Team
              // Discussion with Advent Team
              //Demo with Manulife Team
              //Demo with Amex Team
-             //DEMO2 with Amex Team
+             //DEMO2 with Amex Team here
              //Discussion with PGE Team
-             testsEmpty =true;
+             //Discussion with Manulife Team
+             testsEmpty =false;
              
        } 
     }  
