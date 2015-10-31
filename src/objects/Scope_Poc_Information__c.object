@@ -104,7 +104,7 @@
         <fullName>License_provision_complete__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>License &amp; provision complete</label>
+        <label>License &amp; Provision Complete</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
@@ -199,11 +199,11 @@
     <fields>
         <fullName>sign_off_Criteria__c</fullName>
         <externalId>false</externalId>
-        <label>sign-off Criteria</label>
+        <label>Sign-off Criteria</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
+        <visibleLines>4</visibleLines>
     </fields>
     <label>Scope - Poc Information</label>
     <nameField>

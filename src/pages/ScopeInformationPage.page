@@ -12,9 +12,10 @@
             tr,td {
                 padding-bottom: 1em;
             }
-            td {
-                vertical-align: top;
+            td.td1{
+                display:block;
             }
+           
         </style>
     </head>
 
@@ -44,15 +45,7 @@
                     <apex:outputText value="{!scpVar.Opportunity__r.name}"></apex:outputText>
                 </td>
             </tr>
-           <!-- <tr>
-                <td colspan="2">
-
-                    <apex:outputLabel value="Scope Name:"></apex:outputLabel>
-                </td>
-                <td>
-                    <apex:outputText value="{!scpVar.name}"></apex:outputText>
-                </td>
-            </tr> -->
+        
             <tr>
                 <td colspan="2">
                     <apex:outputLabel value="Start Date:"></apex:outputLabel>
@@ -110,7 +103,7 @@
                     <apex:outputLabel value="In Scope:"></apex:outputLabel>
                 </td>
                 <td>
-                    <apex:outputText value="{!scpVar.Poc_Scope__c}"></apex:outputText>
+                    <apex:outputText value="{!scpVar.Scope__c}"></apex:outputText>
                 </td>
 
             </tr>
@@ -118,31 +111,31 @@
                 <td colspan="2">
                     <apex:outputLabel value="Out of Scope:"></apex:outputLabel>
                    </td>
-                    <td>
+                    <td >
                     <apex:outputText value="{!scpVar.Out_ofScope__c}"></apex:outputText>
                 </td>
 
             </tr>
              <tr>
-                <td colspan="2">
+                <td class ="td1">
                     <apex:outputLabel value="Pre-requisites:"></apex:outputLabel>
                    </td>
-                    <td>
+                   <td class ="td1">
                     <apex:outputText value="{!scpVar.Assumptions__c}"></apex:outputText>
                 </td>
 
             </tr>
              <tr>
-                <td colspan="2">
+                <td class ="td1">
                     <apex:outputLabel value="Sign of Criteria:"></apex:outputLabel>
                    </td>
-                    <td>
+                    <td class ="td1">
                     <apex:outputText value="{!scpVar.sign_off_Criteria__c}"></apex:outputText>
                 </td>
 
             </tr>
               <tr>
-                <td colspan="2">
+                <td colspan="2" >
                     <apex:outputLabel value="License & provision complete:"></apex:outputLabel>
                    </td>
                     <td>
