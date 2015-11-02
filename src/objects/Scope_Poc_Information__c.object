@@ -71,7 +71,7 @@
         <length>32768</length>
         <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
+        <visibleLines>4</visibleLines>
     </fields>
     <fields>
         <fullName>AutoRABIT_POC__c</fullName>
