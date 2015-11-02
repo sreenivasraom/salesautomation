@@ -361,6 +361,10 @@
         <recordType>RequestForStock__c.New_Record_Type</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>my_New_ligthnging</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Guest User License</userLicense>
     <userPermissions>
         <enabled>true</enabled>

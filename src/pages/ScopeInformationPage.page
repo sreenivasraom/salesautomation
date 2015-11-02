@@ -15,7 +15,8 @@
             td.td1{
                 word-wrap: break-word;
                 overflow: visible;
-               }
+                max-width: 300px;
+                }
            
         </style>
     </head>
