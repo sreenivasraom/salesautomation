@@ -79,7 +79,7 @@
     <fields>
         <fullName>Product__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
-        <description>This is product description introduced in the demo.</description>
+        <description>This is product description is modified in 2nd Nov</description>
         <externalId>false</externalId>
         <label>Product</label>
         <referenceTo>product__c</referenceTo>

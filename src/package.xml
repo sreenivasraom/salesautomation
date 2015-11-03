@@ -2,6 +2,7 @@
     <types>
         <members>BuildsManagement</members>
         <members>BuildsManagement_test</members>
+        <members>ChangePasswordController</members>
         <members>CreateAccountTest</members>
         <members>CreatingAccount</members>
         <members>QuestionaireImplementationController</members>
@@ -59,6 +60,7 @@
         <members>Questionnaire_Implementation__c.Text_Automation_Details__c</members>
         <members>Region_Analitics__c.City__c</members>
         <members>RequestForStock__c.Current_Stock__c</members>
+        <members>RequestForStock__c.Product__c</members>
         <members>Scope_Poc_Information__c.Approver__c</members>
         <members>Scope_Poc_Information__c.Assumptions__c</members>
         <members>Scope_Poc_Information__c.AutoRABIT_POC__c</members>
