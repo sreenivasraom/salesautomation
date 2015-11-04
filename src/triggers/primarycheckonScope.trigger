@@ -2,8 +2,9 @@ trigger primarycheckonScope on Scope_Poc_Information__c (before insert,before up
 
     list<Scope_Poc_Information__c> updateList=new list<Scope_Poc_Information__c >();
     List<id> scopeIDList = new List<id>();
-    List<String> selectedVal =  new List<String>();
-    List<String> availableVal =  new List<String>();
+    set<String> selectedVal =  new set<String>();
+    set<String> availableVal =  new set<String>();
+    List<String> availableVal1 =  new List<String>();
     Schema.DescribeFieldResult fieldResult = Scope_Poc_Information__c.Scope__c.getDescribe();
     List<Schema.PicklistEntry> pleList = fieldResult.getPicklistValues();
     
@@ -19,31 +20,22 @@ trigger primarycheckonScope on Scope_Poc_Information__c (before insert,before up
         {
            if(add.Is_primary__c)
             {
-                selectedVal.add(add.Scope__c);
+               selectedVal.addAll(add.Scope__c.split(';'));
                 scopeIDList.add(add.Id);
                 system.debug('@@@@'+selectedVal);
             }
-            for(Integer i=0;i<=selectedVal.size();i++)
+            for(String s: availableVal)
             {
-                availableVal.remove(i); 
-            
-            if(availableVal.size()>0)
-            {
-                system.debug('@@@@ after remving'+availableVal);
-                add.Out_ofScope__c = string.join(availableVal,',');
+              if(!selectedVal.contains(s))
+              {
+              availableVal1.add(s);
+              add.Out_ofScope__c = string.join(availableVal1,',');
+              }  
             }
-            else{
-            add.Out_ofScope__c = 'None';
-            }
-            }
-            
-           updateList.add(add);
- 
         }
-        
-    }
-   
-    system.debug('@@'+selectedVal);
+    
+   }
+    system.debug('@@'+availableVal1);
     list<Scope_Poc_Information__c> updatenewList = [select id,name,Is_primary__c from Scope_Poc_Information__c where id not in : scopeIDList];
     for(Scope_Poc_Information__c aa:updatenewList )
     {
